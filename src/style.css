@@ -1,0 +1,13 @@
+.link{
+  margin: 10px;
+  text-decoration: none;
+}
+.link .active{
+  background-color: red;
+  color: aliceblue;
+}
+#index_body{
+  background-color: black;
+  height: 100vh;
+  overflow-y: hidden;
+}
