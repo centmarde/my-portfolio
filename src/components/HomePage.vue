@@ -10,14 +10,27 @@
             <div class="d-flex">
                <h2>I'm</h2>
                <h2 class="ms-3">Centmarde</h2>
+               
             </div>
             <h1 id="typing-text"></h1>
+            <br><br><br><br><br>
+            <div class="mt-5">
+               <h5>I'm a dedicated developer living in the Philippines. <br>
+                  I enjoy creating things that live on the internet. <br>
+                  I'm always looking for new and exciting projects to work on.
+               </h5>
+            </div>
+            <BeakerIcon class="text-light mt-2" style="width: 50px;" />
+
             <div class="col"></div>
          </div>
+         
       </div>
    </div>
 </template>
-
+<script setup>
+import { BeakerIcon } from '@heroicons/vue/24/solid'
+</script>
 <script>
 export default {
     mounted() {

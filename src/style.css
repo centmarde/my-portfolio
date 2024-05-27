@@ -18,3 +18,8 @@
 h2{
   font-size: 70px;
 }
+
+#typing-text {
+ position: fixed;
+ top: 47vh;
+}
