@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 
 import home from "../components/HomePage.vue";
-import about from "../components/AboutPage.vue";
+import background from "../components/BackgroundPage.vue";
 import contact from "../components/ContactPage.vue";
 import notFound from "../components/NotfoundPage.vue";
 import portfolio from "../components/MyPortfolio.vue";
@@ -15,9 +15,9 @@ const routes = [
         component: home
     },
     {
-        path: '/about',
-        name: 'about',
-        component: about
+        path: '/background',
+        name: 'background',
+        component: background
     },
     {
         path: '/portfolio',
