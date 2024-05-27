@@ -6,22 +6,3 @@
   overflow-y: hidden;
 }
 
-#nav {
-  border-radius: 10px;
-  position: fixed; 
-  top: 20px; 
-  right: 20px;
-}
-#navcont{
-  height: 6vh ;
-}
-
-h2{
-  font-size: 70px;
-}
-
-
-/* #typing-text { */
- /* position: fixed; */
- /* top: 47vh; */
-/* } */

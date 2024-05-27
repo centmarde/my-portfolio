@@ -7,55 +7,82 @@ import { RouterView } from 'vue-router';
         <div id="navcont" class="container">
             <div>
                 <router-link id="R1" class="link mx-3" to="/">Home </router-link>
-                <router-link class="link mx-3" to="/background">BackGround</router-link>
+                <router-link class="link mx-3" to="/background">Background</router-link>
                 <router-link class="link mx-3" to="/portfolio">My Portfolio </router-link>
                 <router-link class="link ms-3 me-4" to="/contact">Contact </router-link>
-                
-                
             </div>
-           
         </div>
     </nav>
     <main>
-        <RouterView/>
+        <RouterView />
     </main>
 </template>
 
 <style>
-   /* CSS for hover effect */
-   a{
-    color: white; 
-        text-decoration: none; 
-        font-family: "Roboto Condensed", sans-serif;
+h2{
+  font-size: 70px;
+}
+#nav {
+    border-radius: 10px;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+}
 
-   }
-   .link-container {
-        display: inline-block; 
-        overflow: hidden; /* Ensure the container doesn't overflow when zooming */
+#navcont {
+    height: 6vh;
+}
+
+/* CSS for hover effect */
+a {
+    color: white;
+    text-decoration: none;
+    font-family: "Roboto Condensed", sans-serif;
+
+}
+
+.link-container {
+    display: inline-block;
+    overflow: hidden;
+    /* Ensure the container doesn't overflow when zooming */
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+
+}
+
+/* Zoom effect */
+.link:hover {
+    color: lightblue;
+    transition: color 0.3s, transform 0.3s;
+}
+
+@keyframes randomTextEffect {
+    0% {
+        color: black;
     }
 
-    .link {
-        color: white; 
-        text-decoration: none; 
-       
+    25% {
+        color: red;
     }
 
-    /* Zoom effect */
-    .link:hover {
-        color: lightblue; 
-        transition: color 0.3s, transform 0.3s;
-    }
-    @keyframes randomTextEffect {
-      0% { color: black; }
-      25% { color: red; }
-      50% { color: green; }
-      75% { color: blue; }
-      100% { color: black; }
+    50% {
+        color: green;
     }
 
-    .random-text-effect {
-      animation: randomTextEffect 2s infinite;
+    75% {
+        color: blue;
     }
-    
-    
+
+    100% {
+        color: black;
+    }
+}
+
+.random-text-effect {
+    animation: randomTextEffect 2s infinite;
+}
 </style>
