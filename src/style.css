@@ -5,6 +5,7 @@
   height: 100vh;
   overflow-y: hidden;
 }
+
 #nav {
   border-radius: 10px;
   position: fixed; 
@@ -19,7 +20,7 @@ h2{
   font-size: 70px;
 }
 
-#typing-text {
- position: fixed;
- top: 47vh;
-}
+/* #typing-text { */
+ /* position: fixed; */
+ /* top: 47vh; */
+/* } */
