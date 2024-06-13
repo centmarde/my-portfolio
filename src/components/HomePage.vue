@@ -2,7 +2,7 @@
    <div id="index_body_home">
      
      <div class="container">
-     
+      <Parallax/>
        <section id="home">
          <br><br><br><br><br><br>
          <div class="row">
@@ -62,6 +62,7 @@
  import Graphics from './Graphics.vue';
  import Contacts from './Contact.vue';
  import Footer from './Footer.vue';
+ import Parallax from './Parallax.vue';
  
  
  const textArray = ['A FullStack Developer.', 'A Web Designer.', 'I\'m also a digital artist.', 'Nice to meet you.'];

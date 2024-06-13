@@ -28,7 +28,7 @@
   <style scoped>
   #stack {
     padding: 80px 0;
-    background-color: #f8f9fa; /* Example background color */
+  
   }
   
   h2 {
