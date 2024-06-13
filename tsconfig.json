@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    
     "target": "ES2020",
     "useDefineForClassFields": true,
     "module": "ESNext",
@@ -20,6 +21,6 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue", "src/router/router.js"],
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue", "src/router/router.js", "src/main.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

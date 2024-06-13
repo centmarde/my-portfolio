@@ -1,88 +1,46 @@
 <script setup lang="ts">
 import { RouterView } from 'vue-router';
+import NavLink from './components/NavLink.vue';
 </script>
 
 <template>
-    <nav id="nav" class="navbar bg-dark">
-        <div id="navcont" class="container">
-            <div>
-                <router-link id="R1" class="link mx-3" to="/">Home </router-link>
-                <router-link class="link mx-3" to="/background">Background</router-link>
-                <router-link class="link mx-3" to="/portfolio">My Portfolio </router-link>
-                <router-link class="link ms-3 me-4" to="/contact">Contact </router-link>
-            </div>
-        </div>
-    </nav>
-    <main>
-        <RouterView />
-    </main>
+  <nav id="nav" class="navbar bg-dark">
+    <div id="navcont" class="container d-flex justify-content-around">
+      <NavLink href="#home">Home</NavLink>
+      <NavLink href="#background">Background</NavLink>
+      <NavLink href="#stack">Stack</NavLink>
+      <NavLink href="#project">Projects</NavLink>
+      <NavLink href="#graphics">Graphics</NavLink>
+      <NavLink href="#contact">Contact</NavLink>
+    </div>
+  </nav>
+  <main>
+    <RouterView />
+  </main>
 </template>
 
-<style>
-h2{
-  font-size: 70px;
-}
+<style scoped>
 #nav {
-    border-radius: 10px;
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    z-index: 1000;
+  border-radius: 10px;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
 }
 
 #navcont {
-    height: 6vh;
+  height: 6vh;
+  display: flex;
+  align-items: center;
 }
 
-/* CSS for hover effect */
 a {
-    color: white;
-    text-decoration: none;
-    font-family: "Roboto Condensed", sans-serif;
-
+  color: white;
+  text-decoration: none;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
-.link-container {
-    display: inline-block;
-    overflow: hidden;
-    /* Ensure the container doesn't overflow when zooming */
-}
-
-.link {
-    color: white;
-    text-decoration: none;
-
-}
-
-/* Zoom effect */
-.link:hover {
-    color: lightblue;
-    transition: color 0.3s, transform 0.3s;
-}
-
-@keyframes randomTextEffect {
-    0% {
-        color: black;
-    }
-
-    25% {
-        color: red;
-    }
-
-    50% {
-        color: green;
-    }
-
-    75% {
-        color: blue;
-    }
-
-    100% {
-        color: black;
-    }
-}
-
-.random-text-effect {
-    animation: randomTextEffect 2s infinite;
+.is-active {
+  color: lightblue;
 }
 </style>

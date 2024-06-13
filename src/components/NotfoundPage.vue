@@ -1,6 +1,0 @@
-<template>
-    <div id="index_body">
-        <h1>not found</h1>
-    </div>
-
-</template>
