@@ -21,7 +21,7 @@
              <br><br>
              <h1>Hi There,</h1>
              <div class="d-flex">
-               <h1 class="mt-2">I'm</h1>
+               <h1 class="mt-2 im">I'm</h1>
                <h2 id="centmarde" class="ms-3">Centmarde</h2>
              </div>
              <h1 id="typing-text"></h1>
@@ -59,7 +59,7 @@
 
  import Stack from './Stack.vue';
  import Projects from './Projects.vue';
- import Graphics from './Graphics.vue';
+ import Graphics from './Graphic.vue';
  import Contacts from './Contact.vue';
  import Footer from './Footer.vue';
  import Parallax from './Parallax.vue';
@@ -205,6 +205,10 @@
    top: 50px;
    left: 20px;
    opacity: 0; /* initially hidden */
+ }
+
+ .im{
+   font-size: 70px;
  }
  </style>
  

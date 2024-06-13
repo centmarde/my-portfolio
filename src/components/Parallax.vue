@@ -1,10 +1,12 @@
 <template>
     <div class="parallax-container">
       <div class="parallax-content">
-        <h1>Welcome to Parallax!</h1>
-        <p>This is a simple parallax effect example.</p>
+        <h1>Welcome to My Portfolio!</h1>
+        <p>This is a simple parallax effect example.</p>  
       </div>
+      <div class="mouse"></div>
     </div>
+    
   </template>
   
   <script setup>
@@ -59,5 +61,65 @@
     background-position: center;
     background-attachment: fixed;
   }
+
+
+  /*mouse*/
+  .mouse {
+        overflow:hidden; 
+        position:absolute;
+        left:50%;
+        top:75%;
+        width:24px;
+        margin: -12px;
+        height:50px;
+        border:3px solid white;
+        border-radius:30px;
+        z-index:1;
+    }
+    
+    .mouse::after{
+        display: block;
+        content:"";
+        position:absolute;
+        left:13px;
+        top:10px;
+        width:4px;
+        height:4px;
+        margin-left: -5.6px;
+        background-color:white;
+        border-radius:2px;
+        animation: mouseWheel 2.5s cubic-bezier(0.77, 0, 0.175, 1) infinite;
+    }
+    
+    @keyframes mouseWheel {
+        0% {
+            transform: translateY(0);
+            opacity: 0;
+        }
+        10% {
+            transform: translateY(0);
+            opacity: 1;
+        }
+        30% {
+            transform: translateY(0);
+            height: 4px;
+        }
+        50% {
+            transform: translateY(0);
+            height: 20px;
+        }
+        70% {
+        transform: translateY(15px);
+        height: 4px;
+        opacity: 1;
+        }
+        90% {
+        opacity: 0;
+        }
+        100% {
+        transform: translateY(15px);
+        opacity: 0;
+        }
+    }
   </style>
   
