@@ -45,7 +45,7 @@
        <br><br><br>
        <Projects/>
        <br><br><br>
-       <Graphics/>
+       <Certs/>
        <br><br><br>
        <Contacts/>
      </div>
@@ -59,7 +59,7 @@
 
  import Stack from './Stack.vue';
  import Projects from './Projects.vue';
- import Graphics from './Graphic.vue';
+ import Certs from './Certs.vue';
  import Contacts from './Contact.vue';
  import Footer from './Footer.vue';
  import Parallax from './Parallax.vue';

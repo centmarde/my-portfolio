@@ -10,7 +10,7 @@ import NavLink from './components/NavLink.vue';
       <NavLink href="#background">Background</NavLink>
       <NavLink href="#stack">Stack</NavLink>
       <NavLink href="#project">Projects</NavLink>
-      <NavLink href="#graphics">Graphics</NavLink>
+      <NavLink href="#graphics">Achievements</NavLink>
       <NavLink href="#contact">Contact</NavLink>
     </div>
   </nav>
