@@ -46,7 +46,6 @@
        <Projects/>
        <br><br><br>
        <Certs/>
-       <br><br><br>
        <Contacts/>
      </div>
      <br><br><br>
