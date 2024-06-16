@@ -25,7 +25,7 @@
                <h2 id="centmarde" class="ms-3">Centmarde</h2>
              </div>
              <h1 id="typing-text"></h1>
-             <br><br><br>
+            
              <div class="mt-5">
                <h5>
                  I'm a dedicated developer living in the Philippines. <br>
@@ -40,7 +40,7 @@
            </div>
          </div>
        </section>
-       <br><br><br>
+       <br><br><br><br><br>
        <Stack />
        <br><br><br>
        <Projects/>

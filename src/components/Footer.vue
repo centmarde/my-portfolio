@@ -35,7 +35,7 @@
         <div class="row">
           <div class="col text-center">
             <!-- Copyright notice example -->
-            <p>&copy; 2024 Your Website Name. All rights reserved.</p>
+            <p>&copy; 2024 Centmarde Campado. All rights reserved.</p>
           </div>
         </div>
       </div>
