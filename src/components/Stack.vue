@@ -27,8 +27,9 @@
   
   <style scoped>
   #stack {
+    position: relative;
     padding: 80px 0;
-  
+    z-index: 99;
   }
   
   h2 {

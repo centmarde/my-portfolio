@@ -10,7 +10,7 @@ import NavLink from './components/NavLink.vue';
     <img
       src="./assets/tribal-circle-png.png"
       width="30px"
-      alt="Francis Tin-ao"
+      alt="spinner"
       style="transform: rotate(-15.2899deg) translateZ(0px);"
       class="spin-infinite"
     />

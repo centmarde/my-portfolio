@@ -22,17 +22,18 @@
             <h1>Hi There,</h1>
             <div class="d-flex">
               <h1 class="mt-2 im">I'm</h1>
-              <h1 class="glitch mt-2 ms-4">
+              <div class="g1"><h1 class="glitch mt-2 ms-4">
                 <span aria-hidden="true">Centmarde</span>
                 Centmarde
                 <span aria-hidden="true">Centmarde</span>
-              </h1>
+              </h1></div>
+              
             </div>
             <h1 id="typing-text"></h1>
 
             <div class="mt-5">
               <br>
-              <h5>
+              <h5 style="z-index: 20; position: absolute;">
                 I'm a dedicated developer living in the Philippines. <br>
                 I enjoy creating things that live on the internet. <br>
                 I'm always looking for new and exciting projects to work on.
@@ -41,8 +42,20 @@
             </div>
           </div>
           <div class="col d-flex justify-content-center">
-            <img id="float_img" src="../assets/kaguya.jpg" class="rounded-circle"
-              style="width: 350px; height: 350px; border: 5px solid #000000;">
+            <div class="container" style="position: relative;">
+              <!-- Tribal circle background -->
+              <img src="../assets/Gray.png" class="spin-infinite" width="1000px" alt="Tribal Circle Background"
+              style="position: absolute; top: 63%; left: 48%; transform: translate(-50%, -50%) rotate(-15.2899deg); z-index: 1;">
+
+              <!-- Kaguya image -->
+              <img id="float_img" src="../assets/kaguya.jpg" class="rounded-circle"
+                style="width: 350px; height: 350px; border: 5px solid #000000; position: relative; z-index: 2;">
+            </div>
+
+            <div>
+
+            </div>
+
           </div>
         </div>
 
@@ -109,6 +122,7 @@ onMounted(() => {
 <style scoped>
 #typing-text {
   position: absolute;
+  z-index: 99;
 }
 
 :root {
@@ -158,6 +172,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
+  z-index: 3;
 }
 
 .glitch span:first-child {
@@ -329,4 +344,18 @@ body {
 .im {
   font-size: 70px;
 }
+@keyframes spin {
+        100% {
+            transform: translate(-50%, -50%) rotate(-15.2899deg) rotate(-360deg);
+        }
+    }
+    
+    .spin-infinite {
+        animation: spin 50s infinite linear;
+    }
+
+    .g1{
+      z-index: 999;
+    }
+
 </style>

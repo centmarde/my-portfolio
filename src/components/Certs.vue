@@ -135,6 +135,7 @@ h2 {
 
 .run-animation {
   display: flex;
+  flex-wrap: nowrap;
   white-space: nowrap;
 }
 
