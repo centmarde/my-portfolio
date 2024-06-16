@@ -1,7 +1,7 @@
 <template>
     <section id="project">
       <div class="container">
-        <h2 class="text-center mt-1 mb-4">Projects</h2>
+        <h2 id="certs" class="text-center mt-1 mb-4">Projects</h2>
   
         <!-- Example project cards -->
         <div class="row">

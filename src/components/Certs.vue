@@ -1,7 +1,7 @@
 <template>
   <section id="graphics">
     <div class="container">
-      <h2 class="text-center mt-1 mb-4">Certificates and Achievements</h2>
+      <h2 id="certs" class="text-center mt-1 mb-4">Achievements</h2>
       <h5 class="text-center mb-5">
         I appreciate acquiring credentials since it allows me to gain knowledge in an unexpected field, and I can try out new techniques so that I may include them in my work.
       </h5>
@@ -100,6 +100,7 @@
 </script>
 
 <style scoped>
+
 #graphics {
   padding: 80px 0;
 }

@@ -5,4 +5,9 @@
   height: 100vh;
   overflow-y: hidden;
 }
-
+#certs{
+  font-family: "Pacifico", cursive;
+   font-size: 60px;
+   color: #ffffff;
+   text-shadow: -2px -2px 0 #000000, 2px -2px 0 #000000, -2px 2px 0 #000000, 2px 2px 0 #000000;
+}

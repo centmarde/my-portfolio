@@ -1,7 +1,7 @@
 <template>
     <section id="contact">
       <div class="container">
-        <h2 class="text-center mt-1 mb-4">Contact</h2>
+        <h2 id="certs" class="text-center mt-1 mb-4">Contact</h2>
   
         <div class="row">
           <div class="col-md-6">

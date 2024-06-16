@@ -1,7 +1,7 @@
 <template>
     <section id="stack">
       <div class="container">
-        <h2 class="text-center mt-1 mb-4">Tech Stack</h2>
+        <h2 id="certs" class="text-center mt-1 mb-4">Tech. Stack</h2>
         <div class="row justify-content-center">
           <div class="col-md-6">
             <ul class="list-group">
