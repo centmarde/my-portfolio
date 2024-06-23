@@ -1,23 +1,22 @@
 <template>
   <div id="index_body_home">
 
-    <div class="container">
+    <div>
       <Parallax />
       <section id="home">
         <br><br><br><br><br><br>
         <div class="row">
-          <div class="col text-center">
+          <div class="col text-center" style ="z-index: 999;">
             <h1 id="title" class="bg-details">Creativity</h1>
             <h1>is a must, but the way to solve new problem is 🖤</h1>
           </div>
         </div>
       </section>
-
-      <br><br><br><br><br><br><br><br><br><br><br><br><br>
+      <br><br><br><br><br><br> <br><br><br><br><br><br> <br><br><br><br><br><br>
 
       <section id="background">
-        <div class="row">
-          <div class="col ms-5">
+        <div class="container"> <div class="row mt-5">
+          <div class="col ms-5 mt-5">
             <br><br>
             <h1>Hi There,</h1>
             <div class="d-flex">
@@ -42,7 +41,7 @@
             </div>
           </div>
           <div class="col d-flex justify-content-center">
-            <div class="container" style="position: relative;">
+            <div class="container" style="position: relative; ">
               <!-- Tribal circle background -->
               <img src="../assets/Gray.png" class="spin-infinite" width="1000px" alt="Tribal Circle Background"
               style="position: absolute; top: 63%; left: 48%; transform: translate(-50%, -50%) rotate(-15.2899deg); z-index: 1;">
@@ -52,20 +51,19 @@
                 style="width: 350px; height: 350px; border: 5px solid #000000; position: relative; z-index: 2;">
             </div>
 
-            <div>
-
-            </div>
+           
 
           </div>
-        </div>
+        </div></div>
+       
 
       </section>
-
-      <br><br><br><br><br>
+      <br><br><br><br><br><br>
+      
       <Stack />
-      <br><br><br>
+      <br><br><br><br><br>
       <Projects />
-      <br><br><br>
+      <br><br><br><br><br>
       <Certs />
       <Contacts />
     </div>
@@ -151,6 +149,7 @@ body {
   place-items: center;
   color: white;
   font-family: sans-serif;
+  
 }
 
 .glitch {
@@ -260,6 +259,8 @@ body {
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%), radial-gradient(at top center, rgba(255, 255, 255, 0.40) 0%, rgba(0, 0, 0, 0.40) 120%) #989898;
   background-blend-mode: multiply, multiply;
   height: auto;
+  overflow: hidden; 
+ 
 }
 
 @keyframes rgb {
@@ -357,5 +358,6 @@ body {
     .g1{
       z-index: 999;
     }
+
 
 </style>

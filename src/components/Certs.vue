@@ -103,6 +103,8 @@
 
 #graphics {
   padding: 80px 0;
+  overflow-x: hidden; /* Prevent horizontal overflow */
+
 }
 
 .img-fluid {

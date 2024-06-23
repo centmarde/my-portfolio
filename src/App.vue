@@ -34,7 +34,7 @@ import NavLink from './components/NavLink.vue';
   position: fixed;
   top: 20px;
   right: 20px;
-  z-index: 100;
+  z-index: 10000;
 }
 
 #navcont {
