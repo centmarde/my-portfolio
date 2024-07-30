@@ -39,7 +39,7 @@ export default {
             let scaleValue = Math.max(1, 1 + value * 0.001); // Ensure the scale doesn't go below 1
             mountains_front.style.transform = `scale(${scaleValue})`;
         });
-        s
+        
     },
 };
 </script>
@@ -121,7 +121,7 @@ section img#mountains_behind {
     background: #fff;
     color: #2b1055;
     font-size: 1.5em;
-    z-index: 99999;
+    z-index: 999;
     transform: translateY(100px);
 }
 
