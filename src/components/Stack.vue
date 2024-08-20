@@ -27,7 +27,7 @@
         </div>
       </div>
       <div class="row mt-5">
-        <div class="col">
+        <div class="col-sm-3">
             <h5>FrontEnd Technologies</h5>
           <span>Bootstrap:</span>
           <div class="progress mb-1" role="progressbar" aria-label="Success example" aria-valuenow="97"
@@ -75,7 +75,7 @@
             <div class="progress-bar bg-dark" style="width: 78%">78%</div>
           </div>
         </div>
-        <div class="col">
+        <div class="col-sm-3">
           <h5>BackEnd Technologies</h5>
           <span>JavaScript:</span>
           <div class="progress mb-1" role="progressbar" aria-label="Success example" aria-valuenow="95"
@@ -103,7 +103,7 @@
             <div class="progress-bar bg-dark" style="width: 81%">81%</div>
           </div>
         </div>
-        <div class="col">
+        <div class="col-sm-3">
           <h5>DataBase Tech. & Tools</h5>
           <span>Postgres:</span>
           <div class="progress mb-1" role="progressbar" aria-label="Success example" aria-valuenow="95"
@@ -132,7 +132,7 @@
           </div>
           
         </div>
-        <div class="col">
+        <div class="col-sm-3">
           <h5>Other Technologies</h5>
           <span>Git:</span>
           <div class="progress mb-1" role="progressbar" aria-label="Success example" aria-valuenow="92"

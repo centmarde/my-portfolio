@@ -8,49 +8,49 @@
 
       <div class="run-animation">
         <div class="run-animation-inner">
-          <div class="col-md-4 mb-4 mx-3">
+          <div class="col-12 col-md-4 mb-4 mx-3">
             <img src="../assets/Basic Building Blocks of the User Interface.pdf.png" alt="Graphic 1" class="img-fluid clickable">
           </div>
-          <div class="col-md-4 mb-4 mx-3">
+          <div class="col-12 col-md-4 mb-4 mx-3">
             <img src="../assets/1.png" alt="Graphic 2" class="img-fluid clickable">
           </div>
-          <div class="col-md-4 mb-4 mx-3">
+          <div class="col-12 col-md-4 mb-4 mx-3">
             <img src="../assets/2.png" alt="Graphic 4" class="img-fluid clickable">
           </div>
-          <div class="col-md-4 mb-4 mx-3">
+          <div class="col-12 col-md-4 mb-4 mx-3">
             <img src="../assets/3.png" alt="Graphic 5" class="img-fluid clickable">
           </div>
-          <div class="col-md-4 mb-4 mx-3">
+          <div class="col-12 col-md-4 mb-4 mx-3">
             <img src="../assets/4.png" alt="Graphic 6" class="img-fluid clickable">
           </div>
-          <div class="col-md-4 mb-4 mx-3">
+          <div class="col-12 col-md-4 mb-4 mx-3">
             <img src="../assets/5.png" alt="Graphic 7" class="img-fluid clickable">
           </div>
-          <div class="col-md-4 mb-4 mx-3">
+          <div class="col-12 col-md-4 mb-4 mx-3">
             <img src="../assets/6.png" alt="Graphic 8" class="img-fluid clickable">
           </div>
-          <div class="col-md-4 mb-4 mx-3">
+          <div class="col-12 col-md-4 mb-4 mx-3">
             <img src="../assets/7.png" alt="Graphic 9" class="img-fluid clickable">
           </div>
-          <div class="col-md-4 mb-4 mx-3">
+          <div class="col-12 col-md-4 mb-4 mx-3">
             <img src="../assets/8.png" alt="Graphic 10" class="img-fluid clickable">
           </div>
-          <div class="col-md-4 mb-4 mx-3">
+          <div class="col-12 col-md-4 mb-4 mx-3">
             <img src="../assets/9.png" alt="Graphic 11" class="img-fluid clickable">
           </div>
-          <div class="col-md-4 mb-4 mx-3">
+          <div class="col-12 mb-4 mx-3">
             <img src="../assets/10.png" alt="Graphic 12" class="img-fluid clickable">
           </div>
-          <div class="col-md-4 mb-4 mx-3">
+          <div class="col-12 col-md-4 mb-4 mx-3">
             <img src="../assets/11.png" alt="Graphic 13" class="img-fluid clickable">
           </div>
-          <div class="col-md-4 mb-4 mx-3">
+          <div class="col-12 col-md-4 mb-4 mx-3">
             <img src="../assets/12.png" alt="Graphic 14" class="img-fluid clickable">
           </div>
-          <div class="col-md-4 mb-4 mx-3">
+          <div class="col-12 col-md-4 mb-4 mx-3">
             <img src="../assets/13.png" alt="Graphic 15" class="img-fluid clickable">
           </div>
-          <div class="col-md-4 mb-4 mx-3">
+          <div class="col-12 col-md-4 mb-4 mx-3">
             <img src="../assets/14.png" alt="Graphic 16" class="img-fluid clickable">
           </div>
         </div>

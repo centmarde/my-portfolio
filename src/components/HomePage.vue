@@ -1,65 +1,64 @@
 <template>
   <div id="index_body_home">
-
     <div>
       <Parallax />
-      <section id="home">
+
+      <!-- Home Section -->
+      <section id="home" class="text-center">
         <br><br><br><br><br><br>
         <div class="row">
-          <div class="col text-center" style ="z-index: 999;">
+          <div class="col" style="z-index: 999;">
             <h1 id="title" class="bg-details">Creativity</h1>
-            <h1>is a must, but the way to solve new problem is 🖤</h1>
+            <h1>is a must, but the way to solve new problems is 🖤</h1>
           </div>
         </div>
       </section>
-      <br><br><br><br><br><br> <br><br><br><br><br><br> <br><br><br><br><br><br>
+      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-      <section id="background">
-        <div class="container"> <div class="row mt-5">
-          <div class="col ms-5 mt-5">
-            <br><br>
-            <h1>Hi There,</h1>
-            <div class="d-flex">
-              <h1 class="mt-2 im">I'm</h1>
-              <div class="g1"><h1 class="glitch mt-2 ms-4">
-                <span aria-hidden="true">Centmarde</span>
-                Centmarde
-                <span aria-hidden="true">Centmarde</span>
-              </h1></div>
-              
+      <!-- Introduction Section -->
+      <section id="background" class="py-5">
+        <div class="container">
+          <div class="row mt-5 mx-5">
+            <div class="col-md-12 col-sm-12 col-lg-7 mt-5">
+              <div class="container text-center">
+                <h1>Hi There,</h1>
+                <div class="row align-items-center justify-content-center">
+                  <div class="col-12 col-md-auto">
+                    <h1 class="mt-2 im">I'm</h1>
+                  </div>
+                  <div class="col-12 col-md-auto text-center">
+                    <h1 class="glitch mt-2 mx-1">
+                      
+                      Centmarde
+                     
+                    </h1>
+                  </div>
+                </div>
+              </div>
+              <h1 id="typing-text"></h1>
+              <div class="mt-5 col-12">
+                <h5 style="z-index: 20;" class="text-center">
+                  I'm a dedicated developer living in the Philippines.<br>
+                  I enjoy creating things that live on the internet.<br>
+                  I'm always looking for new and exciting projects to work on.
+                </h5>
+              </div>
             </div>
-            <h1 id="typing-text"></h1>
 
-            <div class="mt-5">
-              <br>
-              <h5 style="z-index: 20; position: absolute;">
-                I'm a dedicated developer living in the Philippines. <br>
-                I enjoy creating things that live on the internet. <br>
-                I'm always looking for new and exciting projects to work on.
-              </h5>
-
+            <!-- Image Section -->
+            <div class="col-md-12 col-sm-12 col-lg-4">
+              <div class="container" style="">
+                <!-- Kaguya image -->
+                <img id="float_img" src="../assets/kaguya.jpg" class="rounded-circle d-block mx-auto"
+                  style="border: 5px solid #000000;">
+              </div>
             </div>
           </div>
-          <div class="col d-flex justify-content-center">
-            <div class="container" style="position: relative; ">
-              <!-- Tribal circle background -->
-              <img src="../assets/Gray.png" class="spin-infinite" width="1000px" alt="Tribal Circle Background"
-              style="position: absolute; top: 63%; left: 48%; transform: translate(-50%, -50%) rotate(-15.2899deg); z-index: 1;">
-
-              <!-- Kaguya image -->
-              <img id="float_img" src="../assets/kaguya.jpg" class="rounded-circle"
-                style="width: 350px; height: 350px; border: 5px solid #000000; position: relative; z-index: 2;">
-            </div>
-
-           
-
-          </div>
-        </div></div>
-       
-
+        </div>
       </section>
+
       <br><br><br><br><br><br>
-      
+
       <Stack />
       <br><br><br><br><br>
       <Projects />
@@ -82,7 +81,6 @@ import Contacts from './Contact.vue';
 import Footer from './Footer.vue';
 import Parallax from './Parallax.vue';
 
-
 const textArray = ['A FullStack Developer.', 'A Web Designer.', 'I\'m also a digital artist.', 'Nice to meet you.'];
 let index = 0;
 let letterIndex = 0;
@@ -92,7 +90,10 @@ const typingElement = ref(null);
 
 function typeText() {
   if (typingElement.value) {
+   /*  console.log(`Updating text content to: ${textArray[index].substring(0, letterIndex)}`); */
     typingElement.value.textContent = textArray[index].substring(0, letterIndex);
+  } else {
+    console.log("typingElement is null");
   }
 
   if (letterIndex === textArray[index].length && !isFinished) {
@@ -113,35 +114,17 @@ function typeText() {
 
 onMounted(() => {
   typingElement.value = document.getElementById('typing-text');
+  if (typingElement.value) {
+    console.log("typingElement found");
+  } else {
+    console.log("typingElement not found");
+  }
   typeText();
 });
 </script>
 
 <style scoped>
-#typing-text {
-  position: absolute;
-  z-index: 99;
-}
-
-:root {
-  /* Light Mode */
-  --clr-primary: rgb(232, 232, 232);
-  --clr-dark: #0B0B0B;
-  --clr-semi-dark: #101010;
-  --clr-light: #888888;
-  --clr-very-dark: rgb(8, 8, 8);
-
-  /* Font Size */
-  --head: 50px;
-  --subhead: 25px;
-  --paragraph: 20px;
-
-  /* Font weights */
-  --bold: 700;
-  --regular: 400;
-  --medium: 500;
-}
-
+/* General Styles */
 body {
   background: #222;
   min-height: 100vh;
@@ -149,7 +132,22 @@ body {
   place-items: center;
   color: white;
   font-family: sans-serif;
-  
+}
+
+#typing-text {
+  position: absolute;
+  z-index: 99;
+}
+
+.im {
+  font-size: 2rem;
+}
+
+#title {
+  animation: rgb 20s infinite alternate;
+  font-size: 120px;
+  font-family: "Poetsen One", sans-serif;
+  text-shadow: -2px -2px 0 #000000, 2px -2px 0 #000000, -2px 2px 0 #000000, 2px 2px 0 #000000;
 }
 
 .glitch {
@@ -159,11 +157,9 @@ body {
   text-transform: uppercase;
   position: relative;
   color: white;
-
   text-shadow: 0.05em 0 0 rgba(255, 0, 0, 0.75),
-    -0.025em -0.05em 0 rgba(0, 255, 0, 0.75),
-    0.025em 0.05em 0 rgba(0, 0, 255, 0.75);
-
+              -0.025em -0.05em 0 rgba(0, 255, 0, 0.75),
+              0.025em 0.05em 0 rgba(0, 0, 255, 0.75);
   animation: glitch 500ms infinite;
 }
 
@@ -178,7 +174,6 @@ body {
   animation: glitch 650ms infinite;
   clip-path: polygon(0 0, 100% 0, 100% 45%, 0 45%);
   transform: translate(-0.025em, -0.0125em);
-  /* color: green; */
   opacity: 0.8;
 }
 
@@ -186,143 +181,7 @@ body {
   animation: glitch 375ms infinite;
   clip-path: polygon(0 80%, 100% 20%, 100% 100%, 0 100%);
   transform: translate(0.0125em, 0.025em);
-  /* color: red; */
   opacity: 0.8;
-}
-
-
-@keyframes glitch {
-  0% {
-    text-shadow: 0.05em 0 0 rgba(255, 0, 0, 0.75),
-      -0.05em -0.025em 0 rgba(0, 255, 0, 0.75),
-      -0.025em 0.05em 0 rgba(0, 0, 255, 0.75);
-  }
-
-  14% {
-    text-shadow: 0.05em 0 0 rgba(255, 0, 0, 0.75),
-      -0.05em -0.025em 0 rgba(0, 255, 0, 0.75),
-      -0.025em 0.05em 0 rgba(0, 0, 255, 0.75);
-  }
-
-  15% {
-    text-shadow: -0.05em -0.025em 0 rgba(255, 0, 0, 0.75),
-      0.025em 0.025em 0 rgba(0, 255, 0, 0.75),
-      -0.05em -0.05em 0 rgba(0, 0, 255, 0.75);
-  }
-
-  49% {
-    text-shadow: -0.05em -0.025em 0 rgba(255, 0, 0, 0.75),
-      0.025em 0.025em 0 rgba(0, 255, 0, 0.75),
-      -0.05em -0.05em 0 rgba(0, 0, 255, 0.75);
-  }
-
-  50% {
-    text-shadow: 0.025em 0.05em 0 rgba(255, 0, 0, 0.75),
-      0.05em 0 0 rgba(0, 255, 0, 0.75), 0 -0.05em 0 rgba(0, 0, 255, 0.75);
-  }
-
-  99% {
-    text-shadow: 0.025em 0.05em 0 rgba(255, 0, 0, 0.75),
-      0.05em 0 0 rgba(0, 255, 0, 0.75), 0 -0.05em 0 rgba(0, 0, 255, 0.75);
-  }
-
-  100% {
-    text-shadow: -0.025em 0 0 rgba(255, 0, 0, 0.75),
-      -0.025em -0.025em 0 rgba(0, 255, 0, 0.75),
-      -0.025em -0.05em 0 rgba(0, 0, 255, 0.75);
-  }
-}
-
-@media (prefers-reduced-motion: reduce) {
-
-  *,
-  ::before,
-  ::after {
-    animation-delay: -1ms !important;
-    animation-duration: 1ms !important;
-    animation-iteration-count: 1 !important;
-    background-attachment: initial !important;
-    scroll-behavior: auto !important;
-    transition-duration: 0s !important;
-    transition-delay: 0s !important;
-  }
-}
-
-#title {
-  animation: rgb 20s infinite alternate;
-  font-size: 120px;
-  font-family: "Poetsen One", sans-serif;
-  text-shadow: -2px -2px 0 #000000, 2px -2px 0 #000000, -2px 2px 0 #000000, 2px 2px 0 #000000;
-}
-
-
-
-@keyframes rgb {
-  0% {
-    color: #3300FF;
-  }
-
-  10% {
-    color: #0057FF;
-  }
-
-  20% {
-    color: #FF00F5;
-  }
-
-  30% {
-    color: #FF008A;
-  }
-
-  40% {
-    color: #e252e0;
-  }
-
-  50% {
-    color: #fdea96;
-  }
-
-  60% {
-    color: #3551a4;
-  }
-
-  70% {
-    color: #2c8ec4;
-  }
-
-  80% {
-    color: #31cdb0;
-  }
-
-  90% {
-    color: #f8c7d5;
-  }
-
-  100% {
-    color: var(--clr-primary);
-  }
-}
-
-@keyframes show {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes float {
-
-  0%,
-  100% {
-    transform: translateY(0);
-  }
-
-  50% {
-    transform: translateY(-10px);
-  }
 }
 
 #float_img {
@@ -333,25 +192,120 @@ body {
   top: 50px;
   left: 20px;
   opacity: 0;
-  /* initially hidden */
 }
 
-.im {
-  font-size: 70px;
+/* Animations */
+@keyframes glitch {
+  0%, 14%, 50%, 99% {
+    text-shadow: 0.05em 0 0 rgba(255, 0, 0, 0.75),
+                 -0.05em -0.025em 0 rgba(0, 255, 0, 0.75),
+                 -0.025em 0.05em 0 rgba(0, 0, 255, 0.75);
+  }
+  15%, 49% {
+    text-shadow: -0.05em -0.025em 0 rgba(255, 0, 0, 0.75),
+                 0.025em 0.025em 0 rgba(0, 255, 0, 0.75),
+                 -0.05em -0.05em 0 rgba(0, 0, 255, 0.75);
+  }
+  100% {
+    text-shadow: -0.025em 0 0 rgba(255, 0, 0, 0.75),
+                 -0.025em -0.025em 0 rgba(0, 255, 0, 0.75),
+                 -0.025em -0.05em 0 rgba(0, 0, 255, 0.75);
+  }
 }
-@keyframes spin {
-        100% {
-            transform: translate(-50%, -50%) rotate(-15.2899deg) rotate(-360deg);
-        }
-    }
-    
-    .spin-infinite {
-        animation: spin 50s infinite linear;
-    }
 
-    .g1{
-      z-index: 999;
-    }
+@keyframes rgb {
+  0%, 100% {
+    color: var(--clr-primary);
+  }
+  10% {
+    color: #0057FF;
+  }
+  20% {
+    color: #FF00F5;
+  }
+  30% {
+    color: #FF008A;
+  }
+  40% {
+    color: #e252e0;
+  }
+  50% {
+    color: #fdea96;
+  }
+  60% {
+    color: #3551a4;
+  }
+  70% {
+    color: #2c8ec4;
+  }
+  80% {
+    color: #31cdb0;
+  }
+  90% {
+    color: #f8c7d5;
+  }
+}
+
+@keyframes show {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.bg-details {
+  color: #FFFFFF;
+
+  padding: 10px;
+  border-radius: 10px;
+}
+
+@media (max-width: 576px) {
+  .glitch {
+    font-size: 2.5rem; /* Adjusted size for small screens */
+  }
+}
+@media (min-width: 468px) and (max-width: 767px) {
+  .glitch {
+   font-size: 3.5rem; /* Adjusted size for medium screens */
+  }
+}
+ 
+
+/* Small screens (max-width: 467px) */
+@media (max-width: 467px) {
+  #float_img {
+    width: 100px; /* Adjusted width for small screens */
+    height: 100px; /* Adjusted height for small screens */
+  }
+}
+
+/* Medium screens (min-width: 468px and max-width: 767px) */
+@media (min-width: 468px) and (max-width: 767px) {
+  #float_img {
+    width: 150px; /* Adjusted width for medium screens */
+    height: 150px; /* Adjusted height for medium screens */
+  }
+}
+
+/* Large screens (min-width: 768px) */
+@media (min-width: 768px) {
+  #float_img {
+    width: 350px; /* Adjusted width for large screens */
+    height: 350px; /* Adjusted height for large screens */
+  }
+}
 
 
 </style>

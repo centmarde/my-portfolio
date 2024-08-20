@@ -19,7 +19,7 @@
     </div>
 </template>
 
-<script>
+<!-- <script>
 export default {
     mounted() {
         let mountains_behind = this.$refs.mountains_behind;
@@ -42,7 +42,7 @@ export default {
         
     },
 };
-</script>
+</script> -->
 
 <style scoped>
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
