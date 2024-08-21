@@ -1,126 +1,94 @@
 <template>
   <div id="index_body_home">
-    <div>
-      <Parallax />
+   
+    <Hero />
+    
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-      <!-- Home Section -->
-      <section id="home" class="text-center">
-        <br><br><br><br><br><br>
-        <div class="row">
-          <div class="col" style="z-index: 999;">
-            <h1 id="title" class="bg-details">Creativity</h1>
-            <h1>is a must, but the way to solve new problems is 🖤</h1>
-          </div>
-        </div>
-      </section>
-      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
-      <!-- Introduction Section -->
-      <section id="background" class="py-5">
-        <div class="container">
-          <div class="row mt-5 mx-5">
-            <div class="col-md-12 col-sm-12 col-lg-7 mt-5">
-              <div class="container text-center">
-                <h1>Hi There,</h1>
-                <div class="row align-items-center justify-content-center">
-                  <div class="col-12 col-md-auto">
-                    <h1 class="mt-2 im">I'm</h1>
-                  </div>
-                  <div class="col-12 col-md-auto text-center">
-                    <h1 class="glitch mt-2 mx-1">
-                      
-                      Centmarde
-                     
-                    </h1>
-                  </div>
+    <!-- Introduction Section -->
+    <section id="background" class="py-5">
+      <div class="container">
+        <div class="row mt-5 mx-5">
+          <div class="col-lg-7 col-md-12 col-sm-12 mt-5">
+            <div class="container">
+              <div class="row align-items-center">
+                <div class="col-12 col-md-auto"></div>
+                <div class="col-12 col-md-auto text-start">
+                  <h1>Hi There,</h1>
+                  <h1 class="mt-2 im justify-content-start">I'm</h1>
+                  <h1 class="glitch mt-2 mx-1">Centmarde</h1>
+                  <h1 id="typing-text">{{ typingText }}</h1>
+                  <h5 class="text-start" style="z-index: 20;">
+                    <br><br><br>
+                    I'm a dedicated developer living in the Philippines.<br>
+                    I enjoy creating things that live on the internet.<br>
+                    I'm always looking for new and exciting projects to work on.
+                  </h5>
                 </div>
               </div>
-              <h1 id="typing-text"></h1>
-              <div class="mt-5 col-12">
-                <h5 style="z-index: 20;" class="text-center">
-                  I'm a dedicated developer living in the Philippines.<br>
-                  I enjoy creating things that live on the internet.<br>
-                  I'm always looking for new and exciting projects to work on.
-                </h5>
-              </div>
             </div>
+          </div>
 
-            <!-- Image Section -->
-            <div class="col-md-12 col-sm-12 col-lg-4">
-              <div class="container" style="">
-                <!-- Kaguya image -->
-                <img id="float_img" src="../assets/kaguya.jpg" class="rounded-circle d-block mx-auto"
-                  style="border: 5px solid #000000;">
-              </div>
+          <!-- Image Section -->
+          <div class="col-lg-4 col-md-12 col-sm-12">
+            <div class="container">
+              <!-- Kaguya image -->
+              <img id="float_img" src="../assets/marde.jpg" class="rounded-circle d-block mx-auto" style="border: 5px solid #000000;">
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <br><br><br><br><br><br>
+    <br><br><br><br><br><br>
 
-      <Stack />
-      <br><br><br><br><br>
-      <Projects />
-      <br><br><br><br><br>
-      <Certs />
-      <Contacts />
-    </div>
+    <Stack />
+    <br><br><br><br><br>
+    <Projects />
+    <br><br><br><br><br>
+    <Certs />
+    <Contacts />
     <br><br><br>
-    <Footer></Footer>
+    <Footer />
   </div>
 </template>
 
 <script setup>
 import { ref, onMounted } from 'vue';
-
 import Stack from './Stack.vue';
 import Projects from './Projects.vue';
 import Certs from './Certs.vue';
 import Contacts from './Contact.vue';
 import Footer from './Footer.vue';
-import Parallax from './Parallax.vue';
+import Hero from './Hero.vue';
 
-const textArray = ['A FullStack Developer.', 'A Web Designer.', 'I\'m also a digital artist.', 'Nice to meet you.'];
-let index = 0;
-let letterIndex = 0;
-let direction = 1;
-let isFinished = false;
-const typingElement = ref(null);
+const textArray = ref(['A FullStack Developer.', 'A Web Designer.', 'I\'m also a digital artist.', 'Nice to meet you.']);
+const index = ref(0);
+const letterIndex = ref(0);
+const direction = ref(1);
+const isFinished = ref(false);
+const typingText = ref('');
 
 function typeText() {
-  if (typingElement.value) {
-   /*  console.log(`Updating text content to: ${textArray[index].substring(0, letterIndex)}`); */
-    typingElement.value.textContent = textArray[index].substring(0, letterIndex);
-  } else {
-    console.log("typingElement is null");
-  }
+  typingText.value = textArray.value[index.value].substring(0, letterIndex.value);
 
-  if (letterIndex === textArray[index].length && !isFinished) {
-    isFinished = true;
+  if (letterIndex.value === textArray.value[index.value].length && !isFinished.value) {
+    isFinished.value = true;
     setTimeout(() => {
-      isFinished = false;
-      index = (index + 1) % textArray.length;
-      letterIndex = 0;
-      direction = 1;
+      isFinished.value = false;
+      index.value = (index.value + 1) % textArray.value.length;
+      letterIndex.value = 0;
+      direction.value = 1;
     }, 2000);
-  } else if (letterIndex === 0) {
-    direction = 1;
+  } else if (letterIndex.value === 0) {
+    direction.value = 1;
   }
 
-  letterIndex += direction;
+  letterIndex.value += direction.value;
   setTimeout(typeText, 50);
 }
 
-onMounted(() => {
-  typingElement.value = document.getElementById('typing-text');
-  if (typingElement.value) {
-    console.log("typingElement found");
-  } else {
-    console.log("typingElement not found");
-  }
-  typeText();
-});
+onMounted(typeText);
 </script>
 
 <style scoped>
@@ -133,8 +101,26 @@ body {
   color: white;
   font-family: sans-serif;
 }
+@keyframes show {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
 #typing-text {
+  margin-bottom: 5rem;
+  color: white;
   position: absolute;
   z-index: 99;
 }
@@ -143,12 +129,7 @@ body {
   font-size: 2rem;
 }
 
-#title {
-  animation: rgb 20s infinite alternate;
-  font-size: 120px;
-  font-family: "Poetsen One", sans-serif;
-  text-shadow: -2px -2px 0 #000000, 2px -2px 0 #000000, -2px 2px 0 #000000, 2px 2px 0 #000000;
-}
+
 
 .glitch {
   bottom: 13px;
@@ -213,56 +194,7 @@ body {
   }
 }
 
-@keyframes rgb {
-  0%, 100% {
-    color: var(--clr-primary);
-  }
-  10% {
-    color: #0057FF;
-  }
-  20% {
-    color: #FF00F5;
-  }
-  30% {
-    color: #FF008A;
-  }
-  40% {
-    color: #e252e0;
-  }
-  50% {
-    color: #fdea96;
-  }
-  60% {
-    color: #3551a4;
-  }
-  70% {
-    color: #2c8ec4;
-  }
-  80% {
-    color: #31cdb0;
-  }
-  90% {
-    color: #f8c7d5;
-  }
-}
 
-@keyframes show {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes float {
-  0%, 100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-10px);
-  }
-}
 
 .bg-details {
   color: #FFFFFF;
@@ -283,19 +215,14 @@ body {
 }
  
 
-/* Small screens (max-width: 467px) */
-@media (max-width: 467px) {
-  #float_img {
-    width: 100px; /* Adjusted width for small screens */
-    height: 100px; /* Adjusted height for small screens */
-  }
-}
-
 /* Medium screens (min-width: 468px and max-width: 767px) */
 @media (min-width: 468px) and (max-width: 767px) {
   #float_img {
-    width: 150px; /* Adjusted width for medium screens */
-    height: 150px; /* Adjusted height for medium screens */
+    width: 200px; /* Adjusted width for medium screens */
+    height: 200px; /* Adjusted height for medium screens */
+  }
+  #title {
+   font-size: 80px;
   }
 }
 
@@ -304,6 +231,9 @@ body {
   #float_img {
     width: 350px; /* Adjusted width for large screens */
     height: 350px; /* Adjusted height for large screens */
+  }
+  #title {
+    font-size: 120px;
   }
 }
 

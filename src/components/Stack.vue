@@ -1,29 +1,29 @@
 <template>
   <section id="stack" class="mt-5">
     <div class="container">
-      <h2 id="certs" class="text-center mt-1 mb-4">Tech. Stack</h2>
+      <h2 id="certs" class="text-center mt-1 mb-4 py-1">Tech. Stack</h2>
       <div class="row justify-content-center">
         <div class="col card mx-1">
-          <div><img class="img-fluid mx-1 my-1" src="../assets/laravel.svg" alt="Laravel"></div>
+          <div><img class="img-fluid mx-1 my-1 py-1" src="../assets/laravel.svg" alt="Laravel"></div>
         </div>
         
-        <div class="col card mx-1">
+        <div class="col card mx-1 py-1">
           <div><img class="img-fluid mx-1 my-1" src="../assets/vue.png" alt="Vue"></div>
         </div>
-        <div class="col card mx-1">
-          <div><img class="img-fluid " src="../assets/bootstrap_logo.svg.png" style="margin-top: 19px;" alt="bootstrap"></div>
+        <div class="col card mx-1 py-3">
+          <div><img class="img-fluid " src="../assets/bootstrap_logo.svg.png" style="margin: auto;" alt="bootstrap"></div>
         </div>
-        <div class="col card mx-1">
-          <div><img class="img-fluid" src="../assets/nodejs.png" alt="nodejs" style="margin-top: 30px;"></div>
+        <div class="col card mx-1 py-3">
+          <div><img class="img-fluid" src="../assets/nodejs.png" alt="nodejs" style="margin: auto;"></div>
         </div>
-        <div class="col card mx-1">
-          <div><img class="img-fluid" src="../assets/Photoshop.png" alt="nodejs" style="margin-top: 7px;"></div>
+        <div class="col card mx-1 py-1">
+          <div><img class="img-fluid" src="../assets/Photoshop.png" alt="nodejs" style="margin: auto;"></div>
         </div>
-        <div class="col card mx-1">
-          <div><img class="img-fluid" src="../assets/postgres.png" alt="nodejs" style="margin-top: 5px;"></div>
+        <div class="col card mx-1 py-1">
+          <div><img class="img-fluid" src="../assets/postgres.png" alt="nodejs" style="margin: auto;"></div>
         </div>
-        <div class="col card mx-1">
-          <div><img class="img-fluid" src="../assets/electron.png" alt="nodejs" style="margin-top: 5px;"></div>
+        <div class="col card mx-1 py-1">
+          <div><img class="img-fluid" src="../assets/electron.png" alt="nodejs" style="margin: auto;"></div>
         </div>
       </div>
       <div class="row mt-5">

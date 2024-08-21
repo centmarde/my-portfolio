@@ -38,7 +38,7 @@
           <div class="col-12 col-md-4 mb-4 mx-3">
             <img src="../assets/9.png" alt="Graphic 11" class="img-fluid clickable">
           </div>
-          <div class="col-12 mb-4 mx-3">
+          <div class="col-12 col-md-4 mb-4 mx-3">
             <img src="../assets/10.png" alt="Graphic 12" class="img-fluid clickable">
           </div>
           <div class="col-12 col-md-4 mb-4 mx-3">
