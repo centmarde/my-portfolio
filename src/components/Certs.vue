@@ -8,51 +8,61 @@
 
       <div class="run-animation">
         <div class="run-animation-inner">
-          <div class="col-12 col-md-4 mb-4 mx-3">
+          <div class="col-4 col-md-4 col-sm-4 mb-4 mx-3">
             <img src="../assets/Basic Building Blocks of the User Interface.pdf.png" alt="Graphic 1" class="img-fluid clickable">
           </div>
-          <div class="col-12 col-md-4 mb-4 mx-3">
-            <img src="../assets/1.png" alt="Graphic 2" class="img-fluid clickable">
+          <div class="col-4 col-md-4 col-sm-4 mb-4 mx-3">
+            <img src="../assets/AdvanceLevelofSoftware.png" alt="Graphic 2" class="img-fluid clickable">
           </div>
-          <div class="col-12 col-md-4 mb-4 mx-3">
-            <img src="../assets/2.png" alt="Graphic 4" class="img-fluid clickable">
+          <div class="col-4 col-md-4 col-sm-4 mb-4 mx-3">
+            <img src="../assets/AndroidApp.png" alt="Graphic 4" class="img-fluid clickable">
           </div>
-          <div class="col-12 col-md-4 mb-4 mx-3">
-            <img src="../assets/3.png" alt="Graphic 5" class="img-fluid clickable">
+          <div class="col-4 col-md-4 col-sm-4 mb-4 mx-3">
+            <img src="../assets/Java Intermediate.png" alt="JavaIntermediate" class="img-fluid clickable">
           </div>
-          <div class="col-12 col-md-4 mb-4 mx-3">
-            <img src="../assets/4.png" alt="Graphic 6" class="img-fluid clickable">
+          <div class="col-4 col-md-4 col-sm-4 mb-4 mx-3">
+            <img src="../assets/Art and Design.png" alt="Graphic 5" class="img-fluid clickable">
           </div>
-          <div class="col-12 col-md-4 mb-4 mx-3">
-            <img src="../assets/5.png" alt="Graphic 7" class="img-fluid clickable">
+          <div class="col-4 col-md-4 col-sm-4 mb-4 mx-3">
+            <img src="../assets/BasicLevelofsoftware.png" alt="Graphic 6" class="img-fluid clickable">
           </div>
-          <div class="col-12 col-md-4 mb-4 mx-3">
-            <img src="../assets/6.png" alt="Graphic 8" class="img-fluid clickable">
+          <div class="col-4 col-md-4 col-sm-4 mb-4 mx-3">
+            <img src="../assets/Canva.png" alt="Graphic 7" class="img-fluid clickable">
           </div>
-          <div class="col-12 col-md-4 mb-4 mx-3">
-            <img src="../assets/7.png" alt="Graphic 9" class="img-fluid clickable">
+          <div class="col-4 col-md-4 col-sm-4 mb-4 mx-3">
+            <img src="../assets/CloudComputing.png" alt="Graphic 8" class="img-fluid clickable">
           </div>
-          <div class="col-12 col-md-4 mb-4 mx-3">
-            <img src="../assets/8.png" alt="Graphic 10" class="img-fluid clickable">
+          <div class="col-4 col-md-4 col-sm-4 mb-4 mx-3">
+            <img src="../assets/DigitalInovation.png" alt="Graphic 9" class="img-fluid clickable">
           </div>
-          <div class="col-12 col-md-4 mb-4 mx-3">
-            <img src="../assets/9.png" alt="Graphic 11" class="img-fluid clickable">
+          <div class="col-4 col-md-4 col-sm-4 mb-4 mx-3">
+            <img src="../assets/FunctionalComposition.png" alt="Graphic 10" class="img-fluid clickable">
           </div>
-          <div class="col-12 col-md-4 mb-4 mx-3">
-            <img src="../assets/10.png" alt="Graphic 12" class="img-fluid clickable">
+          <div class="col-4 col-md-4 col-sm-4 mb-4 mx-3">
+            <img src="../assets/fundamentalsOfMarketing.png" alt="Graphic 11" class="img-fluid clickable">
           </div>
-          <div class="col-12 col-md-4 mb-4 mx-3">
-            <img src="../assets/11.png" alt="Graphic 13" class="img-fluid clickable">
+          <div class="col-4 col-md-4 col-sm-4 mb-4 mx-3">
+            <img src="../assets/HTML and CSS design.png" alt="Graphic 12" class="img-fluid clickable">
           </div>
-          <div class="col-12 col-md-4 mb-4 mx-3">
-            <img src="../assets/12.png" alt="Graphic 14" class="img-fluid clickable">
+          <div class="col-4 col-md-4 col-sm-4 mb-4 mx-3">
+            <img src="../assets/IntermediateLevelofSoftware.png" alt="Graphic 13" class="img-fluid clickable">
           </div>
-          <div class="col-12 col-md-4 mb-4 mx-3">
-            <img src="../assets/13.png" alt="Graphic 15" class="img-fluid clickable">
+          <div class="col-4 col-md-4 col-sm-4 mb-4 mx-3">
+            <img src="../assets/JavaScriptforWeb.png" alt="Graphic 14" class="img-fluid clickable">
           </div>
-          <div class="col-12 col-md-4 mb-4 mx-3">
-            <img src="../assets/14.png" alt="Graphic 16" class="img-fluid clickable">
+          <div class="col-4 col-md-4 col-sm-4 mb-4 mx-3">
+            <img src="../assets/PrinciplesofDesign.png" alt="Graphic 15" class="img-fluid clickable">
           </div>
+          <div class="col-4 col-md-4 col-sm-4 mb-4 mx-3">
+            <img src="../assets/PrinciplesofWeb" alt="Graphic 16" class="img-fluid clickable">
+          </div>
+          <div class="col-4 col-md-4 col-sm-4 mb-4 mx-3">
+            <img src="../assets/StatecWebsite" alt="Graphic 17" class="img-fluid clickable">
+          </div>
+          <div class="col-4 col-md-4 col-sm-4 mb-4 mx-3">
+            <img src="../assets/Digital Transformation" alt="Graphic 17" class="img-fluid clickable">
+          </div>
+          
         </div>
       </div>
     </div>
@@ -153,7 +163,7 @@ h2 {
   height: 100%;
   top: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: #333;
   justify-content: center;
   align-items: center;
   opacity: 0; /* Initial opacity for transition */

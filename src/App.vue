@@ -1,5 +1,5 @@
 <template>
-  <nav id="nav" class="navbar bg-dark">
+  <nav id="nav" class="navbar">
     <div id="navcont" class="container d-flex justify-content-between align-items-center">
       <div class="logo-container" :class="{ hidden: isMenuVisible }">
         <img
@@ -18,8 +18,8 @@
         <NavLink href="#home" @click="closeMenu">Home</NavLink>
         <NavLink href="#background" @click="closeMenu">Background</NavLink>
         <NavLink href="#stack" @click="closeMenu">Stack</NavLink>
-        <NavLink href="#project" @click="closeMenu">Projects</NavLink>
         <NavLink href="#graphics" @click="closeMenu">Achievements</NavLink>
+        <NavLink href="#project" @click="closeMenu">Projects</NavLink>
         <NavLink href="#contact" @click="closeMenu">Contact</NavLink>
       </div>
     </div>
@@ -57,7 +57,7 @@ body {
   top: 20px;
   right: 20px;
   z-index: 10000;
-  background: rgba(0, 0, 0, 0.8);
+  background: #111;
 }
 
 #navcont {
@@ -173,7 +173,7 @@ body {
     flex-direction: column;
     width: 100%;
     height: 100vh; /* Full height on mobile screens */
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: #333;
     position: fixed; /* Fixed position to overlay the content */
     top: 0;
     left: 0;
@@ -196,6 +196,9 @@ body {
   #navcont {
     justify-content: space-between;
   }
+}
+#nav{
+  background-color: #111;
 }
 
 </style>

@@ -49,7 +49,7 @@
   
   <style scoped>
   #footer {
-    background-color: #343a40; /* Example background color */
+    background: #111;
     color: #ffffff; /* Example text color */
     padding: 50px 0;
   }

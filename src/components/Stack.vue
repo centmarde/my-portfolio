@@ -1,6 +1,6 @@
 <template>
   <section id="stack" class="mt-5">
-    <div class="container">
+    <div class="container tech">
       <h2 id="certs" class="text-center mt-1 mb-4 py-1">Tech. Stack</h2>
       <div class="row justify-content-center">
         <div class="col card mx-1">
@@ -27,7 +27,7 @@
         </div>
       </div>
       <div class="row mt-5">
-        <div class="col-sm-3">
+        <div class="col-sm-3 bars">
             <h5>FrontEnd Technologies</h5>
           <span>Bootstrap:</span>
           <div class="progress mb-1" role="progressbar" aria-label="Success example" aria-valuenow="97"
@@ -167,7 +167,7 @@
           <span>Capacitor js<i class="fab fa-js"></i>:</span>
           <div class="progress mb-1" role="progressbar" aria-label="Warning example" aria-valuenow="98" aria-valuemin="0"
             aria-valuemax="100">
-            <div class="progress-bar bg-dark" style="width: 98%">98%</div>
+            <div class="progress-bar bg-danger" style="width: 98%">98%</div>
           </div>
           
           
@@ -182,12 +182,15 @@
 </script>
 
 <style scoped>
+
 #stack {
   position: relative;
   padding: 80px 0;
   z-index: 99;
 }
-
+.tech{
+  color: aliceblue;
+}
 h2 {
   color: #333;
   /* Example text color */

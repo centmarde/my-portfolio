@@ -1,8 +1,8 @@
 <template>
   <div id="index_body_home">
-   
+
     <Hero />
-    
+
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
     <!-- Introduction Section -->
@@ -14,11 +14,11 @@
               <div class="row align-items-center">
                 <div class="col-12 col-md-auto"></div>
                 <div class="col-12 col-md-auto text-start">
-                  <h1>Hi There,</h1>
-                  <h1 class="mt-2 im justify-content-start">I'm</h1>
+                  <h1 id="certs">Hi There, Im</h1>
+                  <!-- <h1 style="color: aliceblue;" class="mt-2 im justify-content-start">I'm</h1> -->
                   <h1 class="glitch mt-2 mx-1">Centmarde</h1>
                   <h1 id="typing-text">{{ typingText }}</h1>
-                  <h5 class="text-start" style="z-index: 20;">
+                  <h5 class="text-start" style="z-index: 20;color: aliceblue;">
                     <br><br><br>
                     I'm a dedicated developer living in the Philippines.<br>
                     I enjoy creating things that live on the internet.<br>
@@ -33,20 +33,26 @@
           <div class="col-lg-4 col-md-12 col-sm-12">
             <div class="container">
               <!-- Kaguya image -->
-              <img id="float_img" src="../assets/marde.jpg" class="rounded-circle d-block mx-auto" style="border: 5px solid #000000;">
+              <img id="float_img" src="../assets/marde.jpg" class="rounded-circle d-block mx-auto"
+                style="border: 5px solid #000000;">
             </div>
+
           </div>
+          <About />
         </div>
+
       </div>
+
+
     </section>
 
     <br><br><br><br><br><br>
 
     <Stack />
     <br><br><br><br><br>
-    <Projects />
-    <br><br><br><br><br>
     <Certs />
+    <br><br><br><br><br>
+    <Projects />
     <Contacts />
     <br><br><br>
     <Footer />
@@ -61,6 +67,8 @@ import Certs from './Certs.vue';
 import Contacts from './Contact.vue';
 import Footer from './Footer.vue';
 import Hero from './Hero.vue';
+import About from './About.vue';
+
 
 const textArray = ref(['A FullStack Developer.', 'A Web Designer.', 'I\'m also a digital artist.', 'Nice to meet you.']);
 const index = ref(0);
@@ -94,30 +102,36 @@ onMounted(typeText);
 <style scoped>
 /* General Styles */
 body {
-  background: #222;
+  background: #333;
   min-height: 100vh;
   display: grid;
   place-items: center;
   color: white;
   font-family: sans-serif;
 }
+
 @keyframes show {
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
 }
 
 @keyframes float {
-  0%, 100% {
+
+  0%,
+  100% {
     transform: translateY(0);
   }
+
   50% {
     transform: translateY(-10px);
   }
 }
+
 #typing-text {
   margin-bottom: 5rem;
   color: white;
@@ -139,8 +153,8 @@ body {
   position: relative;
   color: white;
   text-shadow: 0.05em 0 0 rgba(255, 0, 0, 0.75),
-              -0.025em -0.05em 0 rgba(0, 255, 0, 0.75),
-              0.025em 0.05em 0 rgba(0, 0, 255, 0.75);
+    -0.025em -0.05em 0 rgba(0, 255, 0, 0.75),
+    0.025em 0.05em 0 rgba(0, 0, 255, 0.75);
   animation: glitch 500ms infinite;
 }
 
@@ -168,7 +182,7 @@ body {
 #float_img {
   position: relative;
   animation: show 1s forwards, float 2s ease-in-out 1s infinite;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: #333;
   z-index: 0;
   top: 50px;
   left: 20px;
@@ -177,20 +191,27 @@ body {
 
 /* Animations */
 @keyframes glitch {
-  0%, 14%, 50%, 99% {
+
+  0%,
+  14%,
+  50%,
+  99% {
     text-shadow: 0.05em 0 0 rgba(255, 0, 0, 0.75),
-                 -0.05em -0.025em 0 rgba(0, 255, 0, 0.75),
-                 -0.025em 0.05em 0 rgba(0, 0, 255, 0.75);
+      -0.05em -0.025em 0 rgba(0, 255, 0, 0.75),
+      -0.025em 0.05em 0 rgba(0, 0, 255, 0.75);
   }
-  15%, 49% {
+
+  15%,
+  49% {
     text-shadow: -0.05em -0.025em 0 rgba(255, 0, 0, 0.75),
-                 0.025em 0.025em 0 rgba(0, 255, 0, 0.75),
-                 -0.05em -0.05em 0 rgba(0, 0, 255, 0.75);
+      0.025em 0.025em 0 rgba(0, 255, 0, 0.75),
+      -0.05em -0.05em 0 rgba(0, 0, 255, 0.75);
   }
+
   100% {
     text-shadow: -0.025em 0 0 rgba(255, 0, 0, 0.75),
-                 -0.025em -0.025em 0 rgba(0, 255, 0, 0.75),
-                 -0.025em -0.05em 0 rgba(0, 0, 255, 0.75);
+      -0.025em -0.025em 0 rgba(0, 255, 0, 0.75),
+      -0.025em -0.05em 0 rgba(0, 0, 255, 0.75);
   }
 }
 
@@ -205,37 +226,53 @@ body {
 
 @media (max-width: 576px) {
   .glitch {
-    font-size: 2.5rem; /* Adjusted size for small screens */
+    font-size: 2.5rem;
+    /* Adjusted size for small screens */
   }
 }
+
 @media (min-width: 468px) and (max-width: 767px) {
   .glitch {
-   font-size: 3.5rem; /* Adjusted size for medium screens */
+    font-size: 3.5rem;
+    /* Adjusted size for medium screens */
   }
 }
- 
+
+@media (max-width: 468px) {
+  #float_img {
+    width: 150px;
+    /* Adjusted width for medium screens */
+    height: 150px;
+    /* Adjusted height for medium screens */
+  }
+
+}
 
 /* Medium screens (min-width: 468px and max-width: 767px) */
 @media (min-width: 468px) and (max-width: 767px) {
   #float_img {
-    width: 200px; /* Adjusted width for medium screens */
-    height: 200px; /* Adjusted height for medium screens */
+    width: 200px;
+    /* Adjusted width for medium screens */
+    height: 200px;
+    /* Adjusted height for medium screens */
   }
+
   #title {
-   font-size: 80px;
+    font-size: 80px;
   }
 }
 
 /* Large screens (min-width: 768px) */
 @media (min-width: 768px) {
   #float_img {
-    width: 350px; /* Adjusted width for large screens */
-    height: 350px; /* Adjusted height for large screens */
+    width: 350px;
+    /* Adjusted width for large screens */
+    height: 350px;
+    /* Adjusted height for large screens */
   }
+
   #title {
     font-size: 120px;
   }
 }
-
-
 </style>

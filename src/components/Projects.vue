@@ -69,7 +69,7 @@
   
   .card-text {
     font-size: 1rem;
-    color: #666; /* Example text color */
+    color: #333; /* Example text color */
   }
   </style>
   
