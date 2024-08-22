@@ -1,7 +1,8 @@
 <template>
   <div id="index_body_home">
-
+    <Intro />
     <Hero />
+   
 
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
@@ -20,7 +21,7 @@
                   <h1 id="typing-text">{{ typingText }}</h1>
                   <h5 class="text-start" style="z-index: 20;color: #ddd;">
                     <br><br><br>
-                    I'm a dedicated developer living in the Philippines.<br>
+                     I'm a dedicated developer living in the Philippines.<br>
                     I enjoy creating things that live on the internet.<br>
                     I'm always looking for new and exciting projects to work on.
                   </h5>
@@ -52,6 +53,7 @@
     <br><br><br><br><br>
     <Certs />
     <br><br><br><br><br>
+    <Vert />
     <Projects />
     <Contacts />
     <br><br><br>
@@ -60,7 +62,12 @@
 </template>
 
 <script setup>
+import { gsap } from 'gsap';
 import { ref, onMounted } from 'vue';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+
+
+import Intro from './Intro.vue';
 import Stack from './Stack.vue';
 import Projects from './Projects.vue';
 import Certs from './Certs.vue';
@@ -68,7 +75,9 @@ import Contacts from './Contact.vue';
 import Footer from './Footer.vue';
 import Hero from './Hero.vue';
 import About from './About.vue';
+import Vert from './Vert.vue'
 
+gsap.registerPlugin(ScrollTrigger);
 
 const textArray = ref(['A FullStack Developer.', 'A Web Designer.', 'I\'m also a digital artist.', 'Nice to meet you.']);
 const index = ref(0);
@@ -76,6 +85,7 @@ const letterIndex = ref(0);
 const direction = ref(1);
 const isFinished = ref(false);
 const typingText = ref('');
+
 
 function typeText() {
   typingText.value = textArray.value[index.value].substring(0, letterIndex.value);
@@ -95,9 +105,31 @@ function typeText() {
   letterIndex.value += direction.value;
   setTimeout(typeText, 50);
 }
+//gsap
+onMounted(() => {
+  typeText();
 
-onMounted(typeText);
+  gsap.from("#certs", {
+    scrollTrigger: {
+      trigger: "#certs",
+      start: "top 80%",
+      end: "top 50%",
+      toggleActions: "play none none none",
+    },
+    opacity: 0,
+    x: -100,
+    scale: 0.5,
+    duration: 1.5,
+    ease: "bounce.out",
+  });
+});
+
+
+
+
+
 </script>
+
 
 <style scoped>
 /* General Styles */
@@ -142,7 +174,18 @@ body {
 .im {
   font-size: 2rem;
 }
+.orange {
+  color:#ff8709;
+  background: none;
+}
 
+.demo {
+  padding: 2rem;
+  font-size: 1.5rem;
+  text-align: left;
+  height: 100vh;
+
+}
 
 
 .glitch {
