@@ -1,8 +1,8 @@
 <template>
     <div class="about_container my-5">
         <hr />
-        <div class="row mt-5 justify-content-between gy-4">
-            <section id="resume" class="col resume section">
+        <div class="row mt-5 justify-content-between">
+            <section id="resume" class="col resume secton">
                 <div class="section-decorator"></div> <!-- Vertical line wrapping the section -->
                 <h2 class="resume-title">Professional Highlights</h2>
 
@@ -37,15 +37,19 @@
         </div>
     </div>
     <Education />
+    <Club/>
+
 </template>
 
 <script setup>
 import Education from './AboutLayers/Education.vue';
+import Club from './AboutLayers/Club.vue';
+
 </script>
 
 <style lang="scss" scoped>
 .about_container {
-    color: rgba(240, 248, 255, 0.753);
+    color: #ddd;
 }
 
 .resume {
@@ -60,7 +64,7 @@ import Education from './AboutLayers/Education.vue';
     top: 0;
     bottom: 0;
     width: 2px;
-    background-color: #ffffff;
+    background-color: #ddd;
     /* White vertical line */
 }
 
@@ -72,9 +76,9 @@ import Education from './AboutLayers/Education.vue';
     left: -8px;
     width: 16px;
     height: 16px;
-    background-color: white;
+    background-color: #ddd;
     /* Circle background color */
-    border: 2px solid #ffffff;
+    border: 2px solid #ddd;
     /* White circle border */
     border-radius: 50%;
 }
@@ -115,7 +119,7 @@ import Education from './AboutLayers/Education.vue';
     /* Center vertically */
     width: 8px;
     height: 8px;
-    background-color: white;
+    background-color: #ddd;
     /* Dot color */
     border-radius: 50%;
     /* Make it a circle */

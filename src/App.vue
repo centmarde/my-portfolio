@@ -18,7 +18,7 @@
         <NavLink href="#home" @click="closeMenu">Home</NavLink>
         <NavLink href="#background" @click="closeMenu">Background</NavLink>
         <NavLink href="#stack" @click="closeMenu">Stack</NavLink>
-        <NavLink href="#graphics" @click="closeMenu">Achievements</NavLink>
+        <NavLink href="#graphics" @click="closeMenu">Certificates</NavLink>
         <NavLink href="#project" @click="closeMenu">Projects</NavLink>
         <NavLink href="#contact" @click="closeMenu">Contact</NavLink>
       </div>

@@ -1,42 +1,38 @@
-!<template>
-    <div class="body-index">
-        <hr>
-        <div class="row mt-5 justify-content-between">
-            <section id="resume" class="col resume section">
-                <div class="section-decorator"></div> <!-- Vertical line wrapping the section -->
-                <h2 class="resume-title">Education</h2>
+<template>
+    <div class="row mt-5 justify-content-between">
+        <section id="resume" class="col resume section body-index">
+            <div class="section-decorator"></div> <!-- Vertical line wrapping the section -->
+            <h2 class="resume-title">CLUB/ORGANIZATION AFFILIATIONS
+            </h2>
 
-                <div class="container">
-                    <div class="resume-item pb-0">
-                        <h4>Bachelor of Science in Information Technology
-                        </h4>
-                        <span>Aug 2021 - Present
-                        </span>
-                        <ul>
-                            <li>Caraga State Univeristy</li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-            <section id="resume" class="col resume section">
-                <div class="section-decorator"></div> <!-- Vertical line wrapping the section -->
-                <h2 class="resume-title">Training and Seminars Attended
-                </h2>
-                <div class="resume-item">
-                    <h4>PSITE Caraga</h4>
-
+            <div class="container">
+                <div class="resume-item pb-0">
+                    <h4>Society of Information Technology Students</h4>
+                    <span>Aug 2021 - Present
+                    </span>
                     <ul>
-                        <li>11th ICT Student Congress and Skills Competition hosted by the Philippine
-                            Society of Information Technology Educators (PSITE), Caraga region.</li>
+                        <li>Caraga State University</li>
                     </ul>
                 </div>
-            </section>
-        </div>
-        <br>
-        <br>
-        <hr>
+
+            </div>
+        </section>
+        <section id="resume" class="col resume section">
+            <div class="section-decorator"></div> <!-- Vertical line wrapping the section -->
+            <h2 class="resume-title">Other Skills</h2>
+            <div class="resume-item">
+                <ul>
+                    <li>Knowledge in Graphic design and Digital art using professional ICT tools like Photoshop
+                        Canva, Figma and ClipStudio.
+                    </li>
+                    <li>Knowledge in Git (Distributed Version Control System).
+                    </li>
+                    <li>Knowledge in microsoft 360 office.</li>
+                </ul>
+            </div>
+        </section>
+
     </div>
-    <br>
 </template>
 
 <script setup>
@@ -45,13 +41,10 @@ import { ref } from 'vue';
 </script>
 
 <style lang="scss" scoped>
-.body-index {
-    color: #ddd;
-}
-
 .resume {
     position: relative;
     padding-left: 40px;
+    color: #ddd;
     /* Add padding to make room for the decorator */
 }
 

@@ -8,7 +8,7 @@
     <!-- Introduction Section -->
     <section id="background" class="py-5">
       <div class="container">
-        <div class="row mt-5 mx-5">
+        <div class="row mx-5">
           <div class="col-lg-7 col-md-12 col-sm-12 mt-5">
             <div class="container">
               <div class="row align-items-center">
@@ -18,7 +18,7 @@
                   <!-- <h1 style="color: aliceblue;" class="mt-2 im justify-content-start">I'm</h1> -->
                   <h1 class="glitch mt-2 mx-1">Centmarde</h1>
                   <h1 id="typing-text">{{ typingText }}</h1>
-                  <h5 class="text-start" style="z-index: 20;color: aliceblue;">
+                  <h5 class="text-start" style="z-index: 20;color: #ddd;">
                     <br><br><br>
                     I'm a dedicated developer living in the Philippines.<br>
                     I enjoy creating things that live on the internet.<br>
@@ -106,7 +106,7 @@ body {
   min-height: 100vh;
   display: grid;
   place-items: center;
-  color: white;
+  color: #ddd;
   font-family: sans-serif;
 }
 
@@ -134,7 +134,7 @@ body {
 
 #typing-text {
   margin-bottom: 5rem;
-  color: white;
+  color: #ddd;
   position: absolute;
   z-index: 99;
 }
@@ -151,7 +151,7 @@ body {
   font-weight: 700;
   text-transform: uppercase;
   position: relative;
-  color: white;
+  color: #ddd;
   text-shadow: 0.05em 0 0 rgba(255, 0, 0, 0.75),
     -0.025em -0.05em 0 rgba(0, 255, 0, 0.75),
     0.025em 0.05em 0 rgba(0, 0, 255, 0.75);
@@ -218,7 +218,7 @@ body {
 
 
 .bg-details {
-  color: #FFFFFF;
+  color: #ddd;
 
   padding: 10px;
   border-radius: 10px;
