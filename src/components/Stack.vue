@@ -1,212 +1,121 @@
 <template>
   <section id="stack" class="mt-5">
     <div class="container tech">
-      <h2 id="certs" class="text-center mt-1 mb-4 py-1">Tech. Stack</h2>
-      <div class="row justify-content-center">
-        <div class="col card mx-1">
-          <div><img class="img-fluid mx-1 my-1 py-1" src="../assets/laravel.svg" alt="Laravel"></div>
-        </div>
-        
-        <div class="col card mx-1 py-1">
-          <div><img class="img-fluid mx-1 my-1" src="../assets/vue.png" alt="Vue"></div>
-        </div>
-        <div class="col card mx-1 py-3">
-          <div><img class="img-fluid " src="../assets/bootstrap_logo.svg.png" style="margin: auto;" alt="bootstrap"></div>
-        </div>
-        <div class="col card mx-1 py-3">
-          <div><img class="img-fluid" src="../assets/nodejs.png" alt="nodejs" style="margin: auto;"></div>
-        </div>
-        <div class="col card mx-1 py-1">
-          <div><img class="img-fluid" src="../assets/Photoshop.png" alt="nodejs" style="margin: auto;"></div>
-        </div>
-        <div class="col card mx-1 py-1">
-          <div><img class="img-fluid" src="../assets/postgres.png" alt="nodejs" style="margin: auto;"></div>
-        </div>
-        <div class="col card mx-1 py-1">
-          <div><img class="img-fluid" src="../assets/electron.png" alt="nodejs" style="margin: auto;"></div>
-        </div>
-      </div>
-      <div class="row mt-5">
-        <div class="col-sm-3 bars">
-            <h5>FrontEnd Technologies</h5>
-          <span>Bootstrap:</span>
-          <div class="progress mb-1" role="progressbar" aria-label="Success example" aria-valuenow="97"
-            aria-valuemin="0" aria-valuemax="100">
-            <div class="progress-bar bg-dark" style="width: 97%">97%</div>
+      <h2 id="certs" class="text-center mt-1 mb-4 py-1">Tech. Stack Ratings</h2>
+    <div class="row">
+      <div class="col"><div class="skills-content skills-animation">
+        <h5>Frontend Frameworks/Libraries</h5>
+
+        <div class="progress">
+          <span class="skill"><span>HTML</span> <i class="val">100%</i></span>
+          <div class="progress-bar-wrap">
+            <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
-          <span>Tailwind:</span>
-          <div class="progress mb-1" role="progressbar" aria-label="Success example" aria-valuenow="75"
-            aria-valuemin="0" aria-valuemax="100">
-            <div class="progress-bar bg-dark" style="width: 75%">75%</div>
+        </div><!-- End Skills Item -->
+
+        <div class="progress">
+          <span class="skill"><span>CSS</span> <i class="val">90%</i></span>
+          <div class="progress-bar-wrap">
+            <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
-          <span>Bulma CSS:</span>
-          <div class="progress mb-1" role="progressbar" aria-label="Success example" aria-valuenow="60"
-            aria-valuemin="0" aria-valuemax="100">
-            <div class="progress-bar bg-dark" style="width: 60%">60%</div>
+        </div><!-- End Skills Item -->
+
+        <div class="progress">
+          <span class="skill"><span>JavaScript</span> <i class="val">75%</i></span>
+          <div class="progress-bar-wrap">
+            <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
-          <span>CSS:</span>
-          <div class="progress mb-1" role="progressbar" aria-label="Info example" aria-valuenow="82" aria-valuemin="0"
-            aria-valuemax="100">
-            <div class="progress-bar bg-dark" style="width: 82%">82%</div>
+        </div><!-- End Skills Item -->
+
+        <div class="progress">
+          <span class="skill"><span>Photoshop</span> <i class="val">55%</i></span>
+          <div class="progress-bar-wrap">
+            <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
-          <span>HTML5:</span>
-          <div class="progress mb-1" role="progressbar" aria-label="Warning example" aria-valuenow="99" aria-valuemin="0"
-            aria-valuemax="100">
-            <div class="progress-bar bg-dark" style="width: 99%">99%</div>
-          </div>
-          <span>Vue:</span>
-          <div class="progress mb-1" role="progressbar" aria-label="Warning example" aria-valuenow="84" aria-valuemin="0"
-            aria-valuemax="100">
-            <div class="progress-bar bg-dark" style="width: 84%">84%</div>
-          </div>
-          <span>ReactJs:</span>
-          <div class="progress mb-1" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0"
-            aria-valuemax="100">
-            <div class="progress-bar bg-dark" style="width: 75%">75%</div>
-          </div>
-          <span>Svelte:</span>
-          <div class="progress mb-1" role="progressbar" aria-label="Warning example" aria-valuenow="60" aria-valuemin="0"
-            aria-valuemax="100">
-            <div class="progress-bar bg-dark" style="width: 60%">60%</div>
-          </div>
-          <span>Blade:</span>
-          <div class="progress mb-1" role="progressbar" aria-label="Warning example" aria-valuenow="78" aria-valuemin="0"
-            aria-valuemax="100">
-            <div class="progress-bar bg-dark" style="width: 78%">78%</div>
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <h5>BackEnd Technologies</h5>
-          <span>JavaScript:</span>
-          <div class="progress mb-1" role="progressbar" aria-label="Success example" aria-valuenow="95"
-            aria-valuemin="0" aria-valuemax="100">
-            <div class="progress-bar bg-dark" style="width: 95%">95%</div>
-          </div>
-          <span>Node Js:</span>
-          <div class="progress mb-1" role="progressbar" aria-label="Success example" aria-valuenow="81"
-            aria-valuemin="0" aria-valuemax="100">
-            <div class="progress-bar bg-dark" style="width: 81%">81%</div>
-          </div>
-          <span>PHP:</span>
-          <div class="progress mb-1" role="progressbar" aria-label="Success example" aria-valuenow="91"
-            aria-valuemin="0" aria-valuemax="100">
-            <div class="progress-bar bg-dark" style="width: 91%">91%</div>
-          </div>
-          <span>JAVA:</span>
-          <div class="progress mb-1" role="progressbar" aria-label="Info example" aria-valuenow="80" aria-valuemin="0"
-            aria-valuemax="100">
-            <div class="progress-bar bg-dark" style="width: 80%">80%</div>
-          </div>
-          <span>C:</span>
-          <div class="progress mb-1" role="progressbar" aria-label="Warning example" aria-valuenow="81" aria-valuemin="0"
-            aria-valuemax="100">
-            <div class="progress-bar bg-dark" style="width: 81%">81%</div>
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <h5>DataBase Tech. & Tools</h5>
-          <span>Postgres:</span>
-          <div class="progress mb-1" role="progressbar" aria-label="Success example" aria-valuenow="95"
-            aria-valuemin="0" aria-valuemax="100">
-            <div class="progress-bar bg-dark" style="width: 95%">95%</div>
-          </div>
-          <span>Mysql:</span>
-          <div class="progress mb-1" role="progressbar" aria-label="Success example" aria-valuenow="88"
-            aria-valuemin="0" aria-valuemax="100">
-            <div class="progress-bar bg-dark" style="width: 88%">88%</div>
-          </div>
-          <span>Supabase:</span>
-          <div class="progress mb-1" role="progressbar" aria-label="Success example" aria-valuenow="96"
-            aria-valuemin="0" aria-valuemax="100">
-            <div class="progress-bar bg-dark" style="width: 96%">96%</div>
-          </div>
-          <span>Sqlite3:</span>
-          <div class="progress mb-1" role="progressbar" aria-label="Info example" aria-valuenow="84" aria-valuemin="0"
-            aria-valuemax="100">
-            <div class="progress-bar bg-dark" style="width: 84%">84%</div>
-          </div>
-          <span>Jquery:</span>
-          <div class="progress mb-1" role="progressbar" aria-label="Info example" aria-valuenow="76" aria-valuemin="0"
-            aria-valuemax="100">
-            <div class="progress-bar bg-dark" style="width: 76%">76%</div>
-          </div>
-          
-        </div>
-        <div class="col-sm-3">
-          <h5>Other Technologies</h5>
-          <span>Git:</span>
-          <div class="progress mb-1" role="progressbar" aria-label="Success example" aria-valuenow="92"
-            aria-valuemin="0" aria-valuemax="100">
-            <div class="progress-bar bg-dark" style="width: 92%">92%</div>
-          </div>
-          <span>Photoshop:</span>
-          <div class="progress mb-1" role="progressbar" aria-label="Success example" aria-valuenow="99"
-            aria-valuemin="0" aria-valuemax="100">
-            <div class="progress-bar bg-dark" style="width: 99%">99%</div>
-          </div>
-          <span>Laravel:</span>
-          <div class="progress mb-1" role="progressbar" aria-label="Success example" aria-valuenow="90"
-            aria-valuemin="0" aria-valuemax="100">
-            <div class="progress-bar bg-dark" style="width: 90%">90%</div>
-          </div>
-          <span>Inertia<i class="fab fa-js"></i>:</span>
-          <div class="progress mb-1" role="progressbar" aria-label="Warning example" aria-valuenow="60" aria-valuemin="0"
-            aria-valuemax="100">
-            <div class="progress-bar bg-dark" style="width: 60%">60%</div>
-          </div>
-          <span>Rest Api<i class="fab fa-js"></i>:</span>
-          <div class="progress mb-1" role="progressbar" aria-label="Warning example" aria-valuenow="91" aria-valuemin="0"
-            aria-valuemax="100">
-            <div class="progress-bar bg-dark" style="width: 91%">91%</div>
-          </div>
-          <span>Electron js:</span>
-          <div class="progress mb-1" role="progressbar" aria-label="Info example" aria-valuenow="60" aria-valuemin="0"
-            aria-valuemax="100">
-            <div class="progress-bar bg-dark" style="width: 60%">60%</div>
-          </div>
-          <span>Capacitor js<i class="fab fa-js"></i>:</span>
-          <div class="progress mb-1" role="progressbar" aria-label="Warning example" aria-valuenow="98" aria-valuemin="0"
-            aria-valuemax="100">
-            <div class="progress-bar bg-danger" style="width: 98%">98%</div>
-          </div>
-          
-          
-        </div>
-      </div>
+        </div><!-- End Skills Item -->
+      </div></div>
+      <div class="col"></div>
+    </div>
+      
     </div>
   </section>
 </template>
 
-<script setup lang="ts">
-// No need for imports or additional setup with <script setup>
+<script>
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
+
+export default {
+  mounted() {
+    let progressBars = document.querySelectorAll('.skills-animation .progress-bar');
+    
+    const tl = gsap.timeline({
+      scrollTrigger: {
+        trigger: '.skills-animation',
+        start: 'top 80%',
+        toggleActions: 'play none none none'
+      }
+    });
+
+    progressBars.forEach((bar) => {
+      let value = bar.getAttribute('aria-valuenow');
+      tl.fromTo(bar, 
+        { width: '0%' }, 
+        {
+          width: value + '%',
+          duration: 1.5,
+          ease: 'power1.out'
+        },
+        0 // Sync all animations
+      );
+    });
+  }
+};
 </script>
 
 <style scoped>
-
-#stack {
-  position: relative;
-  padding: 80px 0;
-  z-index: 99;
+.skills-content h5 {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 30px 0 15px 0;
 }
-.tech{
-  color: aliceblue;
-}
-h2 {
-  color: #333;
-  /* Example text color */
-  font-size: 2.5rem;
+.progress {
+  height: 36px;
+  display: block;
+  background: none;
+  border-radius: 0;
+  margin-top: 15px;
 }
 
-.list-group {
-  margin-top: 20px;
+.progress .skill {
+  color: var(--default-color);
+  padding: 0;
+  margin: 0 0 6px 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  font-family: var(--heading-font);
 }
 
-.list-group-item {
-  background-color: #fff;
-  /* Example list item background color */
-  border-color: #ddd;
-  /* Example border color */
-  font-size: 1.2rem;
-  padding: 12px 20px;
+.progress .skill .val {
+  float: right;
+  font-style: normal;
+}
+
+.progress-bar-wrap {
+  background: #ddd;
+  height: 10px;
+}
+
+.progress-bar {
+  width: 1px;
+  height: 10px;
+  background-color: red;
+}
+
+.tech {
+  color: #ddd;
 }
 </style>

@@ -25,6 +25,8 @@
                     I enjoy creating things that live on the internet.<br>
                     I'm always looking for new and exciting projects to work on.
                   </h5>
+                  <h3 class="mt-4" style="color: #ddd;">Tech Stack</h3>
+                  <Tech/>
                 </div>
               </div>
             </div>
@@ -75,11 +77,12 @@ import Contacts from './Contact.vue';
 import Footer from './Footer.vue';
 import Hero from './Hero.vue';
 import About from './About.vue';
-import Vert from './Vert.vue'
+import Vert from './Vert.vue';
+import Tech from './Tech.vue'
 
 gsap.registerPlugin(ScrollTrigger);
 
-const textArray = ref(['A FullStack Developer.', 'A Web Designer.', 'I\'m also a digital artist.', 'Nice to meet you.']);
+const textArray = ref(['Future FullStack Developer.', 'A Web Designer.', 'I\'m also a digital artist.', 'Nice to meet you.']);
 const index = ref(0);
 const letterIndex = ref(0);
 const direction = ref(1);
