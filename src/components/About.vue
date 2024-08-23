@@ -16,7 +16,7 @@
                     <div class="resume-item pb-0">
                         <h4>Web Developer</h4>
                         <ul>
-                            <li>6 months experience in Web Development (JavaScript, React).</li>
+                            <li>6 months experience in Web Development (JavaScript, Vue3).</li>
                         </ul>
                     </div>
                 </div>

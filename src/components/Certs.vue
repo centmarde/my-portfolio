@@ -8,39 +8,39 @@
           <div class="section-decorator"></div> <!-- Vertical line wrapping the section -->
 
           <div class="resume-item pb-0">
-            <h4>Basic Level of Software Engineering</h4>
+            <h4 class="red">Basic Level of Software Engineering</h4>
             <ul>
               <li>July 3, 2024, Department of Information and Communications Technology</li>
             </ul>
           </div>
           <div class="resume-item pb-0">
-            <h4>Intermediate Level of Software Engineering</h4>
+            <h4 class="red">Intermediate Level of Software Engineering</h4>
             <ul>
               <li>May 7, 2024, Department of Information and Communications Technology</li>
             </ul>
           </div>
           <div class="resume-item pb-0">
-            <h4>Advanced Level of Software Engineering</h4>
+            <h4 class="red">Advanced Level of Software Engineering</h4>
             <ul>
               <li>April 17, 2024, Department of Information and Communications Technology</li>
             </ul>
           </div>
           <div class="resume-item pb-0">
-            <h4>Fundamentals of Marketing</h4>
+            <h4 class="red">Fundamentals of Marketing</h4>
             <ul>
               <li>earned in July 30, 2024 by Department of Information and
                 Communications Technology.</li>
             </ul>
           </div>
           <div class="resume-item pb-0">
-            <h4>Digital Innovation in Government</h4>
+            <h4 class="red">Digital Innovation in Government</h4>
             <ul>
               <li>earned in July 13, 2024 by Department of Information
                 and Communications Technology.</li>
             </ul>
           </div>
           <div class="resume-item pb-0">
-            <h4>Basic Building Blocks of the User Interface</h4>
+            <h4 class="red">Basic Building Blocks of the User Interface</h4>
             <ul>
               <li>earned in May 27, 2024 by Department of
                 Information and Communications Technology.
@@ -48,33 +48,33 @@
             </ul>
           </div>
           <div class="resume-item pb-0">
-            <h4>Functional Composition</h4>
+            <h4 class="red">Functional Composition</h4>
             <ul>
               <li>earned in April 6, 2024 by Department of Information and
                 Communications Technology.</li>
             </ul>
           </div>
           <div class="resume-item pb-0">
-            <h4>Introduction to CSS course</h4>
+            <h4 class="red">Introduction to CSS course</h4>
             <ul>
               <li>earned in January 24, 2024 by SoloLearn.
               </li>
             </ul>
           </div>
           <div class="resume-item pb-0">
-            <h4>Introduction to JavaScript course</h4>
+            <h4 class="red">Introduction to JavaScript course</h4>
             <ul>
               <li>earned in March 18, 2024 by SoloLearn.</li>
             </ul>
           </div>
           <div class="resume-item pb-0">
-            <h4>Introduction to Java course</h4>
+            <h4 class="red">Introduction to Java course</h4>
             <ul>
               <li>earned in April 21, 2024 by SoloLearn</li>
             </ul>
           </div>
           <div class="resume-item pb-0">
-            <h4>IJava Intermediate course</h4>
+            <h4 class="red">Java Intermediate course</h4>
             <ul>
               <li>earned in April 21, 2024 by SoloLearn.
               </li>
@@ -86,40 +86,40 @@
           <div class="section-decorator"></div> <!-- Vertical line wrapping the section -->
 
           <div class="resume-item pb-0">
-            <h4>Basic Level of Cloud Computing</h4>
+            <h4 class="red">Basic Level of Cloud Computing</h4>
             <ul>
               <li>March 16, 2024, Department of Information and Communications Technology</li>
             </ul>
           </div>
           <div class="resume-item pb-0">
-            <h4>Canva for Graphic Design</h4>
+            <h4 class="red">Canva for Graphic Design</h4>
             <ul>
               <li>April 2, 2024, Department of Information and Communications Technology</li>
             </ul>
           </div>
           <div class="resume-item pb-0">
-            <h4>Principles of Design</h4>
+            <h4 class="red">Principles of Design</h4>
             <ul>
               <li> earned in July 3, 2024 by Department of Information and
                 Communications Technology.</li>
             </ul>
           </div>
           <div class="resume-item pb-0">
-            <h4>Basic Level of Digital Transformation</h4>
+            <h4 class="red">Basic Level of Digital Transformation</h4>
             <ul>
               <li>earned in July 30, 2024 by Department of
                 Information and Communications Technology.</li>
             </ul>
           </div>
           <div class="resume-item pb-0">
-            <h4>Developing a Static Website</h4>
+            <h4 class="red">Developing a Static Website</h4>
             <ul>
               <li>earned in April 2, 2024 by Department of Information and
                 Communications Technology.</li>
             </ul>
           </div>
           <div class="resume-item pb-0">
-            <h4>Basic Javascript for Web Development</h4>
+            <h4 class="red">Basic Javascript for Web Development</h4>
             <ul>
               <li>earned in March 25, 2024 by Department of
                 Information and Communications Technology.
@@ -127,7 +127,7 @@
             </ul>
           </div>
           <div class="resume-item pb-0">
-            <h4>Using HTML and CSS to Design a Website</h4>
+            <h4 class="red">Using HTML and CSS to Design a Website</h4>
             <ul>
               <li>earned in March 15, 2024 by Department of
                 Information and Communications Technology.
@@ -135,7 +135,7 @@
             </ul>
           </div>
           <div class="resume-item pb-0">
-            <h4>Principles of Web Development and Introduction to HTML</h4>
+            <h4 class="red">Principles of Web Development and Introduction to HTML</h4>
             <ul>
               <li> earned in March 15, 2024 by
                 Department of Information and Communications Technology.
@@ -143,7 +143,7 @@
             </ul>
           </div>
           <div class="resume-item pb-0">
-            <h4>Introduction to Android Application Development</h4>
+            <h4 class="red">Introduction to Android Application Development</h4>
             <ul>
               <li>earned in March 11, 2024 by Department
                 of Information and Communications Technology.
@@ -151,14 +151,14 @@
             </ul>
           </div>
           <div class="resume-item pb-0">
-            <h4>Introduction to HTML course</h4>
+            <h4 class="red">Introduction to HTML course</h4>
             <ul>
               <li> earned in January 22, 2024 by SoloLearn.
               </li>
             </ul>
           </div>
           <div class="resume-item pb-0">
-            <h4>Online Art Competition</h4>
+            <h4 class="red">Online Art Competition</h4>
             <ul>
               <li> earned in December 10, 2020 by National Human Rights
                 Consciousness.
@@ -409,7 +409,9 @@ h2 {
   padding-left: 0;
   /* Remove default padding */
 }
-
+.red {
+  color: #A91D3A;
+}
 .resume-item ul li {
   position: relative;
   padding-left: 20px;

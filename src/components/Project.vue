@@ -1,8 +1,8 @@
 <template>
-  <section id="project">
+  <section id="project" class="container">
     <div class="horizontal-scroll-container">
       <div class="horizontal-scroll-content">
-        <section id="section1" class="horizontal-scroll-section">
+        <section id="section0" class="horizontal-scroll-section">
           <div class="row">
             <div class="col-12">
               <div class="container no-overlap-container">
@@ -10,6 +10,9 @@
               </div>
             </div>
           </div>
+        </section>
+        <section id="section1" class="horizontal-scroll-section">
+          
         </section>
         <section id="section2" class="horizontal-scroll-section">
           <!-- Example project cards -->
@@ -25,10 +28,140 @@
           </div>
         </section>
         <section id="section3" class="horizontal-scroll-section">
-          <SnoozeContents/>
+          <SnoozeContents />
         </section>
         <section id="section4" class="horizontal-scroll-section secfour">
-          <dotlottie-player id="svg" src="https://lottie.host/670eed5d-c55d-4137-a607-7110b5bae81b/60FiKmroDV.json" background="transparent" speed="0.8" style="width: 700px;" loop autoplay></dotlottie-player>
+          <div class="row text-center">
+            <div class="col-6 my-1">
+              <img src=".././assets/RMI.png" style="width: 100%;" alt="snooze img">
+            </div>
+            <div class="col-6 my-1">
+              <img src=".././assets/RMI2.png" style="width: 97.8%;" alt="snooze img">
+            </div>
+            <div class="col mt-2">
+              <img class="mx-1" src="../assets/java.png" style="width: 2rem;" alt="Java">
+              <img class="mx-1" src="../assets/mysql.png" style="width: 2.5rem;" alt="mysql">
+              <img class="mx-1" src="../assets/nodejs.png" style="width: 2rem;" alt="Nodjs">
+              <img class="mx-1" src="../assets/laravel.svg" style="width: 2rem;" alt="Laravel">
+            </div>
+            <h3>RMI Enrollment System</h3>
+            <span>Assign as a main developer for both the front and back end. <br> This project is all about how to
+              integrate different machines/tech. <br>
+              Examples include shared databases, Parsing, and invocation using REST API and CRUD
+              functionalities.</span>
+            <h5>
+              <a href="https://github.com/TheStrongestAlgorithm/RemoteMethodInvocation-Laravel.git" target="_blank"
+                rel="noopener noreferrer">
+                View on GitHub
+              </a>
+            </h5>
+          </div>
+
+
+        </section>
+        <section id="section5" class="horizontal-scroll-section secfive">
+          <div class="row">
+            <div class="col text-center mb-3">
+              <h3>Flames Desktop App</h3>
+              <span></span>Assign as a main developer. <br> A simple school project. Using pure Java's Library AWS and
+              SWING It's all about the
+              traditional game FLAMES. <br> In which you enter two names and determine your compatibility.
+
+            </div>
+            <div class="row ">
+              <div class="col d-flex justify-content-center">
+                <img class="mx-1 bordered-image" src="../assets/flames1.png" style="width: 20%;" alt="">
+                <img class="mx-1 bordered-image" src="../assets/flames2.png" style="width: 20%;" alt="">
+                <img class="mx-1 bordered-image" src="../assets/flames3.png" style="width: 20%;" alt="">
+              </div>
+
+            </div>
+            <div class="col d-flex justify-content-center mt-2">
+
+              <h5>
+                <a href="https://github.com/TheStrongestAlgorithm/Flames-queue-Java-algorithm.git" target="_blank"
+                  rel="noopener noreferrer">
+                  View on GitHub
+                </a>
+              </h5>
+            </div>
+          </div>
+
+        </section>
+        <section id="section6" class="horizontal-scroll-section secsix">
+          <div class="row">
+            <div class="col d-flex justify-content-center">
+              <img class="mx-2 bordered-image" src="../assets/learnit1.jpg" style="width: 30%;" alt="">
+              <img class="mx-2 bordered-image" src="../assets/learnit2.jpg" style="width: 30%;" alt="">
+            </div>
+
+            <div class="row">
+              <div class="col text-center mt-3"><img class="mx-1" src="../assets/html.png" style="width: 2rem;"
+                  alt="HTML">
+                <img class="mx-1" src="../assets/supabase.png" style="width: 2rem;" alt="supabase">
+                <img class="mx-1" src="../assets/nodejs.png" style="width: 2rem;" alt="Nodjs">
+                <img class="mx-1" src="../assets/Bootstrap_logo.svg.png" style="width: 2rem;" alt="bootstrap">
+                <h3 class="mt-2">Learn-It Mobile App.</h3>
+              </div>
+              <p class="text-center">Assign as a <b>Contributor</b> for back end. A school project. It's all about the
+                Q&A
+                mobile application.</p>
+              <h5 class="text-center">
+                <a href="https://github.com/TheStrongestAlgorithm/LearnIt.git" target="_blank"
+                  rel="noopener noreferrer">
+                  View on GitHub
+                </a>
+              </h5>
+            </div>
+
+          </div>
+        </section>
+        <section id="section7" class="horizontal-scroll-section secseven">
+
+          <div class="row">
+
+            <div class="col d-grid"><img class="my-1 bordered-image" src="../assets/cocktailcove1.jpg"
+                style="width: 95%;" alt="">
+              <img class="my-1 bordered-image" src="../assets/cocktailcove2.jpg" style="width: 95%;" alt="">
+
+            </div>
+            
+          </div>
+         
+          <h4 class="text-start"> <b style="font-size: 50px;">Cocktail Cove</b><br>Assign as a Contributor for back end. A school project. It's all about the
+            Cocktail mixed menu/ingredients mobile app.
+            
+            <div class="row"> 
+            <div class="col d-flex mt-4"><img class="mx-1" src="../assets/html.png" style="width: 2.5rem;" alt="HTML">
+            <img class="mx-1" src="../assets/supabase.png" style="width: 2.5rem;" alt="supabase">
+            <img class="mx-1" src="../assets/nodejs.png" style="width: 2.5rem;" alt="Nodjs">
+            <img class="mx-1" src="../assets/Bootstrap_logo.svg.png" style="width: 2.5rem;" alt="bootstrap"></div>
+            <h5 class="text-start mt-3">
+                <a href="https://github.com/TheStrongestAlgorithm/CocktailCove.git" target="_blank"
+                  rel="noopener noreferrer">
+                  View on GitHub
+                </a>
+              </h5>
+          </div>
+        </h4>
+          
+
+
+
+
+        </section>
+        <section id="section7" class="horizontal-scroll-section secseven">
+
+          <div class="row">
+
+
+
+          </div>
+
+
+
+
+
         </section>
       </div>
     </div>
@@ -48,6 +181,8 @@ gsap.registerPlugin(ScrollTrigger, MotionPathPlugin);
 const moonRef = ref(null);
 
 onMounted(() => {
+
+
   // Smooth horizontal scroll animation
   gsap.to(".horizontal-scroll-content", {
     x: () => -(document.querySelectorAll(".horizontal-scroll-section").length - 1) * window.innerWidth,
@@ -59,7 +194,7 @@ onMounted(() => {
       end: () => "+=" + document.querySelector(".horizontal-scroll-content").offsetWidth
     }
   });
-  
+
   // Fade and slide-in effect for each section
   document.querySelectorAll(".horizontal-scroll-section").forEach((section) => {
     gsap.fromTo(
@@ -158,13 +293,29 @@ h2 {
       rgba(255, 255, 255, 0) 100%);
 }
 
-.secfour{
+.secfour {
   color: #EEEEEE;
+  background-color: #f8f8f8;
 }
+
+.secfive {
+  background: linear-gradient(109.6deg, #151515 12%, #2c2c2c 50%, #EEEEEE 80%);
+}
+#section0{
+  background: #ffffff;
+}
+.secsix {
+  background: #EEEEEE;
+}
+
 #section2,
 #section3,
 #section4 {
   background: none;
+}
+
+#section5 {
+  color: #EEEEEE;
 }
 
 .horizontal-scroll-content {
@@ -187,9 +338,11 @@ h2 {
   width: 100%;
   z-index: 5;
 }
+
 @media (min-width: 1024px) {
   .top-image {
-    bottom: -1rem; /* Adjust this value as needed */
+    bottom: -1rem;
+    /* Adjust this value as needed */
   }
 }
 
@@ -222,5 +375,16 @@ h2 {
   width: 100%;
   z-index: 0;
   transform-origin: center;
+}
+
+.bordered-image {
+  border: 4px solid #EEEEEE;
+  /* White border with 4px thickness */
+  border-radius: 8px;
+  /* Optional: Rounded corners for the border */
+  padding: 2px;
+  /* Optional: Space between the image and the border */
+  box-shadow: 0 0 5px #151515;
+  /* Optional: Shadow effect */
 }
 </style>
