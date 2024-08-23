@@ -1,6 +1,6 @@
 <template>
   <div id="index_body_home">
-     <Intro />
+     <!-- <Intro /> -->
     <Hero />
 
 

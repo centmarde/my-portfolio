@@ -24,15 +24,11 @@
             </div>
           </div>
         </section>
-        <section id="section3" class="horizontal-scroll-section">Section 3
-          <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis non odio molestias doloribus, suscipit
-            ex nostrum illo iusto porro aliquam nemo voluptatibus fuga ipsa ipsum blanditiis soluta nesciunt repellat
-            exercitationem.</h1>
+        <section id="section3" class="horizontal-scroll-section">
+          <SnoozeContents/>
         </section>
-        <section id="section3" class="horizontal-scroll-section">Section 3
-          <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis non odio molestias doloribus, suscipit
-            ex nostrum illo iusto porro aliquam nemo voluptatibus fuga ipsa ipsum blanditiis soluta nesciunt repellat
-            exercitationem.</h1>
+        <section id="section4" class="horizontal-scroll-section secfour">
+          <dotlottie-player id="svg" src="https://lottie.host/670eed5d-c55d-4137-a607-7110b5bae81b/60FiKmroDV.json" background="transparent" speed="0.8" style="width: 700px;" loop autoplay></dotlottie-player>
         </section>
       </div>
     </div>
@@ -44,6 +40,8 @@ import { onMounted, ref } from 'vue';
 import gsap from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger';
 import { MotionPathPlugin } from 'gsap/MotionPathPlugin';
+
+import SnoozeContents from './SnoozeTutor/SnoozeContents.vue';
 
 gsap.registerPlugin(ScrollTrigger, MotionPathPlugin);
 
@@ -61,7 +59,7 @@ onMounted(() => {
       end: () => "+=" + document.querySelector(".horizontal-scroll-content").offsetWidth
     }
   });
-
+  
   // Fade and slide-in effect for each section
   document.querySelectorAll(".horizontal-scroll-section").forEach((section) => {
     gsap.fromTo(
@@ -160,8 +158,12 @@ h2 {
       rgba(255, 255, 255, 0) 100%);
 }
 
+.secfour{
+  color: #EEEEEE;
+}
 #section2,
-#section3 {
+#section3,
+#section4 {
   background: none;
 }
 
@@ -181,9 +183,14 @@ h2 {
 
 .top-image {
   position: relative;
-  bottom: -7rem;
+  bottom: -11rem;
   width: 100%;
   z-index: 5;
+}
+@media (min-width: 1024px) {
+  .top-image {
+    bottom: -1rem; /* Adjust this value as needed */
+  }
 }
 
 .moon {
