@@ -71,9 +71,9 @@
   }
   
   .contact-info {
-    background-color: #fff;
+    background-color: #EEEEEE;
     padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px #151515;
   }
   
   .social-links .btn {

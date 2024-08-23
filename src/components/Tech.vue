@@ -1,23 +1,23 @@
 <template>
       <div class="row justify-content-center">
         <div class="col card mx-1">
-          <div><img class="img-fluid mx-1 my-1 py-1" src="../assets/laravel.svg" alt="Laravel"></div>
+          <div><img class="img-fluid mx-1 py-1" src="../assets/laravel.svg" style="margin-top: 0.5rem;" alt="Laravel"></div>
         </div>
         
         <div class="col card mx-1 py-1">
-          <div><img class="img-fluid mx-1 my-1" src="../assets/vue.png" alt="Vue"></div>
+          <div><img class="img-fluid py-1" src="../assets/vue.png" style="margin-top: 0.5rem;" alt="Vue"></div>
         </div>
         <div class="col card mx-1 py-3">
-          <div><img class="img-fluid " src="../assets/bootstrap_logo.svg.png" style="margin: auto;" alt="bootstrap"></div>
+          <div><img class="img-fluid " src="../assets/bootstrap_logo.svg.png"  alt="bootstrap"></div>
         </div>
         <div class="col card mx-1 py-3">
-          <div><img class="img-fluid" src="../assets/nodejs.png" alt="nodejs" style="margin: auto;"></div>
+          <div><img class="img-fluid" src="../assets/nodejs.png" alt="nodejs" style="margin-top: 0.1rem;" ></div>
         </div>
         <div class="col card mx-1 py-1">
-          <div><img class="img-fluid" src="../assets/Photoshop.png" alt="nodejs" style="margin: auto;"></div>
+          <div><img class="img-fluid" src="../assets/Photoshop.png" alt="nodejs" style="margin-top: 0.5rem;"></div>
         </div>
         <div class="col card mx-1 py-1">
-          <div><img class="img-fluid" src="../assets/postgres.png" alt="nodejs" style="margin: auto;"></div>
+          <div><img class="img-fluid" src="../assets/postgres.png" alt="nodejs" style="margin-top: 0.5rem;"></div>
         </div>
        
       </div>
@@ -35,7 +35,7 @@
 }
 
 h2 {
-  color: #333;
+  color: #151515;
   /* Example text color */
   font-size: 2.5rem;
 }

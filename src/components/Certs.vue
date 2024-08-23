@@ -278,15 +278,15 @@ window.addEventListener('load', () => {
 #graphics {
   padding: 80px 0;
   overflow-x: hidden;
-  color: #ddd;
+  color: #EEEEEE;
 }
 
 .img-fluid {
   max-width: 100%;
   height: auto;
-  border: 1px solid #ddd;
+  border: 1px solid #EEEEEE;
   border-radius: 5px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px #151515;
   transition: transform 0.3s ease;
   cursor: pointer;
 }
@@ -296,7 +296,7 @@ window.addEventListener('load', () => {
 }
 
 h2 {
-  color: #333;
+  color: #151515;
   font-size: 2.5rem;
 }
 
@@ -328,7 +328,7 @@ h2 {
   height: 100%;
   top: 0;
   left: 0;
-  background-color: #333;
+  background-color: #151515;
   justify-content: center;
   align-items: center;
   opacity: 0;
@@ -355,7 +355,7 @@ h2 {
   top: 20px;
   left: 30px;
   font-size: 40px;
-  color: #ddd;
+  color: #EEEEEE;
   cursor: pointer;
 }
 
@@ -371,7 +371,7 @@ h2 {
   top: 0;
   bottom: 0;
   width: 2px;
-  background-color: #ddd;
+  background-color: #EEEEEE;
   /* White vertical line */
 }
 
@@ -383,9 +383,9 @@ h2 {
   left: -7px;
   width: 16px;
   height: 16px;
-  background-color: #ddd;
+  background-color: #A91D3A;
   /* Circle background color */
-  border: 2px solid #ddd;
+  border: 2px solid #A91D3A;
   /* White circle border */
   border-radius: 50%;
 }
@@ -426,7 +426,7 @@ h2 {
   /* Center vertically */
   width: 8px;
   height: 8px;
-  background-color: #ddd;
+  background-color: #EEEEEE;
   /* Dot color */
   border-radius: 50%;
   /* Make it a circle */

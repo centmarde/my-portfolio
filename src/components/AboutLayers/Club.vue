@@ -1,8 +1,8 @@
 <template>
-    <div class="row mt-5 justify-content-between">
-        <section id="resume" class="col resume section body-index">
+    <div class="row mt-5 justify-content-between body-index">
+        <section id="resume" class="col resume section ">
             <div class="section-decorator"></div> <!-- Vertical line wrapping the section -->
-            <h2 class="resume-title">CLUB/ORGANIZATION AFFILIATIONS
+            <h2 id="certs2" class="resume-title">CLUB/ORGANIZATION AFFILIATIONS
             </h2>
 
             <div class="container">
@@ -19,7 +19,7 @@
         </section>
         <section id="resume" class="col resume section">
             <div class="section-decorator"></div> <!-- Vertical line wrapping the section -->
-            <h2 class="resume-title">Other Skills</h2>
+            <h2 id="certs2" class="resume-title">Other Skills</h2>
             <div class="resume-item">
                 <ul>
                     <li>Knowledge in Graphic design and Digital art using professional ICT tools like Photoshop
@@ -31,7 +31,9 @@
                 </ul>
             </div>
         </section>
-
+        <br>
+        <br>
+        <hr class="mt-5">
     </div>
 </template>
 
@@ -41,10 +43,13 @@ import { ref } from 'vue';
 </script>
 
 <style lang="scss" scoped>
+.body-index {
+    color: #EEEEEE;
+}
 .resume {
     position: relative;
     padding-left: 40px;
-    color: #ddd;
+    color: #EEEEEE;
     /* Add padding to make room for the decorator */
 }
 
@@ -54,7 +59,7 @@ import { ref } from 'vue';
     top: 0;
     bottom: 0;
     width: 2px;
-    background-color: #ddd;
+    background-color: #EEEEEE;
     /* White vertical line */
 }
 
@@ -66,9 +71,9 @@ import { ref } from 'vue';
     left: -8px;
     width: 16px;
     height: 16px;
-    background-color: #ddd;
+    background-color: #A91D3A;
     /* Circle background color */
-    border: 2px solid #ffffff;
+    border: 2px solid #A91D3A;
     /* White circle border */
     border-radius: 50%;
 }
@@ -109,7 +114,7 @@ import { ref } from 'vue';
     /* Center vertically */
     width: 8px;
     height: 8px;
-    background-color: #ddd;
+    background-color: #EEEEEE;
     /* Dot color */
     border-radius: 50%;
     /* Make it a circle */

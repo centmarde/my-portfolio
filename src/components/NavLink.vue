@@ -31,19 +31,13 @@
   
   <style scoped>
   .nav-link {
-    color: white;
+    color: #EEEEEE;
     text-decoration: none;
     font-family: "Roboto Condensed", sans-serif;
     margin: 0 10px;
     transition: color 0.3s, transform 0.3s;
   }
   
-  .nav-link:hover {
-    color: lightblue;
-  }
-  
-  .is-active {
-    color: lightblue;
-  }
+
   </style>
   

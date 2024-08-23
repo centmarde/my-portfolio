@@ -49,8 +49,8 @@
   
   <style scoped>
   #footer {
-    background: #111;
-    color: #ffffff; /* Example text color */
+    background: #A91D3A;
+    color: #FFFFFF; /* Example text color */
     padding: 50px 0;
   }
   

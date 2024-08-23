@@ -4,7 +4,7 @@
         <div class="row mt-5 justify-content-between">
             <section id="resume" class="col resume secton">
                 <div class="section-decorator"></div> <!-- Vertical line wrapping the section -->
-                <h2 class="resume-title">Professional Highlights</h2>
+                <h2 id="certs2" class="resume-title">Professional Highlights</h2>
 
                 <div class="container">
                     <div class="resume-item pb-0">
@@ -23,7 +23,7 @@
             </section>
             <section id="resume" class="col resume section">
                 <div class="section-decorator"></div> <!-- Vertical line wrapping the section -->
-                <h2 class="resume-title">Work Experience</h2>
+                <h2 id="certs2" class="resume-title">Work Experience</h2>
                 <div class="resume-item">
                     <h4>Freelance Digital Artist/Graphic Designer</h4>
                     <span>Jan 2020 - Nov 2020</span>
@@ -49,7 +49,7 @@ import Club from './AboutLayers/Club.vue';
 
 <style lang="scss" scoped>
 .about_container {
-    color: #ddd;
+    color: #EEEEEE;
 }
 
 .resume {
@@ -64,7 +64,7 @@ import Club from './AboutLayers/Club.vue';
     top: 0;
     bottom: 0;
     width: 2px;
-    background-color: #ddd;
+    background-color: #EEEEEE;
     /* White vertical line */
 }
 
@@ -76,9 +76,9 @@ import Club from './AboutLayers/Club.vue';
     left: -8px;
     width: 16px;
     height: 16px;
-    background-color: #ddd;
+    background-color: #A91D3A;
     /* Circle background color */
-    border: 2px solid #ddd;
+    border: 2px solid #A91D3A;
     /* White circle border */
     border-radius: 50%;
 }
@@ -119,7 +119,7 @@ import Club from './AboutLayers/Club.vue';
     /* Center vertically */
     width: 8px;
     height: 8px;
-    background-color: #ddd;
+    background-color: #EEEEEE;
     /* Dot color */
     border-radius: 50%;
     /* Make it a circle */

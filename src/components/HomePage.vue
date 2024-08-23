@@ -1,8 +1,8 @@
 <template>
   <div id="index_body_home">
-    <Intro />
+     <Intro />
     <Hero />
-   
+
 
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
@@ -21,12 +21,12 @@
                   <h1 id="typing-text">{{ typingText }}</h1>
                   <h5 class="text-start" style="z-index: 20;color: #ddd;">
                     <br><br><br>
-                     I'm a dedicated developer living in the Philippines.<br>
+                    I'm a dedicated developer living in the Philippines.<br>
                     I enjoy creating things that live on the internet.<br>
                     I'm always looking for new and exciting projects to work on.
                   </h5>
                   <h3 class="mt-4" style="color: #ddd;">Tech Stack</h3>
-                  <Tech/>
+                  <Tech />
                 </div>
               </div>
             </div>
@@ -55,8 +55,8 @@
     <br><br><br><br><br>
     <Certs />
     <br><br><br><br><br>
-    <Vert />
-    <Projects />
+    <Project />
+
     <Contacts />
     <br><br><br>
     <Footer />
@@ -71,13 +71,12 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 import Intro from './Intro.vue';
 import Stack from './Stack.vue';
-import Projects from './Projects.vue';
 import Certs from './Certs.vue';
 import Contacts from './Contact.vue';
 import Footer from './Footer.vue';
 import Hero from './Hero.vue';
 import About from './About.vue';
-import Vert from './Vert.vue';
+import Project from './Project.vue';
 import Tech from './Tech.vue'
 
 gsap.registerPlugin(ScrollTrigger);
@@ -137,11 +136,11 @@ onMounted(() => {
 <style scoped>
 /* General Styles */
 body {
-  background: #333;
+  background: #151515;
   min-height: 100vh;
   display: grid;
   place-items: center;
-  color: #ddd;
+  color: #EEEEEE;
   font-family: sans-serif;
 }
 
@@ -169,7 +168,7 @@ body {
 
 #typing-text {
   margin-bottom: 5rem;
-  color: #ddd;
+  color: #EEEEEE;
   position: absolute;
   z-index: 99;
 }
@@ -177,8 +176,9 @@ body {
 .im {
   font-size: 2rem;
 }
+
 .orange {
-  color:#ff8709;
+  color: #ff8709;
   background: none;
 }
 
@@ -197,7 +197,7 @@ body {
   font-weight: 700;
   text-transform: uppercase;
   position: relative;
-  color: #ddd;
+  color: #EEEEEE;
   text-shadow: 0.05em 0 0 rgba(255, 0, 0, 0.75),
     -0.025em -0.05em 0 rgba(0, 255, 0, 0.75),
     0.025em 0.05em 0 rgba(0, 0, 255, 0.75);
@@ -228,7 +228,7 @@ body {
 #float_img {
   position: relative;
   animation: show 1s forwards, float 2s ease-in-out 1s infinite;
-  box-shadow: #333;
+  box-shadow: #151515;
   z-index: 0;
   top: 50px;
   left: 20px;
@@ -264,7 +264,7 @@ body {
 
 
 .bg-details {
-  color: #ddd;
+  color: #EEEEEE;
 
   padding: 10px;
   border-radius: 10px;
@@ -320,5 +320,22 @@ body {
   #title {
     font-size: 120px;
   }
+}
+
+h3.mt-4 {
+  position: relative; /* Make the heading position relative for the pseudo-element */
+  display: inline-block; /* Ensure the heading and line are on the same line */
+  padding-right:100px; /* Space between text and line */
+}
+
+h3.mt-4::after {
+  content: '';
+  position: absolute;
+  right: 0; /* Position the line to the right of the heading */
+  top: 50%; /* Center the line vertically with respect to the heading */
+  transform: translateY(-5%); /* Adjust vertical centering */
+  width: 5rem; /* Adjust the length of the line */
+  height: 2px; /* Thickness of the line */
+  background-color: #A91D3A; /* Color of the line */
 }
 </style>

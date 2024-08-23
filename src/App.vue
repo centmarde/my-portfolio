@@ -57,7 +57,7 @@ body {
   top: 20px;
   right: 20px;
   z-index: 10000;
-  background: #111;
+  background: #A91D3A;
 }
 
 #navcont {
@@ -95,7 +95,7 @@ body {
 .bar {
   width: 100%;
   height: 4px;
-  background-color: white;
+  background-color: #FFFFFF;
   transition: all 0.3s ease;
 }
 
@@ -116,22 +116,22 @@ body {
 }
 
 .nav-link {
-  color: white;
+  color: #FFFFFF;
   text-decoration: none;
   margin: 0 10px;
   transition: color 0.3s, transform 0.3s;
 }
 
 .nav-link:hover {
-  color: lightblue;
+  color: #A91D3A;
 }
 
 .nav-link.active {
-  color: lightblue;
+  color: #A91D3A;
 }
 
 .nav-text {
-  color: white;
+  color: #FFFFFF;
   font-size: 18px;
   text-align: center;
   margin-bottom: 10px;
@@ -140,7 +140,7 @@ body {
 .close-btn {
   background: none;
   border: none;
-  color: white;
+  color: #FFFFFF;
   font-size: 24px;
   cursor: pointer;
   position: absolute;
@@ -173,7 +173,7 @@ body {
     flex-direction: column;
     width: 100%;
     height: 100vh; /* Full height on mobile screens */
-    background-color: #333;
+    background-color: #151515;
     position: fixed; /* Fixed position to overlay the content */
     top: 0;
     left: 0;
@@ -197,8 +197,10 @@ body {
     justify-content: space-between;
   }
 }
-#nav{
-  background-color: #111;
+#nav {
+  background-color: #151515; /* Dark background color */
+  border: 2px solid #A91D3A; /* Red border with specified thickness */
 }
+
 
 </style>
