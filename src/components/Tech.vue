@@ -14,10 +14,10 @@
           <div><img class="img-fluid" src="../assets/nodejs.png" alt="nodejs" style="margin-top: 0.1rem;" ></div>
         </div>
         <div class="col card mx-1 py-1">
-          <div><img class="img-fluid" src="../assets/Photoshop.png" alt="nodejs" style="margin-top: 0.5rem;"></div>
+          <div><img class="img-fluid" src="../assets/Supabase.png" alt="nodejs" style="margin-top: 0.5rem;"></div>
         </div>
         <div class="col card mx-1 py-1">
-          <div><img class="img-fluid" src="../assets/postgres.png" alt="nodejs" style="margin-top: 0.5rem;"></div>
+          <div><img class="img-fluid" src="../assets/Photoshop.png" alt="nodejs" style="margin-top: 0.5rem;"></div>
         </div>
        
       </div>

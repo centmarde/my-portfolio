@@ -4,16 +4,16 @@
             project. It's all about the Q&A mobile application.</h5>
         <div class="row">
             <div class="col my-1">
-                <img src="../../assets/Projects/snooze/snooze1.png" style="width: 8rem;" alt="snooze img">
+                <img class="bordered-image" src="../../assets/Projects/snooze/snooze1.png" style="width: 8rem;" alt="snooze img">
             </div>
             <div class="col my-1">
-                <img src="../../assets/Projects/snooze/snooze2.png" style="width: 8rem;" alt="snooze img">
+                <img class="bordered-image" src="../../assets/Projects/snooze/snooze2.png" style="width: 8rem;" alt="snooze img">
             </div>
             <div class="col my-1">
-                <img src="../../assets/Projects/snooze/snooze3.png" style="width: 8rem;" alt="snooze img">
+                <img class="bordered-image" src="../../assets/Projects/snooze/snooze3.png" style="width: 8rem;" alt="snooze img">
             </div>
             <div class="col my-1">
-                <img src="../../assets/Projects/snooze/snooze4.png" style="width: 8rem;" alt="snooze img">
+                <img class="bordered-image" src="../../assets/Projects/snooze/snooze4.png" style="width: 8rem;" alt="snooze img">
             </div>
         </div>
         <div class="row">
@@ -30,7 +30,7 @@
                         rel="noopener noreferrer">
                         View on GitHub
                     </a>
-                </h5>F
+                </h5>
             </div>
 
         </div>
@@ -45,5 +45,15 @@
 <style lang="scss" scoped>
 .index {
     color: #EEEEEE;
+}
+.bordered-image {
+  border: 4px solid #EEEEEE;
+  /* White border with 4px thickness */
+  border-radius: 8px;
+  /* Optional: Rounded corners for the border */
+  padding: 2px;
+  /* Optional: Space between the image and the border */
+  box-shadow: 0 0 5px #151515;
+  /* Optional: Shadow effect */
 }
 </style>

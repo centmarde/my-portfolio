@@ -12,7 +12,7 @@
           </div>
         </section>
         <section id="section1" class="horizontal-scroll-section">
-          
+
         </section>
         <section id="section2" class="horizontal-scroll-section">
           <!-- Example project cards -->
@@ -33,10 +33,10 @@
         <section id="section4" class="horizontal-scroll-section secfour">
           <div class="row text-center">
             <div class="col-6 my-1">
-              <img src=".././assets/RMI.png" style="width: 100%;" alt="snooze img">
+              <img class="bordered-image" src=".././assets/RMI.png" style="width: 100%;" alt="snooze img">
             </div>
             <div class="col-6 my-1">
-              <img src=".././assets/RMI2.png" style="width: 97.8%;" alt="snooze img">
+              <img class="bordered-image" src=".././assets/RMI2.png" style="width: 97.8%;" alt="snooze img">
             </div>
             <div class="col mt-2">
               <img class="mx-1" src="../assets/java.png" style="width: 2rem;" alt="Java">
@@ -125,43 +125,129 @@
               <img class="my-1 bordered-image" src="../assets/cocktailcove2.jpg" style="width: 95%;" alt="">
 
             </div>
-            
+
           </div>
-         
-          <h4 class="text-start"> <b style="font-size: 50px;">Cocktail Cove</b><br>Assign as a Contributor for back end. A school project. It's all about the
+
+          <h4 class="text-start"> <b style="font-size: 50px;">Cocktail Cove</b><br>Assign as a Contributor for back end.
+            A school project. It's all about the
             Cocktail mixed menu/ingredients mobile app.
-            
-            <div class="row"> 
-            <div class="col d-flex mt-4"><img class="mx-1" src="../assets/html.png" style="width: 2.5rem;" alt="HTML">
-            <img class="mx-1" src="../assets/supabase.png" style="width: 2.5rem;" alt="supabase">
-            <img class="mx-1" src="../assets/nodejs.png" style="width: 2.5rem;" alt="Nodjs">
-            <img class="mx-1" src="../assets/Bootstrap_logo.svg.png" style="width: 2.5rem;" alt="bootstrap"></div>
-            <h5 class="text-start mt-3">
+
+            <div class="row">
+              <div class="col d-flex mt-4"><img class="mx-1" src="../assets/html.png" style="width: 2.5rem;" alt="HTML">
+                <img class="mx-1" src="../assets/supabase.png" style="width: 2.5rem;" alt="supabase">
+                <img class="mx-1" src="../assets/nodejs.png" style="width: 2.5rem;" alt="Nodjs">
+                <img class="mx-1" src="../assets/Bootstrap_logo.svg.png" style="width: 2.5rem;" alt="bootstrap">
+              </div>
+              <h5 class="text-start mt-3">
                 <a href="https://github.com/TheStrongestAlgorithm/CocktailCove.git" target="_blank"
                   rel="noopener noreferrer">
                   View on GitHub
                 </a>
               </h5>
-          </div>
-        </h4>
-          
+            </div>
+          </h4>
+
 
 
 
 
         </section>
-        <section id="section7" class="horizontal-scroll-section secseven">
+        <section id="section8" class="horizontal-scroll-section seceight">
+          <div class="contaier innereight text-center">
+            <div class="row">
+              <h2>RENTECH</h2>
+              <div class="col d-flex justify-content-center my-1">
+                <img class="bordered-image mx-2" src="../assets/rentech1.jpg" style="width: 10rem;" alt="snooze img">
+                <img class="bordered-image mx-2" src="../assets/rentech4.jpg" style="width: 10rem;" alt="snooze img">
+                <img class="bordered-image mx-2" src="../assets/rentech3.jpg" style="width: 10rem;" alt="snooze img">
+                <img class="bordered-image mx-2" src="../assets/rentech2.jpg" style="width: 10rem;" alt="snooze img">
+              </div>
+
+              <div class="row">
+                <div class="col text-center mt-2">
+                  <img class="mx-1" src="../assets/Bootstrap_logo.svg.png" style="width: 2rem;" alt="Java">
+                  <img class="mx-1" src="../assets/nodejs.png" style="width: 2.5rem;" alt="mysql">
+                  <img class="mx-1" src="../assets/Supabase.png" style="width: 2rem;" alt="Nodjs">
+                  <img class="mx-1" src="../assets/HTML.png" style="width: 2rem;" alt="Laravel">
+                </div>
+                <h5>Assign a Contributor for the backend. <br> A school project. It's all about buying
+                  laptops through a mobile app.</h5>
+                <div></div>
+                <h5> <a href="https://github.com/TheStrongestAlgorithm/RenTech.git" target="_blank"
+                    rel="noopener noreferrer">
+                    Github Repository version 1
+                  </a></h5>
+                <h5> <a href="https://github.com/TheStrongestAlgorithm/rentechv2.git" target="_blank"
+                    rel="noopener noreferrer">
+                    Github Repository version 2
+                  </a></h5>
+              </div>
+            </div>
+          </div>
+
+        </section>
+        <section id="section9" class="horizontal-scroll-section secnine">
+
+          <div class="contaier innernine text-center">
+            <div class="row">
+              <h2 class="text-light">CampusCare</h2>
+              <div class="col d-flex justify-content-center my-1">
+                <img class="bordered-image mx-2" src="../assets/CampusCare1.jpg" style="width: 35rem;" alt="snooze img">
+                <img class="bordered-image mx-2" src="../assets/CampusCare2.jpg" style="width: 35rem;" alt="snooze img">
+              </div>
+
+              <div class="row">
+                <div class="col text-center mt-2">
+                  <img class="mx-1" src="../assets/Bootstrap_logo.svg.png" style="width: 2rem;" alt="Java">
+                  <img class="mx-1" src="../assets/nodejs.png" style="width: 2.5rem;" alt="mysql">
+                  <img class="mx-1" src="../assets/Supabase.png" style="width: 2rem;" alt="Nodjs">
+                  <img class="mx-1" src="../assets/HTML.png" style="width: 2rem;" alt="Laravel">
+                </div>
+                <h5>Assign a Contributor for the backend. <br> A school project. It's all about buying
+                  laptops through a mobile app.</h5>
+                <div></div>
+                <h5> <a href=" Repository:https://github.com/TheStrongestAlgorithm/campusCare.git" target="_blank"
+                    rel="noopener noreferrer">
+                    View on GitHub
+                  </a></h5>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="section10" class="horizontal-scroll-section secten">
+          <div class="row innerten">
+            <div class="col d-flex justify-content-center">
+              <img class="mx-2 bordered-image" src="../assets/noteai1.jpg" style="width: 13%;" alt="">
+              <img class="mx-2 bordered-image" src="../assets/noteai2.jpg" style="width: 13%;" alt="">
+              <img class="mx-2 bordered-image" src="../assets/noteai3.png" style="width: 13%;" alt="">
+            </div>
+
+            <div class="row">
+              <div class="col text-center mt-3"><img class="mx-1" src="../assets/html.png" style="width: 2rem;"
+                  alt="HTML">
+                <img class="mx-1" src="../assets/supabase.png" style="width: 2rem;" alt="supabase">
+                <img class="mx-1" src="../assets/nodejs.png" style="width: 2rem;" alt="Nodjs">
+                <img class="mx-1" src="../assets/Bootstrap_logo.svg.png" style="width: 2rem;" alt="bootstrap">
+                <h3 class="mt-2">Learn-It Mobile App.</h3>
+              </div>
+              <p class="text-center"> Assign as a Contributor for both the front and back end. <br> A
+                school project. It's all Note taking application with a AI ChatBot.</p>
+              <h5 class="text-center">
+                <a href="https://github.com/TheStrongestAlgorithm/Note-Ai-version-2.git" target="_blank"
+                  rel="noopener noreferrer">
+                  View on GitHub
+                </a>
+              </h5>
+            </div>
+
+          </div>
+        </section>
+
+        <section id="section11" class="horizontal-scroll-section secteleven">
 
           <div class="row">
 
-
-
           </div>
-
-
-
-
-
         </section>
       </div>
     </div>
@@ -286,11 +372,11 @@ h2 {
 }
 
 #section1 {
-  background: linear-gradient(to right,
-      rgba(255, 255, 255, 1) 0%,
-      rgba(187, 158, 202, 0.5) 70%,
-      rgba(187, 158, 202, 0.2) 90%,
-      rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(109.6deg,
+      rgba(255, 255, 255, 1) 20%,
+      rgba(187, 158, 202, 0.5) 50%,
+      rgba(187, 158, 202, 0.2) 75%,
+      rgba(255, 255, 255, 0) 85%);
 }
 
 .secfour {
@@ -301,9 +387,11 @@ h2 {
 .secfive {
   background: linear-gradient(109.6deg, #151515 12%, #2c2c2c 50%, #EEEEEE 80%);
 }
-#section0{
+
+#section0 {
   background: #ffffff;
 }
+
 .secsix {
   background: #EEEEEE;
 }
@@ -325,6 +413,45 @@ h2 {
       rgb(27, 1, 61) 80%,
       rgba(173, 83, 137, 0) 100%);
 }
+
+.seceight {
+  background-image: linear-gradient(289.6deg,
+      #303030 0%,
+      /* Dark green */
+      #3b3b3b 16%,
+      /* Slightly lighter green */
+      #4b4b4b 22%,
+      /* Medium green */
+      #616161d8 30%,
+      /* Bright green */
+      #7070706e 40%,
+      /* Lighter green */
+      #94949434 70%,
+      /* Very light green */
+      rgba(255, 255, 255, 0) 80%);
+  /* Fade to transparency */
+}
+
+.secnine {
+  background-image: linear-gradient(289.6deg,
+      #131313 0%,
+      /* Starting with the last color from previous gradient */
+      #141414 20%,
+      /* Slightly darker green */
+      #1d1d1d 40%,
+      /* Medium dark green */
+      #222222 60%,
+      /* Dark green */
+      #2c2c2c 80%,
+      /* Very dark green */
+      #303030 90%);
+  /* Darkest green */
+}
+
+
+
+
+
 
 .image-wrapper {
   position: relative;
@@ -386,5 +513,15 @@ h2 {
   /* Optional: Space between the image and the border */
   box-shadow: 0 0 5px #151515;
   /* Optional: Shadow effect */
+}
+
+.innernine,
+.innerten {
+  color: #EEEEEE;
+}
+
+#section10,
+#section11{
+  background: #151515;
 }
 </style>
