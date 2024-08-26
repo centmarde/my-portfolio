@@ -292,21 +292,21 @@ function LottieScrollTrigger(vars) {
 @media (max-width: 992px) {
   .titleIntro {
     font-size: 90px; /* Adjusted font size for medium screens */
-    min-height: 160px; /* Adjusted min-height for medium screens */
+    min-height: 250px; /* Adjusted min-height for medium screens */
   }
 }
 
 @media (max-width: 768px) {
   .titleIntro {
     font-size: 75px; /* Adjusted font size for small screens */
-    min-height: 140px; /* Adjusted min-height for small screens */
+    min-height: 200px; /* Adjusted min-height for small screens */
   }
 }
 
 @media (max-width: 576px) {
   .titleIntro {
     font-size: 40px; /* Adjusted font size for extra small screens */
-    min-height: 100px; /* Adjusted min-height for extra small screens */
+    min-height: 200px; /* Adjusted min-height for extra small screens */
   }
 }
 </style>

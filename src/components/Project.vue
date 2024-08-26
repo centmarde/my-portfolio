@@ -1,5 +1,5 @@
 <template>
-  <section id="project" class="container">
+  <section id="project" class="container-fluid">
     <div class="horizontal-scroll-container">
       <div class="horizontal-scroll-content">
         <section id="section0" class="horizontal-scroll-section">

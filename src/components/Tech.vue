@@ -1,42 +1,65 @@
 <template>
-      <div class="row justify-content-center">
-        <div class="col card mx-1">
-          <div><img class="img-fluid mx-1 py-1" src="../assets/laravel.svg" style="margin-top: 0.5rem;" alt="Laravel"></div>
-        </div>
-        
-        <div class="col card mx-1 py-1">
-          <div><img class="img-fluid py-1" src="../assets/vue.png" style="margin-top: 0.5rem;" alt="Vue"></div>
-        </div>
-        <div class="col card mx-1 py-3">
-          <div><img class="img-fluid " src="../assets/bootstrap_logo.svg.png"  alt="bootstrap"></div>
-        </div>
-        <div class="col card mx-1 py-3">
-          <div><img class="img-fluid" src="../assets/nodejs.png" alt="nodejs" style="margin-top: 0.1rem;" ></div>
-        </div>
-        <div class="col card mx-1 py-1">
-          <div><img class="img-fluid" src="../assets/Supabase.png" alt="nodejs" style="margin-top: 0.5rem;"></div>
-        </div>
-        <div class="col card mx-1 py-1">
-          <div><img class="img-fluid" src="../assets/Photoshop.png" alt="nodejs" style="margin-top: 0.5rem;"></div>
-        </div>
-       
-      </div>
+  <div class="card-container">
+    <div class="card">
+      <img class="pic" src="../assets/laravel.svg" alt="Laravel">
+    </div>
+    <div class="card">
+      <img class="pic" src="../assets/vue.png" alt="Vue">
+    </div>
+    <div class="card">
+      <img class="pic" src="../assets/bootstrap_logo.svg.png" alt="Bootstrap">
+    </div>
+    <div class="card">
+      <img class="pic" src="../assets/nodejs.png" alt="Node.js">
+    </div>
+    <div class="card">
+      <img class="pic" src="../assets/Supabase.png" alt="Supabase">
+    </div>
+    <div class="card">
+      <img class="pic" src="../assets/Photoshop.png" alt="Photoshop">
+    </div>
+  </div>
 </template>
 
 <script setup>
-
 </script>
 
 <style lang="scss" scoped>
-#stack {
-  position: relative;
-  padding: 80px 0;
-  z-index: 99;
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem;
 }
 
-h2 {
-  color: #151515;
-  /* Example text color */
-  font-size: 2.5rem;
+.card {
+  flex: 1 1 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pic {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 992px) {
+  .pic {
+    width: 90px; /* Adjusted width for medium screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .pic {
+    width: 75px; /* Adjusted width for small screens */
+  }
+}
+
+@media (max-width: 576px) {
+  .pic {
+    width: 50px; /* Adjusted width for extra small screens */
+  }
 }
 </style>
