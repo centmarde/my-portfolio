@@ -219,13 +219,13 @@
             <img src="../assets/PrinciplesofDesign.png" alt="Graphic 15" class="img-fluid clickable">
           </div>
           <div class="col-4 col-md-4 col-sm-4 mb-4 mx-3">
-            <img src="../assets/PrinciplesofWeb" alt="Graphic 16" class="img-fluid clickable">
+            <img src="../assets/PrinciplesofWeb.png" alt="Graphic 16" class="img-fluid clickable">
           </div>
           <div class="col-4 col-md-4 col-sm-4 mb-4 mx-3">
-            <img src="../assets/StatecWebsite" alt="Graphic 17" class="img-fluid clickable">
+            <img src="../assets/StatecWebsite.png" alt="Graphic 17" class="img-fluid clickable">
           </div>
           <div class="col-4 col-md-4 col-sm-4 mb-4 mx-3">
-            <img src="../assets/Digital Transformation" alt="Graphic 17" class="img-fluid clickable">
+            <img src="../assets/Digital Transformation.png" alt="Graphic 17" class="img-fluid clickable">
           </div>
 
         </div>
