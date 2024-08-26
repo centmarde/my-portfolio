@@ -335,7 +335,7 @@ h2 {
   /* Initial opacity for transition */
   transition: opacity 0.3s ease;
   /* Add transition for fade effect */
-  z-index: 999;
+  z-index: 99999;
 }
 
 .overlay.active {
