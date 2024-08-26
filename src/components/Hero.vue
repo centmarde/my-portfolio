@@ -199,8 +199,10 @@ function LottieScrollTrigger(vars) {
 @media (max-width: 768px) {
   .animation {
     height: 100vh; /* Adjust for smaller screens */
+    position: absolute; /* Ensure it's positioned absolutely */
   }
 }
+
 
 
 

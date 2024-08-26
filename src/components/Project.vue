@@ -408,7 +408,7 @@ onMounted(() => {
 
 
 .horizontal-scroll-section {
-  flex: 0 0 80vw;
+  flex: 0 0 87vw;
   height: 100%;
   display: flex;
   align-items: center;
