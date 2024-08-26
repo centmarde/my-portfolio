@@ -20,7 +20,8 @@
         <NavLink href="#stack" @click="closeMenu">Stack</NavLink>
         <NavLink href="#graphics" @click="closeMenu">Certificates</NavLink>
         <NavLink href="#project" @click="closeMenu">Projects</NavLink>
-        <NavLink href="#contact" @click="closeMenu">Contact</NavLink>
+        <NavLink href="#OtherSkills" @click="closeMenu">Other Skills</NavLink>
+        <NavLink href="#footer" @click="closeMenu">Contacts</NavLink>
       </div>
     </div>
   </nav>

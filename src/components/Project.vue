@@ -228,7 +228,7 @@
                 <img class="mx-1" src="../assets/supabase.png" style="width: 2rem;" alt="supabase">
                 <img class="mx-1" src="../assets/nodejs.png" style="width: 2rem;" alt="Nodjs">
                 <img class="mx-1" src="../assets/Bootstrap_logo.svg.png" style="width: 2rem;" alt="bootstrap">
-                <h3 class="mt-2">Learn-It Mobile App.</h3>
+                <h3 class="mt-2">Smart Notes</h3>
               </div>
               <p class="text-center"> Assign as a Contributor for both the front and back end. <br> A
                 school project. It's all Note taking application with a AI ChatBot.</p>
@@ -246,9 +246,48 @@
         <section id="section11" class="horizontal-scroll-section secteleven">
 
           <div class="row">
+            
+            <div class="row innerten">
+           
+                
+              
+            <div class="row">
+              <h3 class="mt-2 text-center">Chic-Nails</h3>
+              <p class="text-center"> Assign as a Contributor for User authentication,role-base and made some
+                minor fixes. <br> A school project. It's all about the nail service reservation/scheduling.</p>
+              
+            </div>
+            <div class="col d-flex justify-content-center">
+              <img class="mx-2 bordered-image" src="../assets/Chic-nails1.jpg" style="width: 10%;" alt="">
+              <img class="mx-2 bordered-image" src="../assets/Chic-nails2.jpg" style="width: 10%;" alt="">
+              <img class="mx-2 bordered-image" src="../assets/Chic-nails3.jpg" style="width: 10%;" alt="">
+              
+            </div>
+            
+            
+            <h5 class="text-center">
+              <div class="col text-center mt-3"><img class="mx-1" src="../assets/html.png" style="width: 2rem;"
+                  alt="HTML">
+                <img class="mx-1" src="../assets/supabase.png" style="width: 2rem;" alt="supabase">
+                <img class="mx-1" src="../assets/nodejs.png" style="width: 2rem;" alt="Nodjs">
+                <img class="mx-1" src="../assets/Bootstrap_logo.svg.png" style="width: 2rem;" alt="bootstrap">
+               
+              </div>
+                <a href="https://github.com/TheStrongestAlgorithm/Chic-Nails.git" target="_blank"
+                  rel="noopener noreferrer">
+                  View on GitHub
+                </a>
+              </h5>
 
           </div>
+          </div>
         </section>
+        <section id="section12" class="horizontal-scroll-section secttwelve">
+
+<div class="row">
+
+</div>
+</section>
       </div>
     </div>
   </section>
@@ -520,8 +559,34 @@ h2 {
   color: #EEEEEE;
 }
 
-#section10,
-#section11{
+#section10{
   background: #151515;
 }
+
+#section11 {
+  background: #151515;
+  position: relative;
+  overflow: hidden;
+}
+#section12 {
+  background: #151515;
+  position: relative;
+  overflow: hidden;
+}
+
+#section11::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 800px; /* Increase the size of the circle */
+  height: 800px; /* Increase the size of the circle */
+  background: radial-gradient(circle at center, 
+              rgba(255, 105, 180, 0.8), /* pink color */
+              rgba(255, 105, 180, 0) 70%); /* fade out to transparent */
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  z-index: -1; /* Place the circle in the background */
+}
+
 </style>

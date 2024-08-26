@@ -57,7 +57,7 @@
     <br><br><br><br><br>
     <Project />
 
-    <Contacts />
+    <OtherSkills />
     <br><br><br>
     <Footer />
   </div>
@@ -72,7 +72,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import Intro from './Intro.vue';
 import Stack from './Stack.vue';
 import Certs from './Certs.vue';
-import Contacts from './Contact.vue';
+import OtherSkills from './OtherSkills.vue';
 import Footer from './Footer.vue';
 import Hero from './Hero.vue';
 import About from './About.vue';
