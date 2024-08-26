@@ -1,4 +1,5 @@
 <template>
+  <div class="marde text-light">Marde</div>
   <nav id="nav" class="navbar">
     <div id="navcont" class="container d-flex justify-content-between align-items-center">
       <div class="logo-container" :class="{ hidden: isMenuVisible }">
@@ -31,7 +32,8 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue';
+import { ref, onMounted } from 'vue';
+import { gsap } from 'gsap';
 import NavLink from './components/NavLink.vue';
 
 const isMenuVisible = ref(false);
@@ -39,9 +41,22 @@ const isMenuVisible = ref(false);
 const closeMenu = () => {
   isMenuVisible.value = false;
 };
+
 const toggleMenu = () => {
   isMenuVisible.value = !isMenuVisible.value;
 };
+
+onMounted(() => {
+  gsap.fromTo('.marde', {
+    scale: 1
+  }, {
+    scale: 1.5,
+    duration: 7,
+    ease: 'power1.inOut',
+    yoyo: true,
+    repeat: 0 // Ensure it only grows and shrinks once
+  });
+});
 </script>
 
 <style scoped>
@@ -51,7 +66,38 @@ body {
   margin: 0;
   font-family: "Roboto Condensed", sans-serif;
 }
+.marde {
+  font-family: "Pacifico", cursive;
+  position: fixed;
+  top: 35px;
+  left: 35px;
+  z-index: 10000;
+  font-size: 20px;
+  color: #EEEEEE;
+  text-shadow: 
+    0 0 5px #C73659, 
+    0 0 10px #C73659, 
+    0 0 15px #C73659;
+  animation: neon 2s infinite alternate;
+}
 
+@keyframes neon {
+  0% {
+    text-shadow: 
+      0 0 5px #C73659, 
+      0 0 10px #C73659;
+  }
+  50% {
+    text-shadow: 
+      0 0 10px #C73659, 
+      0 0 20px #C73659;
+  }
+  100% {
+    text-shadow: 
+      0 0 5px #C73659, 
+      0 0 10px #C73659;
+  }
+}
 .navbar {
   border-radius: 10px;
   position: fixed;
@@ -198,10 +244,9 @@ body {
     justify-content: space-between;
   }
 }
+
 #nav {
   background-color: #151515; /* Dark background color */
   border: 2px solid #A91D3A; /* Red border with specified thickness */
 }
-
-
 </style>

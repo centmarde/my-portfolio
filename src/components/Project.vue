@@ -11,9 +11,7 @@
             </div>
           </div>
         </section>
-        <section id="section1" class="horizontal-scroll-section">
 
-        </section>
         <section id="section2" class="horizontal-scroll-section">
           <!-- Example project cards -->
           <div class="row p-5">
@@ -70,9 +68,9 @@
             </div>
             <div class="row ">
               <div class="col d-flex justify-content-center">
-                <img class="mx-1 bordered-image" src="../assets/flames1.png" style="width: 20%;" alt="">
-                <img class="mx-1 bordered-image" src="../assets/flames2.png" style="width: 20%;" alt="">
-                <img class="mx-1 bordered-image" src="../assets/flames3.png" style="width: 20%;" alt="">
+                <img class="mx-1 bordered-image flames" src="../assets/flames1.png" alt="">
+
+                <img class="mx-1 bordered-image flames" src="../assets/flames3.png" alt="">
               </div>
 
             </div>
@@ -91,8 +89,8 @@
         <section id="section6" class="horizontal-scroll-section secsix">
           <div class="row">
             <div class="col d-flex justify-content-center">
-              <img class="mx-2 bordered-image" src="../assets/learnit1.jpg" style="width: 30%;" alt="">
-              <img class="mx-2 bordered-image" src="../assets/learnit2.jpg" style="width: 30%;" alt="">
+              <img class="mx-2 bordered-image learnit" src="../assets/learnit1.jpg" alt="">
+              <img class="mx-2 bordered-image learnit" src="../assets/learnit2.jpg" alt="">
             </div>
 
             <div class="row">
@@ -117,50 +115,79 @@
           </div>
         </section>
         <section id="section7" class="horizontal-scroll-section secseven">
-
-          <div class="row">
-
-            <div class="col d-grid"><img class="my-1 bordered-image" src="../assets/cocktailcove1.jpg"
-                style="width: 95%;" alt="">
-              <img class="my-1 bordered-image" src="../assets/cocktailcove2.jpg" style="width: 95%;" alt="">
+          <div class="container innerseven text-center">
+            <div class="col d-flex justify-content-center">
+              <img class="mx-2 bordered-image cocktailcove" src="../assets/cocktailcove1.jpg" alt="">
+              <img class="mx-2 bordered-image cocktailcove" src="../assets/cocktailcove2.jpg" alt="">
 
             </div>
 
-          </div>
-
-          <h4 class="text-start"> <b style="font-size: 50px;">Cocktail Cove</b><br>Assign as a Contributor for back end.
-            A school project. It's all about the
-            Cocktail mixed menu/ingredients mobile app.
-
             <div class="row">
-              <div class="col d-flex mt-4"><img class="mx-1" src="../assets/HTML.png" style="width: 2.5rem;" alt="HTML">
-                <img class="mx-1" src="../assets/Supabase.png" style="width: 2.5rem;" alt="supabase">
-                <img class="mx-1" src="../assets/nodejs.png" style="width: 2.5rem;" alt="Nodjs">
-                <img class="mx-1" src="../assets/Bootstrap_logo.svg.png" style="width: 2.5rem;" alt="bootstrap">
+              <div class="col text-center mt-3"><img class="mx-1" src="../assets/HTML.png" style="width: 2rem;"
+                  alt="HTML">
+                <img class="mx-1" src="../assets/Supabase.png" style="width: 2rem;" alt="supabase">
+                <img class="mx-1" src="../assets/nodejs.png" style="width: 2rem;" alt="Nodjs">
+                <img class="mx-1" src="../assets/Bootstrap_logo.svg.png" style="width: 2rem;" alt="bootstrap">
+                <h3 class="mt-2">Cocktail Cove</h3>
               </div>
-              <h5 class="text-start mt-3">
+              <p class="text-center"> Assign as a Contributor for back end. A school project. It's all about the
+                Cocktail mixed menu/ingredients mobile app.</p>
+              <h5 class="text-center">
                 <a href="https://github.com/TheStrongestAlgorithm/CocktailCove.git" target="_blank"
                   rel="noopener noreferrer">
                   View on GitHub
                 </a>
               </h5>
             </div>
-          </h4>
+          </div>
+        </section>
+        <section id="section11" class="horizontal-scroll-section secteleven">
+
+          <div class="row">
+
+            <div class="container innerten">
 
 
 
+              <div class="row">
+                <h3 class="mt-2 text-center">Chic-Nails</h3>
+                <p class="text-center"> Assign as a Contributor for User authentication,role-base and made some
+                  minor fixes. <br> A school project. It's all about the nail service reservation/scheduling.</p>
+
+              </div>
+              <div class="col d-flex justify-content-center">
+                <img class="mx-2 bordered-image chiccnails" src="../assets/Chic-nails1.jpg">
+                <img class="mx-2 bordered-image chiccnails" src="../assets/Chic-nails2.jpg">
 
 
+              </div>
+
+
+              <h5 class="text-center">
+                <div class="col text-center mt-3"><img class="mx-1" src="../assets/HTML.png" style="width: 2rem;"
+                    alt="HTML">
+                  <img class="mx-1" src="../assets/Supabase.png" style="width: 2rem;" alt="supabase">
+                  <img class="mx-1" src="../assets/nodejs.png" style="width: 2rem;" alt="Nodjs">
+                  <img class="mx-1" src="../assets/Bootstrap_logo.svg.png" style="width: 2rem;" alt="bootstrap">
+
+                </div>
+                <a href="https://github.com/TheStrongestAlgorithm/Chic-Nails.git" target="_blank"
+                  rel="noopener noreferrer">
+                  View on GitHub
+                </a>
+              </h5>
+
+            </div>
+          </div>
         </section>
         <section id="section8" class="horizontal-scroll-section seceight">
-          <div class="contaier innereight text-center">
+          <div class="container innereight text-center">
             <div class="row">
               <h2>RENTECH</h2>
               <div class="col d-flex justify-content-center my-1">
-                <img class="bordered-image mx-2" src="../assets/rentech1.jpg" style="width: 10rem;" alt="snooze img">
-                <img class="bordered-image mx-2" src="../assets/rentech4.jpg" style="width: 10rem;" alt="snooze img">
-                <img class="bordered-image mx-2" src="../assets/rentech3.jpg" style="width: 10rem;" alt="snooze img">
-                <img class="bordered-image mx-2" src="../assets/rentech2.jpg" style="width: 10rem;" alt="snooze img">
+                <img class="bordered-image mx-2 rentechimg" src="../assets/rentech1.jpg" alt="snooze img">
+                <img class="bordered-image mx-2 rentechimg" src="../assets/rentech4.jpg" alt="snooze img">
+                <img class="bordered-image mx-2 rentechimg" src="../assets/rentech3.jpg" alt="snooze img">
               </div>
 
               <div class="row">
@@ -192,8 +219,8 @@
             <div class="row">
               <h2 class="text-light">CampusCare</h2>
               <div class="col d-flex justify-content-center my-1">
-                <img class="bordered-image mx-2" src="../assets/CampusCare1.jpg" style="width: 35rem;" alt="snooze img">
-                <img class="bordered-image mx-2" src="../assets/CampusCare2.jpg" style="width: 35rem;" alt="snooze img">
+                <img class="bordered-image mx-2 campuscare" src="../assets/CampusCare1.jpg" alt="snooze img">
+
               </div>
 
               <div class="row">
@@ -214,12 +241,22 @@
             </div>
           </div>
         </section>
+
+        <!--  <section  class="horizontal-scroll-section dead">
+          <div class="row">
+           
+          </div>
+        </section> -->
+
+        <div class="row">
+
+        </div>
         <section id="section10" class="horizontal-scroll-section secten">
           <div class="row innerten">
             <div class="col d-flex justify-content-center">
-              <img class="mx-2 bordered-image" src="../assets/noteai1.jpg" style="width: 13%;" alt="">
-              <img class="mx-2 bordered-image" src="../assets/noteai2.jpg" style="width: 13%;" alt="">
-              <img class="mx-2 bordered-image" src="../assets/noteai3.png" style="width: 13%;" alt="">
+
+              <img class="mx-2 bordered-image smartai" src="../assets/noteai2.jpg">
+              <img class="mx-2 bordered-image smartai" src="../assets/noteai3.png">
             </div>
 
             <div class="row">
@@ -228,9 +265,9 @@
                 <img class="mx-1" src="../assets/Supabase.png" style="width: 2rem;" alt="supabase">
                 <img class="mx-1" src="../assets/nodejs.png" style="width: 2rem;" alt="Nodjs">
                 <img class="mx-1" src="../assets/Bootstrap_logo.svg.png" style="width: 2rem;" alt="bootstrap">
-                <h3 class="mt-2">Smart Notes</h3>
+                <h3 class="mt-2 text-light">Smart Notes</h3>
               </div>
-              <p class="text-center"> Assign as a Contributor for both the front and back end. <br> A
+              <p class="text-center text-light"> Assign as a Contributor for both the front and back end. <br> A
                 school project. It's all Note taking application with a AI ChatBot.</p>
               <h5 class="text-center">
                 <a href="https://github.com/TheStrongestAlgorithm/Note-Ai-version-2.git" target="_blank"
@@ -243,51 +280,13 @@
           </div>
         </section>
 
-        <section id="section11" class="horizontal-scroll-section secteleven">
 
-          <div class="row">
-            
-            <div class="row innerten">
-           
-                
-              
-            <div class="row">
-              <h3 class="mt-2 text-center">Chic-Nails</h3>
-              <p class="text-center"> Assign as a Contributor for User authentication,role-base and made some
-                minor fixes. <br> A school project. It's all about the nail service reservation/scheduling.</p>
-              
-            </div>
-            <div class="col d-flex justify-content-center">
-              <img class="mx-2 bordered-image" src="../assets/Chic-nails1.jpg" style="width: 10%;" alt="">
-              <img class="mx-2 bordered-image" src="../assets/Chic-nails2.jpg" style="width: 10%;" alt="">
-              <img class="mx-2 bordered-image" src="../assets/Chic-nails3.jpg" style="width: 10%;" alt="">
-              
-            </div>
-            
-            
-            <h5 class="text-center">
-              <div class="col text-center mt-3"><img class="mx-1" src="../assets/HTML.png" style="width: 2rem;"
-                  alt="HTML">
-                <img class="mx-1" src="../assets/Supabase.png" style="width: 2rem;" alt="supabase">
-                <img class="mx-1" src="../assets/nodejs.png" style="width: 2rem;" alt="Nodjs">
-                <img class="mx-1" src="../assets/Bootstrap_logo.svg.png" style="width: 2rem;" alt="bootstrap">
-               
-              </div>
-                <a href="https://github.com/TheStrongestAlgorithm/Chic-Nails.git" target="_blank"
-                  rel="noopener noreferrer">
-                  View on GitHub
-                </a>
-              </h5>
-
-          </div>
-          </div>
-        </section>
         <section id="section12" class="horizontal-scroll-section secttwelve">
 
-<div class="row">
+          <div class="row">
 
-</div>
-</section>
+          </div>
+        </section>
       </div>
     </div>
   </section>
@@ -357,10 +356,31 @@ onMounted(() => {
 #project_title {
   font-family: "Pacifico", cursive;
   font-size: 10rem;
-  color: #151515;
+  color: #EEEEEE;
   position: relative;
   display: inline-block;
-  text-shadow: 1px 1px 0 #A91D3A, -1px -1px 0 #A91D3A, 1px -1px 0 #A91D3A, -1px 1px 0 #A91D3A;
+  text-shadow: 1px 1px 0 #151515, -1px -1px 0 #151515, 1px -1px 0 #151515, -1px 1px 0 #151515;
+}
+
+/* Large screens (desktops) */
+@media (min-width: 1024px) {
+  #project_title {
+    font-size: 10rem;
+  }
+}
+
+/* Medium screens (tablets) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  #project_title {
+    font-size: 6rem;
+  }
+}
+
+/* Small screens (phones) */
+@media (max-width: 767px) {
+  #project_title {
+    font-size: 4rem;
+  }
 }
 
 #project_title_child {
@@ -380,13 +400,15 @@ onMounted(() => {
 .horizontal-scroll-content {
   display: flex;
   height: 100%;
-  width: 300vw;
-  /* Adjust based on the number of sections */
+  width: 1200vw;
+  /* Let the width be determined by the content */
   position: absolute;
+  /* Or relative, depending on the use case */
 }
 
+
 .horizontal-scroll-section {
-  flex: 1 0 100vw;
+  flex: 0 0 80vw;
   height: 100%;
   display: flex;
   align-items: center;
@@ -410,13 +432,26 @@ h2 {
   font-size: 2.5rem;
 }
 
-#section1 {
+#section3 {
   background: linear-gradient(109.6deg,
-      rgba(255, 255, 255, 1) 20%,
-      rgba(187, 158, 202, 0.5) 50%,
-      rgba(187, 158, 202, 0.2) 75%,
-      rgba(255, 255, 255, 0) 85%);
+      rgb(28, 0, 46) 0%,
+      rgb(28, 0, 46) 60%,
+      #151515 80%);
 }
+
+#section2 {
+  background-color: rgb(28, 0, 46);
+}
+
+#section4 {
+  background: linear-gradient(109.6deg,
+      rgba(0, 0, 0, 0.014) 0%,
+      rgba(0, 0, 0, 0.014) 30%,
+      #151515 40%,
+      #2c2c2c 60%,
+      #151515 80%);
+}
+
 
 .secfour {
   color: #EEEEEE;
@@ -427,30 +462,19 @@ h2 {
   background: linear-gradient(109.6deg, #151515 12%, #2c2c2c 50%, #EEEEEE 80%);
 }
 
-#section0 {
-  background: #ffffff;
-}
 
 .secsix {
   background: #EEEEEE;
 }
 
-#section2,
-#section3,
-#section4 {
-  background: none;
-}
+
 
 #section5 {
   color: #EEEEEE;
 }
 
 .horizontal-scroll-content {
-  background: linear-gradient(to left,
-      rgba(60, 16, 83, 0) 0%,
-      rgb(21, 0, 32) 20%,
-      rgb(27, 1, 61) 80%,
-      rgba(173, 83, 137, 0) 100%);
+  background-color: #151515;
 }
 
 .seceight {
@@ -554,20 +578,21 @@ h2 {
   /* Optional: Shadow effect */
 }
 
-.innernine,
-.innerten {
+.innernine {
   color: #EEEEEE;
 }
 
-#section10{
+#section10 {
   background: #151515;
 }
 
 #section11 {
-  background: #151515;
+  background: #EEEEEE;
+  color: #151515;
   position: relative;
   overflow: hidden;
 }
+
 #section12 {
   background: #151515;
   position: relative;
@@ -579,14 +604,104 @@ h2 {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 800px; /* Increase the size of the circle */
-  height: 800px; /* Increase the size of the circle */
-  background: radial-gradient(circle at center, 
-              rgba(255, 105, 180, 0.8), /* pink color */
-              rgba(255, 105, 180, 0) 70%); /* fade out to transparent */
+  width: 800px;
+  /* Increase the size of the circle */
+  height: 800px;
+  /* Increase the size of the circle */
+  background: radial-gradient(circle at center,
+      rgba(255, 105, 180, 0.8),
+      /* pink color */
+      rgba(255, 105, 180, 0) 70%);
+  /* fade out to transparent */
   transform: translate(-50%, -50%);
   border-radius: 50%;
-  z-index: -1; /* Place the circle in the background */
+  z-index: -1;
+  /* Place the circle in the background */
 }
 
+#section0 {
+  background: linear-gradient(109.6deg,
+      #eeeeeec5 0%,
+      rgb(28, 0, 46) 80%);
+}
+
+
+
+
+
+
+@media (min-width: 1024px) {
+
+  .rentechimg,
+  .chiccnails,
+  .smartai {
+    width: 10rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+  .rentechimg,
+  .chiccnails,
+  .smartai {
+    width: 10rem;
+  }
+}
+
+/* Small screens (phones) */
+@media (max-width: 767px) {
+
+  .rentechimg,
+  .chiccnails,
+  .smartai {
+    width: 10ch;
+  }
+}
+
+@media (min-width: 1024px) {
+  .campuscare {
+    width: 40rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .campuscare {
+    width: 20rem;
+  }
+}
+
+/* Small screens (phones) */
+@media (max-width: 767px) {
+  .campuscare {
+    width: 20ch;
+  }
+}
+
+@media (min-width: 1024px) {
+
+  .cocktailcove,
+  .learnit,
+  .flames {
+    width: 30ch;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+  .cocktailcove,
+  .learnit,
+  .flames {
+    width: 25ch;
+  }
+}
+
+/* Small screens (phones) */
+@media (max-width: 767px) {
+
+  .cocktailcove,
+  .learnit,
+  .flames {
+    width: 15ch;
+  }
+}
 </style>

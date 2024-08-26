@@ -4,16 +4,16 @@
             project. It's all about the Q&A mobile application.</h5>
         <div class="row">
             <div class="col my-1">
-                <img class="bordered-image" src="../../assets/Projects/snooze/snooze1.png" style="width: 8rem;" alt="snooze img">
+                <img class="bordered-image snooze" src="../../assets/Projects/snooze/snooze1.png"  alt="snooze img">
             </div>
             <div class="col my-1">
-                <img class="bordered-image" src="../../assets/Projects/snooze/snooze2.png" style="width: 8rem;" alt="snooze img">
+                <img class="bordered-image snooze" src="../../assets/Projects/snooze/snooze2.png"  alt="snooze img">
             </div>
             <div class="col my-1">
-                <img class="bordered-image" src="../../assets/Projects/snooze/snooze3.png" style="width: 8rem;" alt="snooze img">
+                <img class="bordered-image snooze" src="../../assets/Projects/snooze/snooze3.png"  alt="snooze img">
             </div>
             <div class="col my-1">
-                <img class="bordered-image" src="../../assets/Projects/snooze/snooze4.png" style="width: 8rem;" alt="snooze img">
+                <img class="bordered-image snooze" src="../../assets/Projects/snooze/snooze4.png"  alt="snooze img">
             </div>
         </div>
         <div class="row">
@@ -55,5 +55,23 @@
   /* Optional: Space between the image and the border */
   box-shadow: 0 0 5px #151515;
   /* Optional: Shadow effect */
+}
+
+@media (min-width: 1024px) {
+  .snooze{
+   width: 10rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .snooze{
+   width: 10rem;
+  }
+}
+
+/* Small screens (phones) */
+@media (max-width: 767px) {
+  .snooze{
+   width: 10ch;
+  }
 }
 </style>
