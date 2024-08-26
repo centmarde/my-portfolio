@@ -1,36 +1,33 @@
 <template>
-    <a :class="['nav-link', { 'is-active': isActive }]" :href="href" @click="setActiveLink">
-      <slot></slot>
-    </a>
-  </template>
-  
-  <script setup lang="ts">
-  import { ref } from 'vue';
-  
-  // Props
-  const props = defineProps({
-    href: {
-      type: String,
-      required: true,
-    },
+  <a :class="['nav-link', { 'is-active': isActive }]" :href=props.href @click="setActiveLink">
+    <slot></slot>
+  </a>
+</template>
+
+<script setup lang="ts">
+import { ref } from 'vue';
+
+// @ts-ignore
+const props = defineProps<{
+  href: string;
+}>();
+
+// State
+const isActive = ref(false);
+
+// Methods
+function setActiveLink(event: Event) {
+  isActive.value = true;
+  document.querySelectorAll('.nav-link').forEach((link) => {
+    if (link !== event.target) {
+      link.classList.remove('is-active');
+    }
   });
-  
-  // State
-  const isActive = ref(false);
-  
-  // Methods
-  function setActiveLink(event: Event) {
-    isActive.value = true;
-    document.querySelectorAll('.nav-link').forEach((link) => {
-      if (link !== event.target) {
-        link.classList.remove('is-active');
-      }
-    });
-  }
-  </script>
-  
-  <style scoped>
- .nav-link {
+}
+</script>
+
+<style scoped>
+.nav-link {
   color: #EEEEEE;
   text-decoration: none;
   font-family: "Roboto Condensed", sans-serif;
@@ -42,6 +39,4 @@
   color: #C73659; /* Example active color */
   text-transform: uppercase;
 }
-
-  </style>
-  
+</style>
