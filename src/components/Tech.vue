@@ -4,10 +4,10 @@
       <img class="pic" src="../assets/laravel.svg" alt="Laravel">
     </div>
     <div class="card">
-      <img class="pic" src="../assets/vue.png" alt="Vue">
+      <img class="pic" src="../assets/Vue.png" alt="Vue">
     </div>
     <div class="card">
-      <img class="pic" src="../assets/bootstrap_logo.svg.png" alt="Bootstrap">
+      <img class="pic" src="../assets/Bootstrap_logo.svg.png" alt="Bootstrap">
     </div>
     <div class="card">
       <img class="pic" src="../assets/nodejs.png" alt="Node.js">
