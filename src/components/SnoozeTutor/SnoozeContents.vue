@@ -21,7 +21,7 @@
                 <img class="mx-1" src="../../assets/HTML.png" style="width: 2rem;" alt="HTML">
                <img class="mx-1" src="../../assets/Bootstrap_logo.svg.png" style="width: 2rem;" alt="Bootstrap">
                <img class="mx-1" src="../../assets/nodejs.png" style="width: 2rem;" alt="Nodjs">
-               <img class="mx-1" src="../../assets/supabase.png" style="width: 2rem;" alt="supabase">
+               <img class="mx-1" src="../../assets/Supabase.png" style="width: 2rem;" alt="supabase">
                <img class="mx-1" src="../../assets/Photoshop.png" style="width: 2rem;" alt="photoshop">
             </div>
             <div class="col d-flex justify-content-end">
