@@ -96,7 +96,7 @@
             </div>
 
             <div class="row">
-              <div class="col text-center mt-3"><img class="mx-1" src="../assets/html.png" style="width: 2rem;"
+              <div class="col text-center mt-3"><img class="mx-1" src="../assets/HTML.png" style="width: 2rem;"
                   alt="HTML">
                 <img class="mx-1" src="../assets/supabase.png" style="width: 2rem;" alt="supabase">
                 <img class="mx-1" src="../assets/nodejs.png" style="width: 2rem;" alt="Nodjs">
@@ -133,7 +133,7 @@
             Cocktail mixed menu/ingredients mobile app.
 
             <div class="row">
-              <div class="col d-flex mt-4"><img class="mx-1" src="../assets/html.png" style="width: 2.5rem;" alt="HTML">
+              <div class="col d-flex mt-4"><img class="mx-1" src="../assets/HTML.png" style="width: 2.5rem;" alt="HTML">
                 <img class="mx-1" src="../assets/supabase.png" style="width: 2.5rem;" alt="supabase">
                 <img class="mx-1" src="../assets/nodejs.png" style="width: 2.5rem;" alt="Nodjs">
                 <img class="mx-1" src="../assets/Bootstrap_logo.svg.png" style="width: 2.5rem;" alt="bootstrap">
@@ -223,7 +223,7 @@
             </div>
 
             <div class="row">
-              <div class="col text-center mt-3"><img class="mx-1" src="../assets/html.png" style="width: 2rem;"
+              <div class="col text-center mt-3"><img class="mx-1" src="../assets/HTML.png" style="width: 2rem;"
                   alt="HTML">
                 <img class="mx-1" src="../assets/supabase.png" style="width: 2rem;" alt="supabase">
                 <img class="mx-1" src="../assets/nodejs.png" style="width: 2rem;" alt="Nodjs">
@@ -266,7 +266,7 @@
             
             
             <h5 class="text-center">
-              <div class="col text-center mt-3"><img class="mx-1" src="../assets/html.png" style="width: 2rem;"
+              <div class="col text-center mt-3"><img class="mx-1" src="../assets/HTML.png" style="width: 2rem;"
                   alt="HTML">
                 <img class="mx-1" src="../assets/supabase.png" style="width: 2rem;" alt="supabase">
                 <img class="mx-1" src="../assets/nodejs.png" style="width: 2rem;" alt="Nodjs">
