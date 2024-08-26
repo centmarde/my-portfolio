@@ -1,11 +1,10 @@
 <template>
+   <Hero />
   <div id="index_body_home">
-    <Intro />
-    <Hero />
-
-
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
+   <!--  <Intro /> -->
+   
+<div> 
+  
     <!-- Introduction Section -->
     <section id="background" class="py-5">
       <div class="container">
@@ -60,7 +59,9 @@
     <OtherSkills />
     <br><br><br>
     <Footer />
-  </div>
+  </div></div>
+
+   
 </template>
 
 <script setup>

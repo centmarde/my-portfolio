@@ -30,14 +30,18 @@
   </script>
   
   <style scoped>
-  .nav-link {
-    color: #EEEEEE;
-    text-decoration: none;
-    font-family: "Roboto Condensed", sans-serif;
-    margin: 0 10px;
-    transition: color 0.3s, transform 0.3s;
-  }
-  
+ .nav-link {
+  color: #EEEEEE;
+  text-decoration: none;
+  font-family: "Roboto Condensed", sans-serif;
+  margin: 0 10px;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.nav-link.is-active {
+  color: #C73659; /* Example active color */
+  text-transform: uppercase;
+}
 
   </style>
   

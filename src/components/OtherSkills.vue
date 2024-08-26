@@ -29,19 +29,7 @@
   </template>
   
   <script setup lang="ts">
-  import { ref } from 'vue';
-  
-  const formData = ref({
-    name: '',
-    email: '',
-    message: ''
-  });
-  
-  function submitForm() {
-    // Example submission logic
-    console.log('Form submitted:', formData.value);
-    // Implement your actual form submission logic here
-  }
+ 
   </script>
   
   <style scoped>

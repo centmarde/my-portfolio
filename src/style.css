@@ -1,9 +1,10 @@
 #index_body_home {
   background: #151515;
-  background-blend-mode: multiply, multiply;
+  background-blend-mode: normal; /* Or other blend mode if you need it */
   height: auto;
   overflow: hidden;
 }
+
 #certs {
   font-family: "Pacifico", cursive;
   font-size: 60px;
