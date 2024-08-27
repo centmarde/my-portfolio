@@ -242,11 +242,7 @@
           </div>
         </section>
 
-        <!--  <section  class="horizontal-scroll-section dead">
-          <div class="row">
-           
-          </div>
-        </section> -->
+       
 
         <div class="row">
 
@@ -419,7 +415,7 @@ onMounted(() => {
 .project-description {
   font-size: 1.25rem;
   color: #333;
-  line-height: 1.5;
+  line-height: 1.5; 
   margin-top: 1rem;
 }
 

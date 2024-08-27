@@ -2,7 +2,7 @@
     <div class="row mt-5 justify-content-between body-index">
         <section id="resume" class="col resume section ">
             <div class="section-decorator"></div> <!-- Vertical line wrapping the section -->
-            <h2 id="certs2" class="resume-title">CLUB/ORGANIZATION AFFILIATIONS
+            <h2 id="certs2" class="resume-title">CLUB & <br>ORGANIZATIONS
             </h2>
 
             <div class="container">

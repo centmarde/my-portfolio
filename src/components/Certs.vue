@@ -172,59 +172,59 @@
 
       <div class="run-animation">
         <div class="run-animation-inner">
-          <div class="col-4 col-md-4 col-sm-4 mb-4 mx-3">
+          <div class="col-4 col-md-4 col-sm-4  mx-3">
             <img src="../assets/Basic Building Blocks of the User Interface.pdf.png" alt="Graphic 1"
               class="img-fluid clickable">
           </div>
-          <div class="col-4 col-md-4 col-sm-4 mb-4 mx-3">
+          <div class="col-4 col-md-4 col-sm-4  mx-3">
             <img src="../assets/AdvanceLevelofSoftware.png" alt="Graphic 2" class="img-fluid clickable">
           </div>
-          <div class="col-4 col-md-4 col-sm-4 mb-4 mx-3">
+          <div class="col-4 col-md-4 col-sm-4  mx-3">
             <img src="../assets/AndroidApp.png" alt="Graphic 4" class="img-fluid clickable">
           </div>
-          <div class="col-4 col-md-4 col-sm-4 mb-4 mx-3">
+          <div class="col-4 col-md-4 col-sm-4  mx-3">
             <img src="../assets/Java Intermediate.png" alt="JavaIntermediate" class="img-fluid clickable">
           </div>
-          <div class="col-4 col-md-4 col-sm-4 mb-4 mx-3">
+          <div class="col-4 col-md-4 col-sm-4  mx-3">
             <img src="../assets/Art and Design.png" alt="Graphic 5" class="img-fluid clickable">
           </div>
-          <div class="col-4 col-md-4 col-sm-4 mb-4 mx-3">
+          <div class="col-4 col-md-4 col-sm-4  mx-3">
             <img src="../assets/BasicLevelofsoftware.png" alt="Graphic 6" class="img-fluid clickable">
           </div>
-          <div class="col-4 col-md-4 col-sm-4 mb-4 mx-3">
+          <div class="col-4 col-md-4 col-sm-4  mx-3">
             <img src="../assets/Canva.png" alt="Graphic 7" class="img-fluid clickable">
           </div>
-          <div class="col-4 col-md-4 col-sm-4 mb-4 mx-3">
+          <div class="col-4 col-md-4 col-sm-4  mx-3">
             <img src="../assets/CloudComputing.png" alt="Graphic 8" class="img-fluid clickable">
           </div>
-          <div class="col-4 col-md-4 col-sm-4 mb-4 mx-3">
+          <div class="col-4 col-md-4 col-sm-4  mx-3">
             <img src="../assets/DigitalInovation.png" alt="Graphic 9" class="img-fluid clickable">
           </div>
-          <div class="col-4 col-md-4 col-sm-4 mb-4 mx-3">
+          <div class="col-4 col-md-4 col-sm-4  mx-3">
             <img src="../assets/FunctionalComposition.png" alt="Graphic 10" class="img-fluid clickable">
           </div>
-          <div class="col-4 col-md-4 col-sm-4 mb-4 mx-3">
+          <div class="col-4 col-md-4 col-sm-4  mx-3">
             <img src="../assets/fundamentalsOfMarketing.png" alt="Graphic 11" class="img-fluid clickable">
           </div>
-          <div class="col-4 col-md-4 col-sm-4 mb-4 mx-3">
+          <div class="col-4 col-md-4 col-sm-4  mx-3">
             <img src="../assets/HTML and CSS design.png" alt="Graphic 12" class="img-fluid clickable">
           </div>
-          <div class="col-4 col-md-4 col-sm-4 mb-4 mx-3">
+          <div class="col-4 col-md-4 col-sm-4  mx-3">
             <img src="../assets/IntermediateLevelofSoftware.png" alt="Graphic 13" class="img-fluid clickable">
           </div>
-          <div class="col-4 col-md-4 col-sm-4 mb-4 mx-3">
+          <div class="col-4 col-md-4 col-sm-4  mx-3">
             <img src="../assets/JavaScriptforWeb.png" alt="Graphic 14" class="img-fluid clickable">
           </div>
-          <div class="col-4 col-md-4 col-sm-4 mb-4 mx-3">
+          <div class="col-4 col-md-4 col-sm-4  mx-3">
             <img src="../assets/PrinciplesofDesign.png" alt="Graphic 15" class="img-fluid clickable">
           </div>
-          <div class="col-4 col-md-4 col-sm-4 mb-4 mx-3">
+          <div class="col-4 col-md-4 col-sm-4  mx-3">
             <img src="../assets/PrinciplesofWeb.png" alt="Graphic 16" class="img-fluid clickable">
           </div>
-          <div class="col-4 col-md-4 col-sm-4 mb-4 mx-3">
+          <div class="col-4 col-md-4 col-sm-4  mx-3">
             <img src="../assets/StatecWebsite.png" alt="Graphic 17" class="img-fluid clickable">
           </div>
-          <div class="col-4 col-md-4 col-sm-4 mb-4 mx-3">
+          <div class="col-4 col-md-4 col-sm-4  mx-3">
             <img src="../assets/Digital Transformation.png" alt="Graphic 17" class="img-fluid clickable">
           </div>
 
@@ -318,7 +318,7 @@ h2 {
 
 .run-animation-inner {
   display: inline-flex;
-  animation: runRightToLeft 100s linear infinite;
+  animation: runRightToLeft 50s linear infinite;
 }
 
 .overlay {
