@@ -7,7 +7,7 @@
   
     <!-- Introduction Section -->
     <section id="background" class="py-5">
-      <div class="container">
+      <div id="contentsHome" class="container">
         <div class="row mx-5">
           <div class="col-lg-7 col-md-12 col-sm-12 mt-5">
             <div class="container">
@@ -69,7 +69,6 @@ import { gsap } from 'gsap';
 import { ref, onMounted } from 'vue';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
-
 import Intro from './Intro.vue';
 import Stack from './Stack.vue';
 import Certs from './Certs.vue';
@@ -78,40 +77,55 @@ import Footer from './Footer.vue';
 import Hero from './Hero.vue';
 import About from './About.vue';
 import Project from './Project.vue';
-import Tech from './Tech.vue'
-
-gsap.registerPlugin(ScrollTrigger);
-
-const textArray = ref(['Future FullStack Developer.', 'A Web Designer.', 'I\'m also a digital artist.', 'Nice to meet you.']);
-const index = ref(0);
-const letterIndex = ref(0);
-const direction = ref(1);
-const isFinished = ref(false);
-const typingText = ref('');
+import Tech from './Tech.vue';
 
 
-function typeText() {
-  typingText.value = textArray.value[index.value].substring(0, letterIndex.value);
+  // Text typing effect
+  const textArray = ref(['Future FullStack Developer.', 'A Web Designer.', 'I\'m also a digital artist.', 'Nice to meet you.']);
+  const index = ref(0);
+  const letterIndex = ref(0);
+  const direction = ref(1);
+  const isFinished = ref(false);
+  const typingText = ref('');
+  gsap.registerPlugin(ScrollTrigger);
 
-  if (letterIndex.value === textArray.value[index.value].length && !isFinished.value) {
-    isFinished.value = true;
-    setTimeout(() => {
-      isFinished.value = false;
-      index.value = (index.value + 1) % textArray.value.length;
-      letterIndex.value = 0;
+// GSAP fade-in animation for the #index_body_home div
+onMounted(() => {
+  gsap.from("#contentsHome", {
+    x: -100, // Start 100px to the left
+    opacity: 0, // Start with the div hidden
+    duration: 1.5, // Animation duration
+    ease: "power3.out", // Easing function
+    scrollTrigger: {
+      trigger: "#index_body_home",
+      start: "top 80%", // Trigger when the top of the div is 80% from the top of the viewport
+      end: "bottom 60%", // End when the bottom of the div reaches 60% of the viewport
+      toggleActions: "play none none reverse", // Play the animation when entering, reverse when leaving
+    }
+  });
+
+  function typeText() {
+    typingText.value = textArray.value[index.value].substring(0, letterIndex.value);
+
+    if (letterIndex.value === textArray.value[index.value].length && !isFinished.value) {
+      isFinished.value = true;
+      setTimeout(() => {
+        isFinished.value = false;
+        index.value = (index.value + 1) % textArray.value.length;
+        letterIndex.value = 0;
+        direction.value = 1;
+      }, 2000);
+    } else if (letterIndex.value === 0) {
       direction.value = 1;
-    }, 2000);
-  } else if (letterIndex.value === 0) {
-    direction.value = 1;
+    }
+
+    letterIndex.value += direction.value;
+    setTimeout(typeText, 50);
   }
 
-  letterIndex.value += direction.value;
-  setTimeout(typeText, 50);
-}
-//gsap
-onMounted(() => {
   typeText();
 
+  // Additional GSAP animations (if any)
   gsap.from("#certs", {
     scrollTrigger: {
       trigger: "#certs",
@@ -126,11 +140,6 @@ onMounted(() => {
     ease: "bounce.out",
   });
 });
-
-
-
-
-
 </script>
 
 

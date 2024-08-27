@@ -1,5 +1,6 @@
 <template>
-  <div class="marde text-light">Marde</div>
+  <div class="marde text-light">M</div>
+  <span class="marde" style="margin-top: 25px; font-family: 'Courier New', Courier, monospace; margin-left: 8px; font-size: 15px;">arde</span>
   <nav id="nav" class="navbar">
     <div id="navcont" class="container d-flex justify-content-between align-items-center">
       <div class="logo-container" :class="{ hidden: isMenuVisible }">
@@ -70,7 +71,7 @@ body {
   font-family: "Pacifico", cursive;
   position: fixed;
   top: 35px;
-  left: 35px;
+  left: 15px;
   z-index: 10000;
   font-size: 20px;
   color: #EEEEEE;
