@@ -404,7 +404,7 @@ onMounted(() => {
 
 
 .horizontal-scroll-section {
-  flex: 0 0 87vw;
+  flex: 1 0 87vw;
   height: 100%;
   display: flex;
   align-items: center;
@@ -604,10 +604,7 @@ h2 {
   /* Increase the size of the circle */
   height: 800px;
   /* Increase the size of the circle */
-  background: radial-gradient(circle at center,
-      rgba(255, 105, 180, 0.8),
-      /* pink color */
-      rgba(255, 105, 180, 0) 70%);
+ 
   /* fade out to transparent */
   transform: translate(-50%, -50%);
   border-radius: 50%;
