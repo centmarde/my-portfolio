@@ -7,7 +7,7 @@
   
     <!-- Introduction Section -->
     <section id="background" class="py-5">
-      <div id="contentsHome" class="container">
+      <div id="bg"><div id="contentsHome" class="container">
         <div class="row mx-5">
           <div class="col-lg-7 col-md-12 col-sm-12 mt-5">
             <div class="container">
@@ -40,10 +40,12 @@
             </div>
 
           </div>
-          <About />
+        
         </div>
 
-      </div>
+      </div></div>
+      <div class="container"> <About /></div>
+       
 
 
     </section>
@@ -347,5 +349,16 @@ h3.mt-4::after {
   width: 5rem; /* Adjust the length of the line */
   height: 2px; /* Thickness of the line */
   background-color: #A91D3A; /* Color of the line */
+}
+
+#bg{
+  width: 100%; /* Full width of the viewport */
+  height: 100vh; /* Full viewport height */
+  background-image: url("../assets/marde2.jpg"); /* Image URL */
+  background-size: cover; /* Ensure the image covers the element */
+  background-attachment: fixed; /* Fix the image in the viewport */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent repeating the image */
+  position: relative; /* Needed if you use a pseudo-element for gradients */
 }
 </style>
