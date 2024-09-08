@@ -364,36 +364,80 @@ h3.mt-4::after {
   background-repeat: no-repeat; /* Prevent repeating the image */
   position: relative; /* Needed if you use a pseudo-element for gradients */
 }
+/* For very large screens */
 @media (max-width: 2000px) {
   #bg {
-    height: 60vh; /* Increase height to 200vh on smaller screens */
+    height: 60vh;
   }
 }
+
+/* Large screens (desktops) */
 @media (max-width: 1700px) {
   #bg {
-    height: 70vh; /* Increase height to 200vh on smaller screens */
+    height: 70vh;
   }
 }
+
+/* Medium-large screens (tablets in landscape mode or large desktops) */
+@media (max-width: 1280px) {
+  #bg {
+    height: 80vh;
+  }
+}
+
+/* Medium screens (tablets in portrait mode or small desktops) */
 @media (max-width: 1080px) {
   #bg {
-    height: 68vh; /* Increase height to 200vh on smaller screens */
+    height: 85vh;
   }
 }
+@media (max-width: 1024px) {
+  #bg {
+    height: 130vh;
+  }
+}
+
+/* Small screens (large smartphones or small tablets) */
 @media (max-width: 990px) {
   #bg {
-    height: 100vh; /* Increase height to 200vh on smaller screens */
+    height: 90vh;
   }
 }
+@media (max-width: 768px) {
+  #bg {
+    height: 200vh;
+  }
+}
+/* Extra small screens (small smartphones) */
 @media (max-width: 600px) {
   #bg {
-    height: 100vh; /* Increase height to 200vh on smaller screens */
+    height: 100vh;
+  }
+}
+@media (max-width: 540px) {
+  #bg {
+    height: 120vh;
+  }
+}
+
+/* Very small screens (extra small smartphones) */
+@media (max-width: 450px) {
+  #bg {
+    height: 110vh;
   }
 }
 @media (max-width: 450px) {
   #bg {
-    height: 80vh; /* Increase height to 200vh on smaller screens */
+    height: 110vh;
   }
 }
+@media (max-width: 375px) {
+  #bg {
+    height: 180vh;
+  }
+}
+
+
   /* Medium screens (tablets) */
   @media (max-width: 1024px) {
     #certs {
