@@ -14,9 +14,9 @@
               <div class="row align-items-center">
                 <div class="col-12 col-md-auto"></div>
                 <div class="col-12 col-md-auto text-start">
-                  <h1 id="certs">Hi There, Im</h1>
+                  <h1 class="title" id="certs">Hi There, Im</h1>
                   <!-- <h1 style="color: aliceblue;" class="mt-2 im justify-content-start">I'm</h1> -->
-                  <h1 class="glitch mt-2 mx-1">Centmarde</h1>
+                  <h1 id="title" class="glitch mt-2 mx-1">Centmarde</h1>
                   <h1 id="typing-text">{{ typingText }}</h1>
                   <h5 class="text-start" style="z-index: 20;color: #ddd;">
                     <br><br><br>
@@ -303,6 +303,9 @@ body {
     height: 150px;
     /* Adjusted height for medium screens */
   }
+  #title {
+    font-size: 20px;
+  }
 
 }
 
@@ -316,7 +319,7 @@ body {
   }
 
   #title {
-    font-size: 80px;
+    font-size: 50px;
   }
 }
 
@@ -330,7 +333,7 @@ body {
   }
 
   #title {
-    font-size: 120px;
+    font-size: 80px;
   }
 }
 
@@ -361,4 +364,35 @@ h3.mt-4::after {
   background-repeat: no-repeat; /* Prevent repeating the image */
   position: relative; /* Needed if you use a pseudo-element for gradients */
 }
+
+@media (max-width: 1080px) {
+  #bg {
+    height: 200vh; /* Increase height to 200vh on smaller screens */
+  }
+}
+@media (max-width: 329px) {
+  #bg {
+    height: 250vh; /* Increase height to 200vh on smaller screens */
+  }
+}
+  /* Medium screens (tablets) */
+  @media (max-width: 1024px) {
+    #certs {
+      font-size: 80px; /* Decrease font size for medium screens */
+    }
+  }
+
+  /* Small screens (phones) */
+  @media (max-width: 768px) {
+    #certs {
+      font-size: 65px; /* Decrease font size further for small screens */
+    }
+  }
+
+  /* Extra small screens (small phones) */
+  @media (max-width: 480px) {
+    #certs {
+      font-size: 40px; /* Smallest font size for extra small screens */
+    }
+  }
 </style>
