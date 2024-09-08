@@ -364,15 +364,34 @@ h3.mt-4::after {
   background-repeat: no-repeat; /* Prevent repeating the image */
   position: relative; /* Needed if you use a pseudo-element for gradients */
 }
-
-@media (max-width: 1080px) {
+@media (max-width: 2000px) {
   #bg {
-    height: 200vh; /* Increase height to 200vh on smaller screens */
+    height: 60vh; /* Increase height to 200vh on smaller screens */
   }
 }
-@media (max-width: 329px) {
+@media (max-width: 1700px) {
   #bg {
-    height: 250vh; /* Increase height to 200vh on smaller screens */
+    height: 70vh; /* Increase height to 200vh on smaller screens */
+  }
+}
+@media (max-width: 1080px) {
+  #bg {
+    height: 68vh; /* Increase height to 200vh on smaller screens */
+  }
+}
+@media (max-width: 990px) {
+  #bg {
+    height: 100vh; /* Increase height to 200vh on smaller screens */
+  }
+}
+@media (max-width: 600px) {
+  #bg {
+    height: 100vh; /* Increase height to 200vh on smaller screens */
+  }
+}
+@media (max-width: 450px) {
+  #bg {
+    height: 80vh; /* Increase height to 200vh on smaller screens */
   }
 }
   /* Medium screens (tablets) */
