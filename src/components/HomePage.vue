@@ -398,25 +398,31 @@ h3.mt-4::after {
 }
 
 /* Small screens (large smartphones or small tablets) */
-@media (max-width: 990px) {
+@media (max-width: 990px) and (min-width: 956px) {
   #bg {
-    height: 90vh;
+    height: 120vh;
   }
 }
-@media (max-width: 768px) {
+
+@media (max-width: 955px) {
   #bg {
-    height: 200vh;
+    height: 120vh;
+  }
+}
+@media (max-width: 768px)and (min-width: 600px) {
+  #bg {
+    height: 130vh;
   }
 }
 /* Extra small screens (small smartphones) */
-@media (max-width: 600px) {
+@media (max-width: 600px)and (min-width: 401px)  {
   #bg {
-    height: 100vh;
+    height: 50vh;
   }
 }
-@media (max-width: 540px) {
+@media (max-width: 596px)and (min-width: 400px) {
   #bg {
-    height: 120vh;
+    height: 130vh;
   }
 }
 
