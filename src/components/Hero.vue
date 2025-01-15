@@ -35,7 +35,7 @@ onMounted(() => {
       target: container,
       path: "/assets/VideoCont.json", // Path adjusted
       scrub: 0.5, // Adjust scrub for smoother animation
-      fps: 60, // Request high FPS for smoother animation
+      fps: 30, // Request high FPS for smoother animation
     });
   });
 });

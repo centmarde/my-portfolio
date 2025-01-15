@@ -28,6 +28,13 @@
         <section id="section3" class="horizontal-scroll-section">
           <SnoozeContents />
         </section>
+
+        <section id="section11" class="horizontal-scroll-section secteleven">
+             <div class="row">
+              <AutoSolutionsContents />
+             </div>
+        </section>
+       
         <section id="section4" class="horizontal-scroll-section secfour">
           <div class="row text-center">
             <div class="col-6 my-1">
@@ -276,7 +283,7 @@
           </div>
         </section>
 
-
+       
         <section id="section12" class="horizontal-scroll-section secttwelve">
 
           <div class="row">
@@ -295,6 +302,7 @@ import ScrollTrigger from 'gsap/ScrollTrigger';
 import { MotionPathPlugin } from 'gsap/MotionPathPlugin';
 
 import SnoozeContents from './SnoozeTutor/SnoozeContents.vue';
+import AutoSolutionsContents from './Auto-Solutions/AutoSolutionsContents.vue';
 
 gsap.registerPlugin(ScrollTrigger, MotionPathPlugin);
 
@@ -583,7 +591,7 @@ h2 {
 }
 
 #section11 {
-  background: #EEEEEE;
+  background: #151515;
   color: #151515;
   position: relative;
   overflow: hidden;
