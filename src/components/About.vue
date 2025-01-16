@@ -10,13 +10,19 @@
                     <div class="resume-item pb-0">
                         <h4>Mobile Developer</h4>
                         <ul>
-                            <li>6 months experience in Mobile Development (NodeJs).</li>
+                            <li>13 months experience in Mobile Development (CapacitorJs).</li>
                         </ul>
                     </div>
                     <div class="resume-item pb-0">
                         <h4>Web Developer</h4>
                         <ul>
-                            <li>6 months experience in Web Development (JavaScript, Vue3).</li>
+                            <li>13 months experience in Web Development (Laravel,Django,Vue3).</li>
+                        </ul>
+                    </div>
+                    <div class="resume-item pb-0">
+                        <h4>Game Developer</h4>
+                        <ul>
+                            <li>3 months experience in Game Development (JavaScript, Vue3).</li>
                         </ul>
                     </div>
                 </div>
@@ -30,7 +36,7 @@
                     <ul>
                         <li>Created fan arts and graphic designs in JPEG and PNG formats for use on stickers,
                             tarpaulins, and canvases for HoloLive artists living overseas.</li>
-                        <li>Developed a personalized codeless website for a HoloLive performer.</li>
+                            <li>accepting freelance commissions.</li>
                     </ul>
                 </div>
             </section>

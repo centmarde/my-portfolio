@@ -10,7 +10,15 @@
                     <h4>Society of Information Technology Students</h4>
                     <span>Aug 2021 - Present
                     </span>
-                    <ul>
+                    <ul><li>Position - member</li>
+                        <li>Caraga State University</li>
+                    </ul>
+                </div>
+                <div class="resume-item pb-0">
+                    <h4>CSU game developers</h4>
+                    <span>Aug 2021 - Present
+                    </span>
+                    <ul><li>Position - Lead Developer</li>
                         <li>Caraga State University</li>
                     </ul>
                 </div>
@@ -19,15 +27,11 @@
         </section>
         <section id="resume" class="col resume section">
             <div class="section-decorator"></div> <!-- Vertical line wrapping the section -->
-            <h2 id="certs2" class="resume-title">Other Skills</h2>
+            <h2 id="certs2" class="resume-title">MILESTONE</h2>
             <div class="resume-item">
                 <ul>
-                    <li>Knowledge in Graphic design and Digital art using professional ICT tools like Photoshop
-                        Canva, Figma and ClipStudio.
-                    </li>
-                    <li>Knowledge in Git (Distributed Version Control System).
-                    </li>
-                    <li>Knowledge in microsoft 360 office.</li>
+                    <li>🥉 3rd Placer in the 2024 National game development Competition in DOST-NSTW philippines.</li>
+                   
                 </ul>
             </div>
         </section>
