@@ -16,7 +16,7 @@
       </span>
     </div>
     <div class="row txt">
-      <div class="col text-center">
+      <div class="col ">
         <img class="mx-1" src="../../assets/Projects/Auto-Solutions/blender.png" style="width: 2rem;" alt="Blender">
         <img class="mx-1" src="../../assets/Supabase.png" style="width: 2rem;" alt="supabase">
         <img class="mx-1" src="../../assets/Projects/Auto-Solutions/piniaStore.svg" style="width: 1.5rem;" alt="piniaStore">
@@ -24,15 +24,23 @@
         <img class="mx-1" src="../../assets/Projects/Auto-Solutions/paymongo.png" style="width: 2rem;" alt="paymongo">
         
       </div>
-      <div class="col text-center">
+      <div class="col">
         <h3>Auto-Solutions</h3>
-        <h5 class="text-center">
+       <div class="d-flex justify-content-center">
+        <h5 class="text-center mx-2">
         <a href="https://github.com/centmarde/Auto-Solutions-Version2" target="_blank" rel="noopener noreferrer">
           View on GitHub
         </a>
       </h5>
+      <h5 class="text-center">
+        <a href="https://auto-solutions.vercel.app/" target="_blank" rel="noopener noreferrer">
+        Visit Website
+        </a>
+      </h5>
       </div>
-      <div class="col text-center">
+       
+      </div>
+      <div class="col">
         <p class="text-center">
         Assign as a <b>lead developer</b> A school project. Buy, sell, rent, and even loan cars with ease! Featuring AI-powered market value tracking. Auto-Solutions is here to simplify your automotive journey.
       </p>
@@ -72,7 +80,7 @@ export default {
 #sect {
   background-color: #151515;
   color: white;
-  padding: 2rem;
+ 
   margin-top: 2rem;
   margin-bottom: 2rem;
   text-align: center;
@@ -81,18 +89,21 @@ export default {
   position: relative;
   top:10rem;
   margin: auto;
+ 
 }
 .carousel {
   position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  
 }
 .carousel-slide {
   display: none;
   position: absolute;
   width: 100%;
   transition: opacity 0.5s ease-in-out;
+  
 }
 .carousel-slide.active {
   display: block;

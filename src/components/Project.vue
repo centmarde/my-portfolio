@@ -528,7 +528,7 @@ h2 {
 
 .top-image {
   position: relative;
-  bottom: -11rem;
+  top: 3rem;
   width: 100%;
   z-index: 5;
 }
@@ -591,7 +591,7 @@ h2 {
 }
 
 #section11 {
-  background: #151515;
+  background: #EEEEEE;
   color: #151515;
   position: relative;
   overflow: hidden;

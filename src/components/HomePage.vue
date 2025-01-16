@@ -367,7 +367,7 @@ h3.mt-4::after {
 /* For very large screens */
 @media (max-width: 2000px) {
   #bg {
-    height: 60vh;
+    height: 80vh;
   }
 }
 

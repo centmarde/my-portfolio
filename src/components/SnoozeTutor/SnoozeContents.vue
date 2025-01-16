@@ -56,7 +56,11 @@
   box-shadow: 0 0 5px #151515;
   /* Optional: Shadow effect */
 }
-
+@media (min-width: 1500px) {
+  .snooze{
+   width: 15rem;
+  }
+}
 @media (min-width: 1024px) {
   .snooze{
    width: 10rem;
