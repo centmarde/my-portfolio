@@ -4,7 +4,7 @@
     <Intro />
    
 <div> 
-  
+    <ScrollDown />
     <!-- Introduction Section -->
     <section id="background" class="py-5">
       <div id="bg"><div id="contentsHome" class="container">
@@ -60,7 +60,7 @@
 
     <OtherSkills />
     <br><br><br>
-    <Footer />
+    <Footer ref="footer" />
   </div></div>
 
    
@@ -80,7 +80,7 @@ import Hero from './Hero.vue';
 import About from './About.vue';
 import Project from './Project.vue';
 import Tech from './Tech.vue';
-
+import ScrollDown from '../components/common/ScrollDown.vue';
 
   // Text typing effect
   const textArray = ref(['Future FullStack Developer.', 'A Web Designer.', 'I\'m also a digital artist.', 'Nice to meet you.']);
@@ -90,6 +90,7 @@ import Tech from './Tech.vue';
   const isFinished = ref(false);
   const typingText = ref('');
   gsap.registerPlugin(ScrollTrigger);
+  const footer = ref(null);
 
 // GSAP fade-in animation for the #index_body_home div
 onMounted(() => {
