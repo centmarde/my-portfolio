@@ -80,23 +80,23 @@ export default {
 #sect {
   background-color: #151515;
   color: white;
- 
   margin-top: 2rem;
   margin-bottom: 2rem;
   text-align: center;
+  padding: 1rem;
 }
 .carousel-container {
   position: relative;
   top:10rem;
   margin: auto;
- 
+  
+  
 }
 .carousel {
   position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  
 }
 .carousel-slide {
   display: none;
@@ -110,15 +110,15 @@ export default {
   opacity: 1;
 }
 .nav {
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(252, 252, 252, 0.5);
   border: none;
-  color: white;
+  color: #151515;
   padding: 0.5rem 1rem;
   cursor: pointer;
   z-index: 2;
 }
 .nav:hover {
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(255, 255, 255, 0.8);
 }
 .indicators {
   display: flex;
